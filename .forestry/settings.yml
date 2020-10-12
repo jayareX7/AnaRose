@@ -20,7 +20,7 @@ sections:
   path: data
   label: Site Info
   create: documents
-  match: "*"
+  match: "*md"
   templates:
   - site-info
 - type: directory
