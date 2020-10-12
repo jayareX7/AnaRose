@@ -4,7 +4,7 @@ design_tags:
 - Engineering
 - Production
 title: Audio Design
-thumbnail: ''
+thumbnail: "/assets/blog/a.jpg"
 service_description: Lorem Ipsum
 
 ---
