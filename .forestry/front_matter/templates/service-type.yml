@@ -27,11 +27,6 @@ fields:
   config: {}
   template: tags
   label: Type of Service(tags)
-- name: test
-  type: include
-  config: {}
-  template: service
-  label: test
 - name: testing
   type: blocks
   label: testing
