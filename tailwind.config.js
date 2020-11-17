@@ -1,4 +1,6 @@
 module.exports = {
+  corePlugins: {
+  preflight: true},
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {

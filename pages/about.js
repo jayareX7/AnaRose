@@ -1,9 +1,14 @@
+import { Container } from 'next/app';
 import React from 'react';
-import Layout from '../components/layout';
-import Footer from '../components/footer';
+import Breadcrumb from '../components/breadcrumb';
+
 
 const About = () => (
-  <Layout>
+  <>
+
+  <Breadcrumb></Breadcrumb>
+  
+<Container>
     <div className="about-container">
       {/* Row */}
       <div className="row mt-5 pt-5 about-hero">
@@ -121,8 +126,9 @@ const About = () => (
       </div>
 
     </div>
-    <Footer />
-  </Layout>
+ </Container>
+ 
+ </>
 );
 
 
