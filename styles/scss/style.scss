@@ -1784,7 +1784,7 @@ a.border.border-color-white:hover {
 }
 
 .header-login{
-  padding: 1.5rem 3rem;
+
   background-color: transparent;
   border-bottom: 1px solid;
   border-color: transparent;
@@ -1798,7 +1798,6 @@ header {
 }
 
 .header {
-  padding: 1.5rem 3rem;
   background-color: transparent;
   border-bottom: 1px solid;
   border-color: transparent;
@@ -6114,6 +6113,7 @@ progress {
 }
 
 .navbar {
+  padding: 1.5rem 3rem;
   position: relative;
   display: flex;
   flex-wrap: wrap;
