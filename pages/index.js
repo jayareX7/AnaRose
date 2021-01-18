@@ -16,7 +16,13 @@ export default function Index() {
   return (
 
   <>
+ <IndexHero></IndexHero>
+         
 
+
+<Erpanalytics />
+<Intro />
+    
 <div className="flex-col  flex items-center md:justify-between mt-16 mb-16 md:mb-12"> <a href="/#" className="er_btn video-btn er_btn_two">Get Started Today!</a> 
             <style jsx>{" .video-btn { position: relative;} {z-index:999;}"}
                 </style></div>
