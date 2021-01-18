@@ -4,7 +4,6 @@ import Intro from '../components/intro';
 import { CMS_NAME } from '../lib/constants';
 import Container from '../components/container'
 import IndexHero from '../components/home-header';
-import Stservice from '../components/home-features';
 import Erpanalytics from '../components/home-analytics';
 import Footer from '../components/Footer';
 
@@ -27,7 +26,7 @@ export default function Index() {
             <style jsx>{" .video-btn { position: relative;} {z-index:999;}"}
                 </style></div>
              
-<Stservice />
+
 
 
 
