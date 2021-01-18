@@ -7,7 +7,7 @@ import IndexHero from '../components/home-header';
 import Stservice from '../components/home-features';
 import Erpanalytics from '../components/home-analytics';
 import Footer from '../components/Footer';
-import FooterData from '../components/FooterData';
+
 
 
 
@@ -41,7 +41,7 @@ export default function Index() {
             </section>
         
          
-         <Footer FooterData={FooterData}/>
+         <Footer />
     </>
    
 );
