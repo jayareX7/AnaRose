@@ -17,7 +17,7 @@ export default function Index() {
   return (
 
   <>
- <IndexHero></IndexHero>
+ <IndexHero />
          
 
 
