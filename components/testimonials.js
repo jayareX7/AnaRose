@@ -64,17 +64,24 @@ const Testimonials =()=>{
         <div> 
             <section className="chat_clients_area">
             
-           <Row>                    
-    <Col md="6">
+              <Row>                    
+                <Col md="6">
+                  <UncontrolledCarousel items={residentialItems} />
+                </Col>
+                <Col md="6">
+                  <img src='assets/undraw.png' alt=""/>
+                </Col>
+              </Row> 
 
-      <UncontrolledCarousel items={residentialItems} />
-      </Col>
- 
-                    
-    <Col md="6">
-      <UncontrolledCarousel items={commercialItems} />
-    </Col>
-  </Row>
+              <Row>    
+                <Col md="6">
+                <img src='assets/car.png' alt=""/>
+                </Col>          
+                <Col md="6">
+                  <UncontrolledCarousel items={commercialItems} />
+                </Col>
+              </Row>  
+
             </section>
            
         </div>

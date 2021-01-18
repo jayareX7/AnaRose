@@ -13,8 +13,8 @@ import Sticky from 'react-stickynode';
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
  <header className="header_area">
                 <nav className='navbar navbar-expand-lg menu_one'>
-    <div className="d-flex header align-items-center justify-content-between position-relative">
-          
+    <div className="d-flex header align-items-center justify-content-between position-relative " style={{width: 100 + '%'}}>
+   
           <div className="d-none d-sm-flex">
             <Link href="/">
               <a href="/" className="nav-bar-option tpnav nav-li-hover mr-4">Home</a>
@@ -37,13 +37,12 @@ import Sticky from 'react-stickynode';
             <Link href="/getting-started">
               <a href="/getting-started" className="nav-bar-option tpnav nav-li-hover mr-4">How it Works!</a>
             </Link>
-            </div>
-          </div>
+
+            <img className="logo" src='anarose-logo.jpeg' alt=""/>
+        
 
 
-          <div className="d-flex header-login align-items-center justify-content-between position-relative"> 
-          <div className="d-none d-sm-flex">
-          <div className="login-header ">
+            <span className="login-header "  style={{paddingLeft: 5 + 'rem'}}>
           <Link href="/get-a-quote">
               <a href="/get-a-quote" className="nav-bar-option nav-li-hover tpnav mr-4">
                 Get A Quote
@@ -52,9 +51,12 @@ import Sticky from 'react-stickynode';
             <Link href="/login">
             <button class="snipcart-customer-signin">Login</button>
             </Link>
+          </span>
+            </div>
           </div>
-          </div>
-        </div>
+
+
+         
         </nav>
         </header>
         </Sticky>
