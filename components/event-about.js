@@ -7,7 +7,7 @@ const EventAbout =()=>{
                 <div className="row align-items-center flex-row-reverse">
                     <div className="col-lg-6">
                         <div className="event_about_img">
-                            <img className="wow fadeInRight" data-wow-delay="0.2s" src='assets/house-door.jpg' alt=""/>
+                            <img className="wow fadeInRight" data-wow-delay="0.2s" src='assets/home-event/about.jpg' alt=""/>
                             <div className="about_bg"></div>
                         </div>
                     </div>
