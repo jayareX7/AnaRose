@@ -6,22 +6,34 @@ import CommercialServices from '../components/commercial-services'
 import Breadcrumb from '../components/breadcrumb';
 import Clients from '../components/clients';
 import Fade from 'react-reveal/Fade'
+import Reveal from 'react-reveal'
+
 
 
 const Services = () => (
 <>
-
-<Breadcrumb />
+<img src="assets/commercial-cta.jpg" alt=""/>
 <CommercialCTA />
  <Container>
   
  <div>
    
  </div>
+
+
+ 
   <div style={{marginTop: 10 + "em"}}>
-    
-<h4>A Truly Clean Business</h4>
-<p>Our focus on using all-green, natural and Eco-friendly products is not only a 
+  <Reveal effect="fadeInUp" duration={1300}> 
+      <div className="sec_title text-center mb_70">
+      <h2 style={{color: '#3f4451'}}>A Truly Clean Business </h2>
+      </div> 
+  </Reveal>
+
+
+
+  <Reveal effect="fadeInUp" duration={1600}> 
+      <div className=" text-center mb_70"> 
+      <p style={{color: '#3f4451'}}> Our focus on using all-green, natural and Eco-friendly products is not only a 
   healthier option for you and our team but a way of life. 
   The air you breathe every day at your workplace or home can be filled 
   with impurities that may affect your health over time, many of them 
@@ -29,18 +41,40 @@ const Services = () => (
   The surfaces you eat off of or the floor your dog likes to nap on should not only be clean but safe. 
   With our use of environmentally-conscious products we can guarantee they will be both at no extra charge to you. 
   While some companies may add on a fee for the use of all-green products at Ana Rose Cleaning Services, it’s on us.</p>
+      </div>
+  </Reveal>
 
-<p>Our commitment to you:</p>
 
-<p>Quality Backed by:
-<li>a 100% Satisfaction Guarantee</li>
-<li>Healthy & Environmentally Safe Cleaning</li>
-<li>Hassle-free Booking</li>
-<li>Flexible Scheduling</li>
-<li>Certified Cleaning Professionals</li>
-</p>
+    <div className="mb_70">
+      <Reveal effect="fadeInUp" duration={1600} > 
+        <h2 style={{color: '#3f4451'}}>Our commitment to you:</h2>
+      </Reveal>
+      <Reveal effect="fadeInUp" duration={1600} > 
+        <h4 style={{color: '#3f4451'}}>Quality Backed by:</h4>
+      </Reveal>
+      <Reveal effect="slideInRight" duration={1600} > 
+        <li style={{color: '#3f4451'}}>a 100% Satisfaction Guarantee</li>
+      </Reveal>    
+      <Reveal effect="slideInRight" duration={1200} > 
+        <li style={{color: '#3f4451'}}>Healthy & Environmentally Safe Cleaning</li>
+      </Reveal>
+      <Reveal effect="slideInRight" duration={1300} > 
+        <li style={{color: '#3f4451'}}>Hassle-free Booking</li>
+      </Reveal>
+      <Reveal effect="slideInRight" duration={1400} > 
+        <li style={{color: '#3f4451'}}>Flexible Scheduling</li>
+      </Reveal>
+      <Reveal effect="slideInRight" duration={1500} > 
+        <li style={{color: '#3f4451'}}>Certified Cleaning Professionals</li>
+      </Reveal>
 
-  </div>
+
+
+      </div>
+        
+
+
+</div>
    
 </Container>
 

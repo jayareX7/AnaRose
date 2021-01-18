@@ -1,0 +1,38 @@
+.agency_featured_item {
+    margin-top: 130px;
+  }
+  
+  .agency_featured_item .agency_featured_content {
+    position: relative;
+  }
+  
+  .agency_featured_item .agency_featured_content h3 {
+    font: 500 26px/36px "Poppins", sans-serif;
+    color: #222d39;
+    margin: 32px 0px 25px;
+  }
+  
+  .agency_featured_item .agency_featured_content p {
+    font-size: 15px;
+  }
+  
+  .agency_featured_item .agency_featured_content .icon {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border-radius: 50%;
+    background-image: -moz-linear-gradient(40deg,#e9c261 0%, #efd38e 100%);
+    background-image: -webkit-linear-gradient(40deg,#e9c261 0%, #efd38e 100%);
+    background-image: -ms-linear-gradient(40deg,#e9c261 0%, #efd38e 100%);
+    background-image: linear-gradient(40deg,#e9c261 0%, #efd38e 100%);
+    -webkit-box-shadow: 0px 10px 50px 0px rgba(145, 142, 9, 0.3);
+    box-shadow: 0px 10px 50px 0px rgb(145, 142, 9);
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .agency_featured_item.agency_featured_item_two .agency_featured_content .dot {
+    left: 30px;
+  }

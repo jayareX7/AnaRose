@@ -34,9 +34,8 @@ export default class MyApp extends app {
         <Layout>
           <Navigation  />
           <Container/>
-          <div style={{marginTop: 7 + 'em', marginBottom: 7 + 'em'}}>
-          <Component {...pageProps} /> </div>
-  
+          
+          <Component {...pageProps} /> 
          
         </Layout>
        

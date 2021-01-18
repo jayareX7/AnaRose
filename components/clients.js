@@ -15,31 +15,31 @@ class Clients extends Component {
     <div className="partner_logo_area_four">
         <div className="row partner_info">
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_01.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-01.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_02.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-02.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_03.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-03.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_04.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-04.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_05.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-05.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_06.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-06.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_07.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-07.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_08.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-08.png' alt=""/></a>
             </div>
             <div className="logo_item">
-                <a href=".#"><img src='assets/seo/logo_09.png' alt=""/></a>
+                <a href=".#"><img src='assets/seo/logo-09.png' alt=""/></a>
             </div>
         </div>
     </div>

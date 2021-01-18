@@ -7,8 +7,9 @@ import EventAbout from '../components/event-about';
 
 const Posts = ({ slugs }) => (
  <>
-<DesignBanner />
+
 <Container>
+
 <EventAbout />
 
   <CoreFeatures />
@@ -25,7 +26,7 @@ const Posts = ({ slugs }) => (
   
   <h4 className="wow fadeInUp" data-wow-delay="0.2s">Best Home Cleaning Services in Dallas </h4> </section>
   <div style={{marginTop: 4 + 'em'}}>
-  <p>Ana Rose Cleaning offers the best in home cleaning. 
+  <p  style={{color: '#3f4451'}}>Ana Rose Cleaning offers the best in home cleaning. 
   Our residential service include scheduled cleaning as well as one time cleaning. 
   We offer a top to bottom approach, with a detailed plan to guarantee your home is clean as possible. 
   All of our products are eco-friendly and ensure your home isn’t just clean, but healthy.</p>

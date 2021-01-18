@@ -37,16 +37,19 @@ export default function Modal() {
                 <Sectitle sClass="sec_title text-center mb_70" Title='Our Services' TitleP='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sed elementum tempus egestas sed.'/>
                     <div className="row flex-row-reverse">
                     <div className="col-lg-9 col-md-10 col-sm-12">
-                            <div className="row">
-                                
-                                <Button style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+                        <div className="row">
+                            <button class="CommercialButtonBase-root CommercialButton-root makeStyles-button-1299 makeStyles-transparent-1313 makeStyles-round-1317 CommercialButton-text"
+                            tabindex="0" type="button" style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+
+                            <span class="CommercialButton-label">
                                     <div className="col-lg-4 col-md-4 col-sm-6">
                                         <a href="#" className="s_integration_item">
-                                            <img src="assets/new-home/kissmetrics.png" style={{margin: '0 auto'}} alt=""/>
-                                            <h5>Service #1</h5>
+                                            <img src="assets/bubbles.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                                            <h5>General Clean</h5> 
                                         </a>
-                                    </div>
-                                </Button>
+                        </div>
+                            </span>
+                                </button>
                                 <Dialog
                                     classes={{root: classes.center, paper: classes.modal}}
                                     open={modal}
@@ -67,12 +70,12 @@ export default function Modal() {
                                     onClick={() => setModal(false)}>
                                 <Close className={classes.modalClose} />
                                 </IconButton>
-                                    <h4 className={classes.modalTitle}>Modal title</h4>
+                                    <h4 className={classes.modalTitle}>General Clean</h4>
                                 </DialogTitle>
                                 <DialogContent
                                     id="modal-slide-description"
                                     className={classes.modalBody}>
-                                    <h5>Are you sure you want to do this?</h5>
+                                    <h5>Test</h5>
                                 </DialogContent>
                                 <DialogActions
                                     className={classes.modalFooter + " " + classes.modalFooterCenter}>
@@ -84,14 +87,18 @@ export default function Modal() {
                                 </Dialog>
                                
                             
-                                <Button style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+                                <button class="CommercialButtonBase-root CommercialButton-root makeStyles-button-1299 makeStyles-transparent-1313 makeStyles-round-1317 CommercialButton-text"
+                            tabindex="0" type="button" style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+
+                            <span class="CommercialButton-label">
                                     <div className="col-lg-4 col-md-4 col-sm-6">
                                         <a href="#" className="s_integration_item">
-                                            <img src="assets/new-home/kissmetrics.png" style={{margin: '0 auto'}} alt=""/>
-                                            <h5>Service #2</h5>
+                                            <img src="assets/wipe.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                                            <h5>Window Cleaning</h5> 
                                         </a>
-                                    </div>
-                                </Button>
+                        </div>
+                            </span>
+                                </button>
                                 <Dialog
                                     classes={{root: classes.center, paper: classes.modal}}
                                     open={modal}
@@ -129,14 +136,18 @@ export default function Modal() {
                                 </Dialog>
 
 
-                                <Button style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+                                <button class="CommercialButtonBase-root CommercialButton-root makeStyles-button-1299 makeStyles-transparent-1313 makeStyles-round-1317 CommercialButton-text"
+                            tabindex="0" type="button" style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+
+                            <span class="CommercialButton-label">
                                     <div className="col-lg-4 col-md-4 col-sm-6">
                                         <a href="#" className="s_integration_item">
-                                            <img src="assets/new-home/kissmetrics.png" style={{margin: '0 auto'}} alt=""/>
-                                            <h5>Service #3</h5>
+                                            <img src="assets/bucket.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                                            <h5>Deep Clean</h5> 
                                         </a>
-                                    </div>
-                                </Button>
+                        </div>
+                            </span>
+                                </button>
                                 <Dialog
                                     classes={{root: classes.center, paper: classes.modal}}
                                     open={modal}
@@ -174,14 +185,18 @@ export default function Modal() {
                                 </Dialog>
 
 
-                                <Button style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+                                <button class="CommercialButtonBase-root CommercialButton-root makeStyles-button-1299 makeStyles-transparent-1313 makeStyles-round-1317 CommercialButton-text"
+                            tabindex="0" type="button" style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+
+                            <span class="CommercialButton-label">
                                     <div className="col-lg-4 col-md-4 col-sm-6">
                                         <a href="#" className="s_integration_item">
-                                            <img src="assets/new-home/kissmetrics.png" style={{margin: '0 auto'}} alt=""/>
-                                            <h5>Service #4</h5>
+                                            <img src="assets/cleaning-service.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                                            <h5>Carpet Cleaning</h5> 
                                         </a>
-                                    </div>
-                                </Button>
+                        </div>
+                            </span>
+                                </button>
                                 <Dialog
                                     classes={{root: classes.center, paper: classes.modal}}
                                     open={modal}
@@ -219,14 +234,18 @@ export default function Modal() {
                                 </Dialog>
 
 
-                                <Button style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+                                <button class="CommercialButtonBase-root CommercialButton-root makeStyles-button-1299 makeStyles-transparent-1313 makeStyles-round-1317 CommercialButton-text"
+                            tabindex="0" type="button" style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+
+                            <span class="CommercialButton-label">
                                     <div className="col-lg-4 col-md-4 col-sm-6">
                                         <a href="#" className="s_integration_item">
-                                            <img src="assets/new-home/kissmetrics.png" style={{margin: '0 auto'}} alt=""/>
-                                            <h5>Service #5</h5>
+                                            <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                                            <h5>Sanitizing</h5> 
                                         </a>
-                                    </div>
-                                </Button>
+                        </div>
+                            </span>
+                                </button>
                                 <Dialog
                                     classes={{root: classes.center, paper: classes.modal}}
                                     open={modal}
@@ -264,14 +283,18 @@ export default function Modal() {
                                 </Dialog>
 
 
-                                <Button style={{width: 33 + '%', display: 'inline-block'}} round color="transparent" onClick={() => setModal(true)}>
+                                <button class="CommercialButtonBase-root CommercialButton-root makeStyles-button-1299 makeStyles-transparent-1313 makeStyles-round-1317 CommercialButton-text"
+                            tabindex="0" type="button" style={{width: 33 + '%', display: 'inline-block'}} color="transparent" round onClick={() => setModal(true)}>
+
+                            <span class="CommercialButton-label">
                                     <div className="col-lg-4 col-md-4 col-sm-6">
                                         <a href="#" className="s_integration_item">
-                                            <img src="assets/new-home/kissmetrics.png" style={{margin: '0 auto'}} alt=""/>
-                                            <h5>Service #6</h5>
+                                            <img src="assets/cleaning-cart.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                                            <h5>Post-Construction</h5> 
                                         </a>
-                                    </div>
-                                </Button>
+                        </div>
+                            </span>
+                                </button>
                                 <Dialog
                                     classes={{root: classes.center, paper: classes.modal}}
                                     open={modal}
