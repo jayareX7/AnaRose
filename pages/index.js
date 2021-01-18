@@ -40,8 +40,7 @@ export default function Index() {
              
             </section>
         
-         
-         <Footer />
+      
     </>
    
 );
