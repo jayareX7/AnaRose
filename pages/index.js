@@ -5,7 +5,7 @@ import { CMS_NAME } from '../lib/constants';
 import Container from '../components/container'
 import IndexHero from '../components/home-header';
 import Erpanalytics from '../components/home-analytics';
-import Footer from '../components/Footer';
+
 
 
 
