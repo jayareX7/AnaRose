@@ -6,7 +6,6 @@ import Container from '../components/container'
 import IndexHero from '../components/home-header';
 import Erpanalytics from '../components/home-analytics';
 import Featuresitems from '../components/features-items';
-import Footer from '../components/Footer';
 
 
 
