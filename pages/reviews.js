@@ -18,7 +18,7 @@ const Reviews =()=>{
                         <p style ={{color: '#3f4451'}}>A better experience for your customers, fewer headaches for your team. You'll be set up in minutes.</p>
                     </div>
               
-          <Clients />
+         
           <SectionCarousel />
     
                       

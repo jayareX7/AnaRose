@@ -3,9 +3,12 @@ import { EXAMPLE_PATH } from '../lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2">
-      <Container>
-      
+    <footer className="footer-accent border-t" >
+       
+    <img src="assets/review-bg.jpg" className="footer-default" style={{position: 'absolute'}} />
+      <div class="container mx-auto" style={{paddingLeft: 5 + "rem", paddingRight: 3 + "rem"}} > 
+   
+
         <div className="py-28 flex flex-col lg:flex-row items-center">
       
           {/* Footer #1 */}
@@ -95,7 +98,7 @@ export default function Footer() {
         
 
         </div>
-      </Container>
+      </div>
     </footer>
   )
 }

@@ -1,6 +1,6 @@
 .footer-accent {
     border-top-width: 1px;
-    background-color: #689661;
+   
 }
 
 /*====================================================*/
@@ -82,6 +82,12 @@
     margin-top: 40px;
   }
   
+
+
+.footer-default{
+  z-index: -999;
+}
+
   .f_subscribe .form-control {
     font: 300 14px "Poppins", sans-serif;
     color: #333;

@@ -7,7 +7,6 @@ import EventAbout from '../components/event-about';
 
 const Posts = ({ slugs }) => (
  <>
-
 <Container>
 
 <EventAbout />

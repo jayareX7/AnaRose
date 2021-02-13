@@ -30,7 +30,8 @@ const EventAbout =()=>{
                                         <p>Choose Time of <br/>Service</p> 
                                         
                                     </div>
-                                </div><button type="submit" className="btn_three">Schedule An Appointment</button>
+                                </div>
+                                <a href="https://testenviroment.simplybook.me/v2/" target="_blank" alt="Booking button" width="200" height="200"> <button  type="submit" className="btn_three">Schedule An Appointment</button></a>
                             </div>
                         </div>
                     </div>

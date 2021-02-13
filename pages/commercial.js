@@ -12,20 +12,23 @@ import Reveal from 'react-reveal'
 
 const Services = () => (
 <>
-<img src="assets/commercial-cta.jpg" alt=""/>
-<CommercialCTA />
+
  <Container>
-  
- <div>
-   
- </div>
 
 
- 
-  <div style={{marginTop: 10 + "em"}}>
+
+
+
+ <div className = "row">
+   <div className="col-lg-5">
+   <img src="assets/commercial_cta.jpg" style={{marginTop: 8 + "rem"}}/>
+   </div>
+
+ <div className="mb-4 col-lg-7" style={{marginTop: 10 + "em", marginTop: 10 + "em" }}>
   <Reveal effect="fadeInUp" duration={1300}> 
+  
       <div className="sec_title text-center mb_70">
-      <h2 style={{color: '#3f4451'}}>A Truly Clean Business </h2>
+      <h2 style={{color: '#3f4451', marginLeft: 4 + "rem"}}>A Truly Clean Business </h2>
       </div> 
   </Reveal>
 
@@ -33,7 +36,7 @@ const Services = () => (
 
   <Reveal effect="fadeInUp" duration={1600}> 
       <div className=" text-center mb_70"> 
-      <p style={{color: '#3f4451'}}> Our focus on using all-green, natural and Eco-friendly products is not only a 
+      <p style={{color: '#3f4451', marginLeft: 4 + "rem"}}> Our focus on using all-green, natural and Eco-friendly products is not only a 
   healthier option for you and our team but a way of life. 
   The air you breathe every day at your workplace or home can be filled 
   with impurities that may affect your health over time, many of them 
@@ -45,7 +48,7 @@ const Services = () => (
   </Reveal>
 
 
-    <div className="mb_70">
+    <div className="mb_70" style={{ marginLeft: 4 + "rem"}}>
       <Reveal effect="fadeInUp" duration={1600} > 
         <h2 style={{color: '#3f4451'}}>Our commitment to you:</h2>
       </Reveal>
@@ -71,15 +74,15 @@ const Services = () => (
 
 
       </div>
-        
-
-
+   </div>
 </div>
    
 </Container>
 
 
 <CommercialServices />
+
+
 <div className="seo_sec_title text-center mb_70">
         <Fade bottom ><h2 style={{marginTop: 4 + 'em'}}>Take a look at why we are <br/> beloved by our clients, everywhere.</h2>
         <Clients /></Fade>

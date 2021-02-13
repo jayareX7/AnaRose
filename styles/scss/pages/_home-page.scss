@@ -1,3 +1,15 @@
+.video-header { 
+  position: absolute; 
+  width: -webkit-fill-available; 
+  padding-bottom: 2rem;
+  z-index: -9999;
+  top: 0;
+  background-size: cover;
+  background-position: center;
+  }
+           
+
+
 $color: rgba(0, 0, 0, 0);
 
 .hero-section {

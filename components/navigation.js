@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import Sticky from 'react-stickynode';
+import Container from '../components/container'
 
 
 
@@ -9,13 +10,28 @@ import Sticky from 'react-stickynode';
  export default function Navigation (){
     
     return (
+      
+      <>
+    
+<div className="row">
+<div style={{display: 'flex '}}>
+    <a  href="htttp://facebook.com">< img src="assets/facebook.png" style={{ margin: "0 0.4rem 0 0.4rem", width: 2 + '%'}} /> </a>
+     <a href="htttp://instagram.com"><img src="assets/instagram.png" style={{ margin:  "0 0.4rem 0 0.4rem" , width: 2 + '%'}} /> </a>
+    <a href="htttp://twitter.com" ><img src="assets/twitter.png"  style={{ margin:  "0 0.4rem 0 0.4rem", width: 2 + '%'}} /> </a>
+  </div>
+</div>
+
+
+
+<img src="assets/main-logo.png" style={{paddingBottom: 0.4 + 'rem', width: 10 + '%', margin: '0 auto'}} />
 
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
+
  <header className="header_area">
                 <nav className='navbar navbar-expand-lg menu_one'>
     <div className="d-flex header align-items-center justify-content-between position-relative " style={{width: 100 + '%'}}>
    
-          <div className="d-none d-sm-flex">
+          <div className="d-none margin-auto d-sm-flex">
             <Link href="/">
               <a href="/" className="nav-bar-option tpnav nav-li-hover mr-4">Home</a>
             </Link>
@@ -34,24 +50,14 @@ import Sticky from 'react-stickynode';
                 Reviews
               </a>
             </Link>
-            <Link href="/getting-started">
-              <a href="/getting-started" className="nav-bar-option tpnav nav-li-hover mr-4">How it Works!</a>
-            </Link>
-
-            <img className="logo" src='anarose-logo.jpeg' alt=""/>
-        
-
-
-            <span className="login-header "  style={{paddingLeft: 5 + 'rem'}}>
-          <Link href="/get-a-quote">
+            <Link href="/get-a-quote">
               <a href="/get-a-quote" className="nav-bar-option nav-li-hover tpnav mr-4">
                 Get A Quote
               </a>
             </Link>
-            <Link href="/login">
-            <button class="snipcart-customer-signin">Login</button>
-            </Link>
-          </span>
+            
+           
+        
             </div>
           </div>
 
@@ -60,7 +66,7 @@ import Sticky from 'react-stickynode';
         </nav>
         </header>
         </Sticky>
-
+</>
     )
 
  }
