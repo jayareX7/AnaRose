@@ -1,39 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@jayareX7 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-jayareX7
-/
-AnaRose
-1
-00
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-AnaRose/components/footer.js /
-@jayareX7
-jayareX7 Revert to Older Commit
-Latest commit afdb01f 26 days ago
- History
- 1 contributor
-101 lines (84 sloc)  3.22 KB
-  
 import Container from './container'
 import { EXAMPLE_PATH } from '../lib/constants'
 
