@@ -9,7 +9,7 @@ class ReturnPricing extends Component {
                     <div className="row align-items-center">
                         <div className={`${colClass}`}>
                             <div className="h_action_img">
-                                <img className="img-fluid" src={"assets/hosting/" + aimage} alt=""/>
+                                <img className="img-fluid" src="assets/manage-account.png" alt="" style={{paddingRight: 4 + 'rem'}}/>
                             </div>
                         </div>
                         <div className={`${colClassTwo}`}>

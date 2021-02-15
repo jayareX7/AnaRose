@@ -22,14 +22,13 @@ import {
 } from "reactstrap";
 
 function Example() {
-  const [modalDefaultOpen, setModalDefaultOpen] = React.useState(false);
-  const [modalNotificationOpen, setModalNotificationOpen] = React.useState(
-    false
-  );
-   const [modalScheduledOpen, setModalScheduledOpen] = React.useState(false);
+  const [scheduleDefaultOpen, setScheduleDefaultOpen] = React.useState(false);
+  const [oneNotificationOpen, setOneNotificationOpen] = React.useState(false);
+   const [moveScheduledOpen, setMoveScheduledOpen] = React.useState(false);
+   
   return (
     <>
-    <section className="support_price_area sec_pad">
+    <section className="support_price_area sec_pad ">
 <div className="container p0">
     
       <Row>
@@ -45,11 +44,11 @@ function Example() {
             block
             className=" mb-3 price_content price_content_two"
             color="none"
-            onClick={() => setModalNotificationOpen(true)}
+            onClick={() => setScheduleDefaultOpen(true)}
             type="button"
           >
             <div className="price_item">
-                <img src="assets/new-home/p-1.png" alt=""/>
+                <img src="assets/scheduled.png" alt=""/>
                 <h5 className="f_p f_size_20 f_600 t_color2 mt_30">Scheduled Cleanings</h5>
                 <p>Create your first online course</p>
                 <div className="price f_700 f_size_40 t_color2">$25.00<sub className="f_size_16 f_400">/ wk</sub></div>
@@ -64,10 +63,10 @@ function Example() {
             </div>
           </Button>
           <Modal
-            isOpen={modalNotificationOpen}
+            isOpen={scheduleDefaultOpen}
             className="modal-danger"
             contentClassName="bg-gradient-danger"
-            onClick={() => setModalNotificationOpen(false)}
+            onClick={() => setScheduleDefaultOpen(false)}
           >
             <div className=" modal-header">
               <h6 className=" modal-title" id="modal-title-notification">
@@ -76,7 +75,7 @@ function Example() {
               <button
                 aria-label="Close"
                 className=" close"
-                onClick={() => setModalNotificationOpen(false)}
+                onClick={() => setScheduleDefaultOpen(false)}
                 type="button"
               >
                 <span aria-hidden={true}>×</span>
@@ -98,7 +97,7 @@ function Example() {
               <Button
                 className=" text-white ml-auto"
                 color="link"
-                onClick={() => setModalNotificationOpen(false)}
+                onClick={() => setScheduleDefaultOpen(false)}
                 type="button"
               >
                 Close
@@ -115,12 +114,12 @@ function Example() {
             block
             className=" mb-3 price_content price_content_two"
             color="none"
-            onClick={() => setModalDefaultOpen(true)}
+            onClick={() => setOneNotificationOpen(true)}
             type="button"
           >
              <div className="price_item">
                 <div className="tag"><span>Popular</span></div>
-                <img src="assets/new-home/p-2.png" alt=""/>
+                <img src="assets/one-time.png" alt=""/>
                 <h5 className="f_p f_size_20 f_600 t_color2 mt_30">One Time Cleanings</h5>
                 <p>Our most popular plan</p>
                 <div className="price f_700 f_size_40 t_color2">$99.00<sub className="f_size_16 f_400">/ fee</sub></div>
@@ -136,10 +135,10 @@ function Example() {
 
           </Button>
           <Modal
-            isOpen={modalDefaultOpen}
+            isOpen={oneNotificationOpen}
             className="modal-danger"
             contentClassName="bg-gradient-danger"
-            onClick={() => setModalDefaultOpen(false)}
+            onClick={() => setOneNotificationOpen(false)}
           >
             <div className=" modal-header">
               <h6 className=" modal-title" id="modal-title-notification">
@@ -148,7 +147,7 @@ function Example() {
               <button
                 aria-label="Close"
                 className=" close"
-                onClick={() => setModalDefaultOpen(false)}
+                onClick={() => setOneNotificationOpen(false)}
                 type="button"
               >
                 <span aria-hidden={true}>×</span>
@@ -171,7 +170,7 @@ function Example() {
               <Button
                 className=" text-white ml-auto"
                 color="link"
-                onClick={() => setModalDefaultOpen(false)}
+                onClick={() => setOneNotificationOpen(false)}
                 type="button"
               >
                 Close
@@ -189,11 +188,11 @@ function Example() {
             block
             className=" mb-3 price_content price_content_two"
             color="none"
-            onClick={() => setModalScheduledOpen(true)}
+            onClick={() => setMoveScheduledOpen(true)}
             type="button"
           >
                 <div className="price_item">
-                <img src="assets/new-home/p-3.png" alt=""/>
+                <img src="assets/move-in.png" alt=""/>
                 <h5 className="f_p f_size_20 f_600 t_color2 mt_30">Move In/Out Cleanings</h5>
                 <p>Experience thebest of lorem</p>
                 <div className="price f_700 f_size_40 t_color2">$175.00<sub className="f_size_16 f_400">/  fee</sub></div>
@@ -208,10 +207,10 @@ function Example() {
             </div>
           </Button>
           <Modal
-            isOpen={modalScheduledOpen}
+            isOpen={moveScheduledOpen}
             className="modal-danger"
             contentClassName="bg-gradient-danger"
-            onClick={() => setModalScheduledOpen(false)}
+            onClick={() => setMoveScheduledOpen(false)}
           >
             <div className=" modal-header">
               <h6 className=" modal-title" id="modal-title-notification">
@@ -220,7 +219,7 @@ function Example() {
               <button
                 aria-label="Close"
                 className=" close"
-                onClick={() => setModalScheduledOpen(false)}
+                onClick={() => setMoveScheduledOpen(false)}
                 type="button"
               >
                 <span aria-hidden={true}>×</span>
@@ -244,7 +243,7 @@ function Example() {
               <Button
                 className=" text-white ml-auto"
                 color="link"
-                onClick={() => setModalScheduledOpen(false)}
+                onClick={() => setMoveScheduledOpen(false)}
                 type="button"
               >
                 Close
