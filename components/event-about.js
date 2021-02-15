@@ -80,7 +80,7 @@ const EventAbout =()=>{
             <div className=" modal-body">
               <div className=" py-3 text-center">
                 <i className=" ni ni-bell-55 ni-3x"></i>
-                <iframe src="https://testenviroment.simplybook.me/v2/" width="800" height="880" frameborder="0" allowtransparency="true"></iframe>  
+                <iframe src="https://testenviroment.simplybook.me/v2/" width="880" height="880" frameborder="0" allowtransparency="true"></iframe>  
               </div>
             </div>
             <div className=" modal-footer">
