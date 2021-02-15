@@ -13,6 +13,8 @@ import {
   Row,
   Col,
 } from "reactstrap";
+import Container from '../components/container'
+
 
 
 
@@ -48,11 +50,11 @@ export default function Example() {
      
           
 <section className="support_integration_area">
-   <Container>
+<Container>
 <Row>
                 
             
-<div className="col-lg-8" style={{display: 'flex'}}>
+<div className="col-lg-3">
        
 
              
@@ -160,13 +162,13 @@ o Remove cobwebs <br />
               </Button>
             </div>
           </Modal>
-       
+          </div>    
  
 
 
 
 
-
+          <div className="col-lg-3">
           <Button
             block
             className=" mb-3 price_content price_content_two"
@@ -233,14 +235,14 @@ o Remove cobwebs <br />
             </div>
           </Modal>
       
- 
+ </div>
 
 
 
 
 
 
-
+ <div className="col-lg-3">
 
           
           <Button
@@ -360,7 +362,7 @@ small item <br />
             </div>
           </Modal>
        
-          <div className="col-lg-3"><img src="assets/commercial_cta.jpg" style={{width: 25 + "%", position: 'absolute', right: 4 + 'rem'}}/>
+          <div className="col-lg-3"><img src="assets/commercial-services.jpg" style={{width: 25 + "%", position: 'absolute', right: 2 + 'rem', top: 63.5 + "rem"}}/>
           </div>
     </div>
 
@@ -369,7 +371,7 @@ small item <br />
 
  <Row>
   
-  <div className="col-lg-8" style={{display: 'flex'}}>
+  <div className="col-lg-3" >
       
        
           <Button
@@ -410,7 +412,7 @@ small item <br />
               <div className=" py-3 ">
                 <i className=" ni ni-bell-55 ni-3x"></i>
                 <h4 className=" heading mt-4">
-                <img src="assets/cleaning-service.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
+                <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                 </h4>
                <p style={{color: '#000'}}>
                  <h5>
@@ -435,9 +437,9 @@ small item <br />
               </Button>
             </div>
           </Modal>
-      
+      </div>
 
-
+      <div className="col-lg-3">
           <Button
             block
             className=" mb-3 price_content price_content_two"
@@ -502,12 +504,12 @@ small item <br />
             </div>
           </Modal>
       
-
+</div>
 
 
 
           
-
+<div className="col-lg-3">
          
           <Button
             block

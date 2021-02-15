@@ -85,7 +85,7 @@ const Services = () => (
 
 <div className="seo_sec_title text-center mb_70">
         <Fade bottom ><h2 style={{marginTop: 4 + 'em'}}>Take a look at why we are <br/> beloved by our clients, everywhere.</h2>
-        <Clients /></Fade>
+        <Clients className="text-center" /></Fade>
     </div>
 
 <Subscribe />

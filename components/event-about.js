@@ -1,6 +1,10 @@
 import React from 'react';
+import { Button, Card, Collapse, Row, Col, Modal} from "reactstrap";
 
 const EventAbout =()=>{
+    const [frameDefaultOpen, setFrameDefaultOpen] = React.useState(false);
+
+
     return(
         <section className="event_about_area">
             <div className="container">
@@ -31,8 +35,72 @@ const EventAbout =()=>{
                                         
                                     </div>
                                 </div>
-                                <a href="https://testenviroment.simplybook.me/v2/" target="_blank" alt="Booking button" width="200" height="200"> <button  type="submit" className="btn_three">Schedule An Appointment</button></a>
-                            </div>
+                             
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+          <iframe src="https://testenviroment.simplybook.me/v2/" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+    
+
+          <Button
+            block
+            className=" mb-3"
+            color="none"
+            onClick={() => setFrameDefaultOpen(true)}
+            type="button"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+       <button  type="submit" className="btn_three">Schedule An Appointment</button>
+          </Button>
+          <Modal
+            isOpen={frameDefaultOpen}
+            className="modal-danger "
+            contentClassName="modal-content_2 bg-gradient-danger"
+            onClick={() => setFrameDefaultOpen(false)}
+          >
+       
+            <div className=" modal-body">
+              <div className=" py-3 text-center">
+                <i className=" ni ni-bell-55 ni-3x"></i>
+                <iframe src="https://testenviroment.simplybook.me/v2/" width="800" height="880" frameborder="0" allowtransparency="true"></iframe>  
+              </div>
+            </div>
+            <div className=" modal-footer">
+              <Button className=" btn-white" color="default" type="button">
+                Ok, Got it
+              </Button>
+              <Button
+                className=" text-white ml-auto"
+                color="link"
+                onClick={() => setFrameDefaultOpen(false)}
+                type="button"
+              >
+                Close
+              </Button>
+            </div>
+          </Modal>
+
+  
+                            </div> 
+                          
                         </div>
                     </div>
                    
