@@ -1,0 +1,27 @@
+.quote-cta{
+    background-image: url('/assets/quote-cta.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.t_integration_item {
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(12, 0, 46, 0.1);
+    box-shadow: 0px 2px 7px 0px rgba(12, 0, 46, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    padding: 26px 15px;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    z-index: 1;
+    position: relative;
+    width: 10em;
+  }
+
+  .pr_title{
+    overflow: hidden;
+    white-space: nowrap;
+  }

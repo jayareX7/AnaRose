@@ -1,6 +1,7 @@
 import { Container } from 'next/app';
 import React from 'react';
-import Breadcrumb from '../components/breadcrumb';
+import Breadcrumb from '../components/body/breadcrumb';
+import Footer from '../components/body/footer'
 
 
 const About = () => (
@@ -128,6 +129,8 @@ const About = () => (
     </div>
  </Container>
  
+ <Footer />
+
  </>
 );
 

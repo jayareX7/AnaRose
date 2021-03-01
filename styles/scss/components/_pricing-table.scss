@@ -1,0 +1,199 @@
+
+/*=========== payment_priceing_area css ===========*/
+.payment_priceing_area {
+  padding: 120px 0px 90px;
+  position: relative;
+  z-index: 1;
+}
+
+.payment_priceing_area:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("/src/img/new/price_bg.png") no-repeat scroll center;
+  position: absolute;
+  z-index: -1;
+}
+
+.payment_priceing_area .payment_price_info {
+  display: block;
+  overflow: hidden;
+  padding: 30px 0px;
+}
+
+.payment_priceing_area .sec_title h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.payment_price_item {
+  text-align: center;
+  background: #84ac7e;
+  padding: 50px 40px 55px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1;
+  width: calc(100% / 3);
+  float: left;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.payment_price_item:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: -moz-linear-gradient(-140deg, #fdabe7 0%, #bd8ef2 36%, #7d71fd 100%);
+  background-image: -webkit-linear-gradient(-140deg, #fdabe7 0%, #bd8ef2 36%, #7d71fd 100%);
+  background-image: -ms-linear-gradient(-140deg, #fdabe7 0%, #bd8ef2 36%, #7d71fd 100%);
+  -webkit-box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.1);
+  box-shadow: 0px 30px 60px 0px rgba(0, 11, 40, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 4px;
+  -webkit-transition: opacity 0.4s linear;
+  -o-transition: opacity 0.4s linear;
+  transition: opacity 0.4s linear;
+}
+
+.payment_price_item h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.payment_price_item h6 {
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.payment_price_item p {
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.payment_price_btn {
+
+    font: 500 14px "Poppins", sans-serif;
+    color: #fff;
+    background: #e9c261;
+    border-radius: 3px;
+    padding: 15px 30px;
+    border: 1px solid  #efd38e;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.payment_price_btn:hover {
+
+    color: #fff;
+    background: #efd38e;
+}
+
+.payment_price_item .payment_price_btn i {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.payment_price_item:nth-child(3) .payment_price_btn {
+    font: 500 14px "Poppins", sans-serif;
+    color: #fff;
+    background: #e9c261;
+    border-radius: 3px;
+    padding: 15px 30px;
+    border: 1px solid;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.payment_price_item:nth-child(3):hover .payment_price_btn {
+  background: #efd38e;
+  color: #fff;
+}
+
+.payment_price_item:nth-child(3):hover .payment_price_btn:hover {
+    color: #fff;
+    background: #efd38e;
+}
+
+
+.payment_price_item.center {
+  border: 1px solid #efd38e; 
+  border-radius: 4px;
+  padding: 80px 40px 86px;
+  -webkit-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  background: #5d8757;
+  
+}
+
+.payment_price_item.center:before {
+  opacity: 1;
+}
+
+.payment_price_item.center h2, .payment_price_item.center h6, .payment_price_item.center p {
+  color: #fff;
+}
+
+.payment_price_item.center .payment_price_btn {
+    font: 500 14px "Poppins", sans-serif;
+    color: #fff;
+    background: #e9c261;
+    border-radius: 3px;
+    padding: 15px 30px;
+    border: 1px solid  #e9c261;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.payment_price_item.center:hover .payment_price_btn:hover {
+
+    color: #fff;
+    background: #efd38e;
+}
+
+.payment_price_item:hover {
+  border-radius: 4px;
+  border-color: 2px solid #e9c261;
+  -webkit-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.payment_price_item:hover:before {
+  opacity: 1;
+}
+
+.payment_price_item:hover h2, .payment_price_item:hover h6, .payment_price_item:hover p {
+  color: #fff;
+}
+
+.payment_price_item:hover .payment_price_btn {
+  background: #efd38e;
+  color: #fff;
+}

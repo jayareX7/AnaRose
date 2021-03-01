@@ -1,19 +1,20 @@
-import Price from '../components/price'
-import Container from '../components/container'
-import ReturnPricing from '../components/return-pricing';
-import CoreFeatures from '../components/core-features'
-import DesignBanner from '../components/design-banner';
-import EventAbout from '../components/event-about';
+import Price from '../components/residential/price'
+import Container from '../components/body/container'
+import ReturnPricing from '../components/residential/return-pricing';
+import ResidentialSteps from '../components/residential/residential-steps'
+import DesignBanner from '../components/residential/design-banner';
+import ResidentialAbout from '../components/residential/residential-about';
 import { Button,  Card, CardHeader,  CardBody, Modal, Row, Col,} from "reactstrap";
+import Footer from '../components/body/footer'
 
 
 const Posts = ({ slugs }) => (
  <>
 <Container>
 
-<EventAbout />
+<ResidentialAbout />
 
-  <CoreFeatures />
+  <ResidentialSteps />
 
 
 
@@ -45,6 +46,9 @@ const Posts = ({ slugs }) => (
 <div style={{marginTop: 4 + 'em'}}>
 <Price />
 </div>
+
+<Footer />
+
  </>
 );
 

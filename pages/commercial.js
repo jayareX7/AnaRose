@@ -1,30 +1,38 @@
 
-import Container from '../components/container'
-import Subscribe from '../components/Subscribe';
-import CommercialCTA from '../components/commercial-cta';
-import CommercialServices from '../components/commercial-services'
-import Breadcrumb from '../components/breadcrumb';
-import Clients from '../components/clients';
-import Fade from 'react-reveal/Fade'
+import Container from '../components/body/container'
+import Subscribe from '../components/commercial/Subscribe';
+import CommercialServices from '../components/commercial/commercial-services'
 import Reveal from 'react-reveal'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import React from 'react'
+import Footer from '../components/body/footer'
 
 
 
-const Services = () => (
+
+// Little helpers ...
+const url = (name, wrap = false) => `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
+const Pink = ({ children }) => <span style={{ color: '#FF6AC1' }}>{children}</span>
+const Yellow = ({ children }) => <span style={{ color: '#EFF59B' }}>{children}</span>
+const Lightblue = ({ children }) => <span style={{ color: '#9AEDFE' }}>{children}</span>
+const Green = ({ children }) => <span style={{ color: '#57EE89' }}>{children}</span>
+const Blue = ({ children }) => <span style={{ color: '#57C7FF' }}>{children}</span>
+const Gray = ({ children }) => <span style={{ color: '#909090' }}>{children}</span>
+
+class Services extends React.Component {
+  render() {
+    return (
 <>
 
  <Container>
 
 
-
-
-
- <div className = "row">
+ <div className = "row" >
    <div className="col-lg-5">
    <img src="assets/commercial_cta.jpg" style={{marginTop: 8 + "rem"}}/>
    </div>
 
- <div className="mb-4 col-lg-7" style={{marginTop: 10 + "em", marginTop: 10 + "em" }}>
+ <div className="mt-5 col-lg-7" >
   <Reveal effect="fadeInUp" duration={1300}> 
   
       <div className="sec_title text-center mb_70">
@@ -76,22 +84,65 @@ const Services = () => (
       </div>
    </div>
 </div>
-   
-</Container>
 
+
+
+
+<section className=" sec_pad">
+  <div className="hosting_title security_title text-center">
+
+ 
+    <h2 className="my-3"><span>Over 1200+</span> jobs completed &amp; Still counting.</h2></div>
+
+    <div className="seo_fact_info"><div className="seo_fact_item wow fadeIn">
+      <div className="text"><div className="counter one">693</div>
+      <p>Happy Clients</p>
+      </div></div>
+      
+    <div className="seo_fact_item wow fadeIn" data-wow-delay="0.3s">
+      <div className="text">
+        <div className="counter two">276</div> <p>Projects</p>
+        </div></div>
+      
+    <div className="seo_fact_item wow fadeIn" data-wow-delay="0.6s">
+      <div className="text">
+        <div className="counter three">102</div> <p>SEO Winners</p>
+        </div></div>
+      
+      <div className="seo_fact_item last wow fadeIn" data-wow-delay="0.9s">
+        <div className="text">
+          <div className="counter four">93</div> <p>Experience</p>
+          </div></div>
+          
+        </div>
+    </section>
+
+
+
+</Container>
+   
 
 <CommercialServices />
 
 
-<div className="seo_sec_title text-center mb_70">
-        <Fade bottom ><h2 style={{marginTop: 4 + 'em'}}>Take a look at why we are <br/> beloved by our clients, everywhere.</h2>
-        <Clients className="text-center" /></Fade>
-    </div>
 
 <Subscribe />
+
+<Footer />
 
 </>
 );
 
+
+
+
+
+
+
+
+
+
+  }
+}
 
 export default Services;

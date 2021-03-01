@@ -701,7 +701,6 @@
     border-radius: 3px;
     padding: 15px 30px;
     border: 1px solid  #efd38e;
-    margin-top: 50px;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
@@ -1025,6 +1024,28 @@
     border-color: #fff;
     background: #fff;
   }  
+
+.email_submit_btn{
+
+    font: 500 14px "Poppins", sans-serif;
+    color: #fff;
+    background: #e9c261;
+    border-radius: 3px;
+    padding: 15px 30px;
+    border: 1px solid  #efd38e;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    display: inline-block;
+
+
+.email_submit_btn:hover {
+    color: #fff;
+    background: #efd38e;
+  }
+
+}
 
   
 .section_container .intro_content .subcribes .btn_submit {

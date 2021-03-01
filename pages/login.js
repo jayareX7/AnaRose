@@ -1,5 +1,6 @@
 import React from 'react';
-import SignInForm from '../components/sign-up';
+import SignInForm from '../components/sign-up/sign-up';
+import Footer from '../components/body/footer'
 
 const Login = () => (
 
@@ -7,6 +8,8 @@ const Login = () => (
 <SignInForm />
 <button class="snipcart-customer-signin">My account</button>
 
+
+<Footer />
 
 </>
 

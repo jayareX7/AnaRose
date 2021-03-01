@@ -65,3 +65,209 @@ $color: rgba(0, 0, 0, 0);
       0px 125px 0 2px $color, 120px 40px 0 2px $color, 0 0 0 2px #fff;
   }
 }
+
+/*============= design_tab_area css ============*/
+.design_tab_area {
+  background: #fbfbfd;
+}
+
+.design_tab {
+  border: 0px;
+}
+
+.design_tab .nav-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.design_tab .nav-item .nav-link {
+ background-color: #e9c261;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(12, 0, 46, 0.04);
+  box-shadow: 0px 2px 3px 0px rgba(12, 0, 46, 0.04);
+    border: 0px;
+    border-radius: 10px;
+    padding: 25px 50px;
+    -webkit-transition: background 0.5s ease 0s;
+    -o-transition: background 0.5s ease 0s;
+    transition: background 0.5s ease 0s;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 8rem;
+  
+}
+
+
+.design_tab .nav-item .nav-link h5 {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #222d39;
+  -webkit-transition: color 0.5s ease 0s;
+  -o-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+}
+
+.design_tab .nav-item .nav-link p {
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #677294;
+  -webkit-transition: color 0.5s ease 0s;
+  -o-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+}
+
+.design_tab .nav-item .nav-link.active {
+  background-color: #e9c261;
+  width: 20rem;
+  height: 8rem;
+}
+
+.design_tab .nav-item .nav-link.active h5, .design_tab .nav-item .nav-link.active p {
+  color: #fff;
+}
+
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+.nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.nav-tabs .nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0d6efd;
+}
+
+.nav-fill .nav-item, .nav-fill > .nav-link {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-justified .nav-item, .nav-justified > .nav-link {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+
+
+.tab-content > .active {
+  display: block;
+}
+
+.tab-content .tab-pane .tab_img img {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  max-width: 100%;
+}
+
+.tab-content .tab-pane.show .tab_img img {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.tab-content .tab_img {
+  margin-right: -160px;
+  padding-left: 120px;
+  max-width: 100%;
+}
+
+
+.tab-content .tab-pane.show .tab_img img {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.tab-content .tab-pane .tab_img img {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+  max-width: 100%;
+}
+.price_content .fade, .tab-content .tab-pane .tab_img img {
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.tab-content .tab_img {
+  margin-right: -160px;
+  padding-left: 120px;
+  max-width: 100%;
+}
+.tab-content .tab_img {
+  max-width: none;
+}
+
+.tab-content>.active {
+  display: block;
+}
+
+
+.fade {
+  transition: opacity .15s linear;
+}

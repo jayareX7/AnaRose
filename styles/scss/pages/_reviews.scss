@@ -6,5 +6,26 @@
 }
 
 .clients_area {
+background-image: url('/assets/polka-dots.jpg') 
+}
 
+.client_image-1{
+    margin: 4rem 0rem;
+    border: #FFF;
+    border-style: solid;
+    border-width: 2rem;
+    transform: rotate(12deg);
+}
+
+.client_image-2{
+    margin: 4rem 0rem;
+    border: #FFF;
+    border-style: solid;
+    border-width: 2rem;
+    transform: rotate(-12deg);
+}
+
+.owner-testimonial{
+    background: #e9c261;
+    height: 35rem;
 }

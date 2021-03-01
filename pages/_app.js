@@ -8,9 +8,9 @@ import "../styles/assets/simple-line-icon/simple-line-icons.css";
 import "../styles/assets/font-awesome/css/all.css";
 import "../styles/assets/elagent/style.css";
 import app from 'next/app';
-import Navigation from '../components/navigation';
-import Layout from '../components/layout';
-import Container from '../components/container';
+import Navigation from '../components/body/navigation';
+import Layout from '../components/body/layout';
+import Container from '../components/body/container'
 
 
 
