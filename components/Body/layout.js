@@ -1,5 +1,3 @@
-import Alert from '../body/alert'
-import Footer from '../body/footer'
 import FooterCopyright from '../body/footer-copyright'
 import Meta from '../body/meta'
 
