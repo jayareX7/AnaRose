@@ -10,4 +10,3 @@ module.exports = withOptimizedImages({
 
 const withImages = require('next-images')
 module.exports = withImages()
-
