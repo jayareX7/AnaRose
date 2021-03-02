@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useRef } from "react";
 import { motion, useCycle } from "framer-motion";
-import { useDimensions } from "../navigation/use-dimensions.ts";
+import { useDimensions } from "../navigation/use-dimensions";
 import { MenuToggle } from "../navigation/menutoggle";
 import { CollasibleMenu } from "../navigation/collasible-navigation";
 
