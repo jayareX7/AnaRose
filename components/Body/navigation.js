@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import Sticky from 'react-stickynode';
 import Container from '../body/container'
+import NavigationMenu from '../navigation/navigationmenu'
 
 
 
@@ -15,8 +16,10 @@ import Container from '../body/container'
     
 <div className="row">
   <div className="col-lg-12">
+
 <div style={{backgroundColor: '#84AC7E', height: 2.5 + 'rem'}}> 
 <Container>
+
   <div className='col-lg-2 mt_0 flex' style={{float: 'right'}}>
 
   <div className='col-lg-3'>
@@ -33,6 +36,7 @@ import Container from '../body/container'
    
    </div>
    </Container>
+   
     </div>
   </div>
 </div>
@@ -71,23 +75,21 @@ import Container from '../body/container'
                 Get A Quote
               </a>
             </Link>
-            
-           
-        
-            </div>
-          </div>
-
 
          
+            
+           
+            </div>
+          
+          </div>
+          
         </nav>
+        <div className="collapsible-menu">
+          <NavigationMenu /> </div>
         </header>
+      
         </Sticky>
 </>
     )
 
  }
-
-
-
-
-        
