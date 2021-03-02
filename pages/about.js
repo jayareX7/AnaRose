@@ -1,13 +1,12 @@
 
 import React from 'react';
-import Breadcrumb from '../components/body/breadcrumb';
 import Footer from '../components/body/footer'
 
 
 const About = () => (
   <>
 
-  <Breadcrumb></Breadcrumb>
+  <
   
   <div className="container mx-auto">
     <div className="about-container">
