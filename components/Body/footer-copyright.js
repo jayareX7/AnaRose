@@ -1,5 +1,5 @@
 
-import Container from '../body/container'
+import { Container } from 'next/app';
 import {
     Col,
   } from "reactstrap";

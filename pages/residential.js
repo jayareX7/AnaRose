@@ -1,11 +1,9 @@
 import Price from '../components/residential/price'
-import Container from '../components/body/container'
+import { Container } from 'next/app';
 import ReturnPricing from '../components/residential/return-pricing';
 import ResidentialSteps from '../components/residential/residential-steps'
-import DesignBanner from '../components/residential/design-banner';
 import ResidentialAbout from '../components/residential/residential-about';
-import { Button,  Card, CardHeader,  CardBody, Modal, Row, Col,} from "reactstrap";
-import Footer from '../components/body/footer'
+import Footer from '../components/body/footer';
 
 
 const Posts = ({ slugs }) => (

@@ -1,4 +1,4 @@
-import Container from '../body/container'
+import { Container } from 'next/app';
 import cn from 'classnames'
 import { EXAMPLE_PATH } from '../../lib/constants'
 

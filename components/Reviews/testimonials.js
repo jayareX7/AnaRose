@@ -1,6 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel, Row, Col } from "reactstrap";
-import Container from '../body/container'
+
 
 const residentialItems = [
   {

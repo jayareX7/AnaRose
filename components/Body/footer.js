@@ -1,4 +1,4 @@
-import Container from '../body/container'
+import { Container } from 'next/app';
 import { EXAMPLE_PATH } from '../../lib/constants'
 import SocialLinks from '../Body/social-links'
 import {

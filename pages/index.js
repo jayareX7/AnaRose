@@ -1,9 +1,5 @@
 import React from 'react';
-import Head from 'next/head';
-import { CMS_NAME } from '../lib/constants';
-import Container from '../components/body/container'
-import IndexHero from '../components/home-header';
-import Erpanalytics from '../components/home-analytics';
+import { Container } from 'next/app';
 import Featuresitems from '../components/features-items';
 import Index2 from '../components/home/index-2'
 import Index3 from '../components/home/index-3'
