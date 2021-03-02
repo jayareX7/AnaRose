@@ -1,6 +1,5 @@
 import React from 'react';
 import Featuresitems from '../components/features-items';
-import Index2 from '../components/home/index-2'
 import Index3 from '../components/home/index-3'
 import Index4 from '../components/home/index-4'
 import Index5 from '../components/home/index-5'
