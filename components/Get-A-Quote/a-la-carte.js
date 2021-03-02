@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import Container from '../../components/body/container'
-import { UncontrolledCarousel, Row, Col, Button, Card, Collapse } from "reactstrap"
-import Buy_Button from '../../components/buy-button/buy-button'
+import Buy_Button from '../buy-button/buy-button'
 
 class AlaCarte extends Component {
     constructor(){
