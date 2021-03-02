@@ -4,7 +4,7 @@ import CommercialServices from '../components/commercial/commercial-services'
 import Reveal from 'react-reveal'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
-import Footer from '.././body/footer'
+import Footer from '../components/body/footer'
 
 
 
