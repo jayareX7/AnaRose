@@ -1,5 +1,5 @@
 
-import { Container } from 'next/app';
+import Container from '../components/body/container'
 import Subscribe from '../components/commercial/Subscribe';
 import CommercialServices from '../components/commercial/commercial-services'
 import Reveal from 'react-reveal'

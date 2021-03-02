@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import Sticky from 'react-stickynode';
-import { Container } from 'next/app';
+import Container  from './container';
 import NavigationMenu from '../navigation/navigationmenu'
 
 

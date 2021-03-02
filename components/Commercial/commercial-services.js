@@ -7,7 +7,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import { Container } from 'next/app';
+import Container  from '../body/container';
 
 
 

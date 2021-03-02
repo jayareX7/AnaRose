@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'next/app';
+import Container from '../components/body/container'
 import Featuresitems from '../components/features-items';
 import Index2 from '../components/home/index-2'
 import Index3 from '../components/home/index-3'

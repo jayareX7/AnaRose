@@ -1,6 +1,6 @@
 import React from "react";
 import FAQ from '../get-a-quote/faq';
-import { Container } from 'next/app';
+import Container  from '../body/container';
 // reactstrap components
 import { Button, Card, Collapse, Row, Col, Modal} from "reactstrap";
 

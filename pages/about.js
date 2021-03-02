@@ -1,4 +1,4 @@
-import { Container } from 'next/app';
+import Container from '../components/body/container'
 import React from 'react';
 import Breadcrumb from '../components/body/breadcrumb';
 import Footer from '../components/body/footer'

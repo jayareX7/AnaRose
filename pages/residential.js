@@ -1,5 +1,5 @@
 import Price from '../components/residential/price'
-import { Container } from 'next/app';
+import Container from '../components/body/container'
 import ReturnPricing from '../components/residential/return-pricing';
 import ResidentialSteps from '../components/residential/residential-steps'
 import ResidentialAbout from '../components/residential/residential-about';

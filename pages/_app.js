@@ -10,7 +10,7 @@ import "../styles/assets/elagent/style.css";
 import app from 'next/app';
 import Layout from '../components/body/layout';
 import Navigation from '../components/body/navigation';
-import { Container } from 'next/app';
+import Container from '../components/body/container'
 
 
 
