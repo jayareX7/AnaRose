@@ -1,0 +1,150 @@
+.footer-accent {
+    border-top-width: 1px;
+   
+}
+
+  .new_footer_area {
+    background: #84ac7e;
+  }
+
+  .copyright_footer_area{
+    background: #5d8757;
+    height: 3rem;
+  }
+
+  .copyright_footer_border{
+ 
+  }
+  
+  
+.footer-widget-social-icons.footer-grid-0 .footer-widget-container, .footer-widget-social-icons.footer-grid-mobile-0 .footer-widget-container, .footer-widget-social-icons.footer-grid-tablet-0 .footer-widget-container {
+  line-height: 1;
+  font-size: 0;
+}
+
+.footer-element.footer-element-data .footer-widget-container {
+  text-align: center;
+}
+
+.footer-data .footer-element.footer-element-data > .footer-widget-container {
+  margin: 15px 0px 0px 0px;
+}
+
+.footer-element .footer-widget-container {
+  -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+  transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+  -o-transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+}
+.footer *, .footer :after, .footer :before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.footer-widget-social-icons .footer-grid {
+  grid-column-gap: var(--grid-column-gap,5px);
+  grid-row-gap: var(--grid-row-gap,5px);
+  grid-template-columns: var(--grid-template-columns);
+  -webkit-box-pack: var(--justify-content,center);
+  -ms-flex-pack: var(--justify-content,center);
+  justify-content: var(--justify-content,center);
+  justify-items: var(--justify-content,center);
+}
+.footer-grid-0 .footer-grid {
+  display: inline-block;
+  width: 100%;
+  word-spacing: var(--grid-column-gap);
+  margin-bottom: calc(-1*var(--grid-row-gap));
+}
+.footer-grid {
+  display: grid;
+  grid-column-gap: var(--grid-column-gap);
+  grid-row-gap: var(--grid-row-gap);
+}
+
+.footer-data .footer-element.footer-element-data .footer-widget-container {
+  text-align: center;
+}
+
+.footer-widget-social-icons.footer-grid-0 .footer-widget-container, .footer-widget-social-icons.footer-grid-mobile-0 .footer-widget-container, .footer-widget-social-icons.footer-grid-tablet-0 .footer-widget-container {
+  line-height: 1;
+  font-size: 0;
+}
+.footer-data .footer-element.footer-element-data {
+  --grid-template-columns: repeat(0, auto);
+  --icon-size: 16px;
+  --grid-column-gap: 5px;
+  --grid-row-gap: 0px;
+}
+.footer {
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.footer-grid-0 .footer-grid .footer-grid-item {
+  display: inline-block;
+  margin-bottom: var(--grid-row-gap);
+  word-break: break-word;
+}
+
+.footer-grid .footer-grid-item {
+  min-width: 0;
+}
+
+.footer-data .footer-element.footer-element-data .footer-social-icon {
+  --icon-padding: 1em;
+}
+
+.footer-shape-circle .footer-icon.footer-social-icon {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+a:not([href]):not([tabindex]) {
+  color: inherit;
+  text-decoration: none;
+}
+.footer-social-icon:last-child {
+  margin: 0;
+}
+.footer-shape-circle .footer-icon {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.footer a {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.footer-social-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: var(--icon-size,25px);
+  line-height: var(--icon-size,25px);
+  width: calc(var(--icon-size, 25px) + 2*var(--icon-padding, .5em));
+  height: calc(var(--icon-size, 25px) + 2*var(--icon-padding, .5em));
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+.footer-icon {
+  display: inline-block;
+  line-height: 1;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  color: #818a91;
+  font-size: 50px;
+  text-align: center;
+}

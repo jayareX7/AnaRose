@@ -1,9 +1,14 @@
+
 import React from 'react';
-import Layout from '../components/layout';
-import Footer from '../components/footer';
+import Footer from '.././body/footer'
+
 
 const About = () => (
-  <Layout>
+  <>
+
+  <
+  
+  <div className="container mx-auto">
     <div className="about-container">
       {/* Row */}
       <div className="row mt-5 pt-5 about-hero">
@@ -121,8 +126,11 @@ const About = () => (
       </div>
 
     </div>
-    <Footer />
-  </Layout>
+ </div>
+ 
+ <Footer />
+
+ </>
 );
 
 

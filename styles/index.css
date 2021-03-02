@@ -2,6 +2,7 @@
 
 /* Write your own custom base styles here */
 
+
 /* Start purging... */
 @tailwind components;
 /* Stop purging. */
@@ -13,3 +14,5 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+
