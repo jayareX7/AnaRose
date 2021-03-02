@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from '../components/body/container'
 import Featuresitems from '../components/features-items';
 import Index2 from '../components/home/index-2'
 import Index3 from '../components/home/index-3'
@@ -19,7 +18,7 @@ export default function Index() {
          
 
 
-<Container>
+<div className="container mx-auto">
   
 <section className="process_area sec_pad">
                 <div className="container">
@@ -49,7 +48,7 @@ export default function Index() {
                     
             
            
-</Container>
+</div>
 
 
 <Index3 />

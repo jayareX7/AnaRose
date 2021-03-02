@@ -1,4 +1,4 @@
-import Container from '../components/body/container'
+
 import React from 'react';
 import Breadcrumb from '../components/body/breadcrumb';
 import Footer from '../components/body/footer'
@@ -9,7 +9,7 @@ const About = () => (
 
   <Breadcrumb></Breadcrumb>
   
-<Container>
+  <div className="container mx-auto">
     <div className="about-container">
       {/* Row */}
       <div className="row mt-5 pt-5 about-hero">
@@ -127,7 +127,7 @@ const About = () => (
       </div>
 
     </div>
- </Container>
+ </div>
  
  <Footer />
 
