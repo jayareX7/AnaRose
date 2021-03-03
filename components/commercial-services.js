@@ -7,7 +7,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import Container  from '../body/container';
+import Container  from './container';
 
 
 
@@ -65,7 +65,7 @@ export default function OwnerTestimonial() {
           <Col lg="12">
             <Row>  
                       
-          <div className="col-lg-4">
+          <div className="col-lg-4 my-5">
                  
           
                        
@@ -77,7 +77,7 @@ export default function OwnerTestimonial() {
                       type="button"
                     >
                       
-                             <div className="s_integration_item">
+                             <div className="s_integration_item" style={{margin: '0 auto'}}>
                               <img src="assets/bubbles.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                                <h5>General Clean</h5> 
                             </div>              
@@ -179,7 +179,7 @@ export default function OwnerTestimonial() {
           
           
           
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 my-5">
                     <Button
                       block
                       className=" mb-3 price_content price_content_two"
@@ -188,7 +188,7 @@ export default function OwnerTestimonial() {
                       type="button"
                     >
                       
-                             <div className="s_integration_item">
+                             <div className="s_integration_item" style={{margin: '0 auto'}}>
                               <img src="assets/wipe.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                                <h5>Window Cleaning</h5> 
                             </div>              
@@ -253,7 +253,7 @@ export default function OwnerTestimonial() {
           
           
           
-           <div className="col-lg-4">
+           <div className="col-lg-4 my-5">
           
                     
                     <Button
@@ -264,7 +264,7 @@ export default function OwnerTestimonial() {
                       type="button"
                     >
                       
-                             <div className="s_integration_item">
+                             <div className="s_integration_item" style={{margin: '0 auto'}}>
                                <img src="assets/bucket.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                                   <h5>Deep Clean</h5> 
                             </div>              
@@ -390,7 +390,7 @@ export default function OwnerTestimonial() {
                       type="button"
                     >
                       
-                             <div className="s_integration_item">
+                             <div className="s_integration_item" style={{margin: '0 auto'}}>
                                <img src="assets/cleaning-service.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                                   <h5>Carpet Cleaning</h5> 
                             </div>              
@@ -447,7 +447,7 @@ export default function OwnerTestimonial() {
                     </Modal>
                 </div>
           
-                <div className="col-lg-4">
+                <div className="col-lg-4 my-5">
                     <Button
                       block
                       className=" mb-3 price_content price_content_two"
@@ -456,7 +456,7 @@ export default function OwnerTestimonial() {
                       type="button"
                     >
                       
-                             <div className="s_integration_item">
+                             <div className="s_integration_item"style={{margin: '0 auto'}}>
                                <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                                   <h5>Sanitizing</h5> 
                             </div>              
@@ -517,7 +517,7 @@ export default function OwnerTestimonial() {
           
           
                     
-          <div className="col-lg-4">
+          <div className="col-lg-4 my-5">
                    
                     <Button
                       block
@@ -527,7 +527,7 @@ export default function OwnerTestimonial() {
                       type="button"
                     >
                       
-                             <div className="s_integration_item">
+                             <div className="s_integration_item" style={{margin: '0 auto'}}>
                                 <img src="assets/cleaning-cart.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                                   <h5>Post-Construction</h5> 
                             </div>              
@@ -613,7 +613,7 @@ export default function OwnerTestimonial() {
                        </div> 
                   
                   <div className="col-lg-4  text-center">
-                          <img src="assets/commercial-services.jpg" style={{width: 72 + "%"}}/>
+                          <img src="assets/commercial-services.jpg" style={{width: 72 + "%", margin: '0 auto' , marginBottom: 10 + 'rem'}}/>
                     
               </div>
               </div>

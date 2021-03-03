@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import { images } from "../reviews/image-data.ts";
+import { images } from "./image-data.ts";
 
   const variants = {
     enter: (direction: number) => {

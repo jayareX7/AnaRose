@@ -73,7 +73,7 @@ const Testimonials =()=>{
                   
                 </Col>
                 <Col md="6">
-                  <div className="client_image-1">
+                  <div className="mt-6 client_image-1">
                   <img src='assets/residential-review.jpg' />
                   </div>
                 </Col>
@@ -81,7 +81,7 @@ const Testimonials =()=>{
 
               <Row>    
                 <Col md="6">
-                <div className="client_image-2">
+                <div className="mt-6 client_image-2">
                 <img src='assets/commercial-review.jpg'  />
                 </div>
                 </Col>          

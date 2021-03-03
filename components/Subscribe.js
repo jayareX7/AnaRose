@@ -14,7 +14,8 @@ class Subscribe extends Component {
                     <div className="container">
                     <div className="seo_call_action_text" >
                         <div className="col-lg-12">
-                        <h2>Ready to get started?<br/> lt's fast, free and very easy!</h2>
+                        <h2>Ready to get started?<br/></h2>
+                        <h4>lt's fast, free and very easy!</h4>
                         <a href="/" className="about_btn mt_30">Get A Free Estimate</a>
                         </div>
                     </div>

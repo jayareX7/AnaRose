@@ -162,6 +162,7 @@
     opacity: 1;
   }
   
+  
   .carousel-caption {
     position: absolute;
     right: 15%;
@@ -172,6 +173,35 @@
     color: #fff;
     text-align: center;
   }
+
+
+  @media (max-width:768px){
+
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.75rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+  }}
   
   .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
     filter: invert(1) grayscale(100);

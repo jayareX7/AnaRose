@@ -1,10 +1,10 @@
 import React from 'react';
-import EventDetails from '../components/reviews/event-details';
-import SectionCarousel from '../components/reviews/testimonials'
-import FreeEstimate from '../components/reviews/free-estimate'
-import ReviewCTA from '../components/reviews/review-cta'
-import Example from '../components/reviews/owner-testimonial.tsx'
-import Footer2 from '../components/body/footer-2'
+import EventDetails from '../components/event-details';
+import SectionCarousel from '../components/testimonials'
+import FreeEstimate from '../components/free-estimate'
+import ReviewCTA from '../components/review-cta'
+import Example from '../components/owner-testimonial.tsx'
+import Footer2 from '../components/footer-2'
 
 
 

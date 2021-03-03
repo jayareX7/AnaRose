@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Buy_Button from '../buy-button/buy-button'
+import Buy_Button from './buy-button'
 
 class AlaCarte extends Component {
     constructor(){
@@ -122,7 +122,7 @@ return(
                          <div className="price_item">
                          <div className="pr_title"> <h6 data-toggle="tooltip" data-placement="top" title="" data-original-title="Save time by using keyboard shortcuts all across SaasLand">{list.adTitle}</h6>        
                          </div>
-                                        <div className="price f_700 f_size_40 t_color2">{list.price}<sub className="f_size_16 f_400">/{list.per}</sub></div>
+                                        <div className="price f_700 f_size_40 t_color2">{list.price}<sub className="f_size_16 f_400"><br />/{list.per}</sub></div>
                                         <div className="mt-3 margin-auto"><Buy_Button/> </div>
                                         </div>
                                         

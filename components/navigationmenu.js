@@ -1,9 +1,9 @@
 import * as React from "react";
 import { useRef } from "react";
 import { motion, useCycle } from "framer-motion";
-import { useDimensions } from "../navigation/use-dimensions";
-import { MenuToggle } from "../navigation/menutoggle";
-import { CollasibleMenu } from "../navigation/collasible-navigation";
+import { useDimensions } from "./use-dimensions";
+import { MenuToggle } from "./menutoggle";
+import { CollasibleMenu } from "./collasible-navigation";
 
 const sidebar = {
   open: (height = 1000) => ({

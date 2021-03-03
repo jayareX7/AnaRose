@@ -1,10 +1,10 @@
-import { Container } from 'next/app';
-import SocialLinks from '../Body/social-links'
+import Container from './container';
+import SocialLinks from './social-links'
 import {
   Row
 } from "reactstrap";
 
-import { EXAMPLE_PATH } from '../../lib/constants'
+import { EXAMPLE_PATH } from '../lib/constants'
 
 export default function Footer() {
   return (

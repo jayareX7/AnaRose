@@ -1,5 +1,5 @@
-import FooterCopyright from '../body/footer-copyright'
-import Meta from '../body/meta'
+import FooterCopyright from './footer-copyright'
+import Meta from './meta'
 
 export default function Layout({ preview, children }) {
   return (

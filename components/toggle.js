@@ -1,6 +1,6 @@
 import React from "react";
-import FAQ from '../get-a-quote/faq';
-import Container  from '../body/container';
+import FAQ from './faq';
+import Container  from './container';
 // reactstrap components
 import { Button, Card, Collapse, Row, Col, Modal} from "reactstrap";
 

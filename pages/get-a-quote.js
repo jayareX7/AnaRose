@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import AlaCarte from '../components/get-a-quote/a-la-carte';
-import Toggle from '../components/get-a-quote/toggle';
-import SectionSeparator from '../components/body/section-separator'
-import Footer from '../components/body/footer'
+import AlaCarte from '../components/a-la-carte';
+import Toggle from '../components/toggle';
+import SectionSeparator from '../components/section-separator'
+import Footer from '../components/footer'
 
 
 export default function Quote() {

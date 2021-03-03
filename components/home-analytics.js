@@ -1,5 +1,5 @@
 import React from 'react';
-import ErpanalyticsItem from "../components/home-analyticsItem";
+import ErpanalyticsItem from "./home-analyticsItem";
 
 const Erpanalytics =()=>{
     return(

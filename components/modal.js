@@ -12,9 +12,9 @@ import IconButton from "@material-ui/core/IconButton";
 import Close from "@material-ui/icons/Close"
 
 // core components
-import Button from '../components//modal-button.js';
+import Button from './modal-button.js';
 
-import modalStyle from '../components/modal-style'
+import modalStyle from './modal-style'
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;

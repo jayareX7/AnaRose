@@ -1,8 +1,10 @@
-import Price from '../components/residential/price'
-import ReturnPricing from '../components/residential/return-pricing';
-import ResidentialSteps from '../components/residential/residential-steps'
-import ResidentialAbout from '../components/residential/residential-about';
-import Footer from '../components/body/footer';
+import Price from '../components/price'
+import ReturnPricing from '../components/return-pricing';
+import ResidentialSteps from '../components/residential-steps'
+import ResidentialAbout from '../components/residential-about';
+import Footer from '../components/footer';
+import Container from '../components/container'
+import { Row } from "reactstrap";
 
 
 const Posts = ({ slugs }) => (

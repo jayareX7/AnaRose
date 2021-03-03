@@ -1,9 +1,10 @@
 import React from 'react';
 import Featuresitems from '../components/features-items';
-import Index3 from '../components/home/index-3'
-import Index4 from '../components/home/index-4'
-import Index5 from '../components/home/index-5'
-import Footer2 from '../components/body/footer-2'
+import Index3 from '../components/index-3'
+import Index4 from '../components/index-4'
+import Index5 from '../components/index-5'
+import Footer2 from '../components/footer-2'
+import FreeEstimate from '../components/free-estimate';
 
 
 
@@ -38,13 +39,7 @@ export default function Index() {
                            
             </section>
 
- <div className=" seo_banner_content col-md-12 text-center">
-                            <h2>Ready to get started?<br/> lt's fast, free and very easy!</h2>
-                        </div>
-                            <div className='text-center'>
-                            <a href="/" className="about_btn">Get A Free Estimate</a>
-                            </div>
-                    
+<FreeEstimate />
             
            
 </div>

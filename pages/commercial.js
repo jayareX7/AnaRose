@@ -1,10 +1,10 @@
 
-import Subscribe from '../components/commercial/Subscribe';
-import CommercialServices from '../components/commercial/commercial-services'
+import Subscribe from '../components/Subscribe';
+import CommercialServices from '../components/commercial-services'
 import Reveal from 'react-reveal'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
-import Footer from '../components/body/footer'
+import Footer from '../components/footer'
 
 
 
@@ -31,19 +31,25 @@ class Services extends React.Component {
    <img src="assets/commercial_cta.jpg" style={{marginTop: 8 + "rem"}}/>
    </div>
 
- <div className="mt-5 col-lg-7" >
+   <div className="col-lg-1">
+
+     </div>
+
+ <div className="mt-5 col-lg-6" >
   <Reveal effect="fadeInUp" duration={1300}> 
-  
+  <div className="col-lg-11">
       <div className="sec_title text-center mb_70">
-      <h2 style={{color: '#3f4451', marginLeft: 4 + "rem"}}>A Truly Clean Business </h2>
+      <h2 style={{color: '#3f4451'}}>A Truly Clean Business </h2>
       </div> 
+      </div>
   </Reveal>
 
 
 
   <Reveal effect="fadeInUp" duration={1600}> 
-      <div className=" text-center mb_70"> 
-      <p style={{color: '#3f4451', marginLeft: 4 + "rem"}}> Our focus on using all-green, natural and Eco-friendly products is not only a 
+  <div className="col-lg-11">
+      <div className=" text-justify mb_70"> 
+      <p style={{color: '#3f4451'}}> Our focus on using all-green, natural and Eco-friendly products is not only a 
   healthier option for you and our team but a way of life. 
   The air you breathe every day at your workplace or home can be filled 
   with impurities that may affect your health over time, many of them 
@@ -52,10 +58,11 @@ class Services extends React.Component {
   With our use of environmentally-conscious products we can guarantee they will be both at no extra charge to you. 
   While some companies may add on a fee for the use of all-green products at Ana Rose Cleaning Services, it’s on us.</p>
       </div>
+      </div>
   </Reveal>
 
-
-    <div className="mb_70" style={{ marginLeft: 4 + "rem"}}>
+  <div className="col-lg-11">
+    <div className="mb_70">
       <Reveal effect="fadeInUp" duration={1600} > 
         <h2 style={{color: '#3f4451'}}>Our commitment to you:</h2>
       </Reveal>
@@ -77,8 +84,7 @@ class Services extends React.Component {
       <Reveal effect="slideInRight" duration={1500} > 
         <li style={{color: '#3f4451'}}>Certified Cleaning Professionals</li>
       </Reveal>
-
-
+     </div>
 
       </div>
    </div>

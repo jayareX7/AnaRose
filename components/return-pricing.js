@@ -13,7 +13,7 @@ class ReturnPricing extends Component {
                             </div>
                         </div>
                         <div className={`${colClassTwo}`}>
-                            <div className="h_action_content">
+                            <div className="h_action_content text-center">
                                 <h2>Manage Your Account<br/>Online Today!</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <a href="/#" className="hosting_btn btn_hover">Manage Account</a>

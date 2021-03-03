@@ -35,7 +35,7 @@ return (
                                 <form action="#" class="digital_agency_newsletter" method="post" novalidate="true">
                                     <div class="newsletter_form input-group">
                                         <label for="colFormLabelSm" class="col-form-label col-form-label-sm">
-                                            <i class="fas fa-envelope mr-1"></i> Newsletter</label> 
+                                            <i class="fas fa-envelope mr-1"></i> </label> 
                                             <input type="text" id="colFormLabelSm" name="EMAIL" class="form-control memail" placeholder="Type your email..." /> 
                                                 <button type="submit" class="email_submit_btn">Subscribe</button>
                                         <p class="mchimp-errmessage" style={{display: 'none'}}></p> 

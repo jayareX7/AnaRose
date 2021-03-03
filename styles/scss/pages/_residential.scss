@@ -122,7 +122,7 @@
     background-color: white;
     -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 11, 40, 0.1);
     box-shadow: 0px 4px 6px 0px rgba(0, 11, 40, 0.1);
-    padding: 50px 50px 40px;
+    padding: 50px 24px 40px;
     border: 3px solid #84AC7E;
     border-radius: 1.2rem;
     position: relative;
@@ -160,9 +160,8 @@
   }
   
   .price_content .price_item .price {
-    line-height: 40px;
     border-bottom: 1px solid #e9e9f4;
-    padding: 33px 0px 30px;
+    padding: 60px 0px 30px;
   }
   
   .price_content .price_item .price sub {

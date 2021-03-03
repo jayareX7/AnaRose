@@ -2,7 +2,7 @@ import React from "react";
 
 const ResidentialSteps = () => {
   return (
-    <section className="chat_core_features_area sec_pad" style={{marginBottom: 4 + 'em'}}>">
+    <section className="chat_core_features_area sec_pad" style={{marginBottom: 4 + 'em'}}>
       <div className="container">
         <div className="hosting_title chat_title text-center">
           <h2 className="wow fadeInUp" data-wow-delay="0.2s">

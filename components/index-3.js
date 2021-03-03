@@ -46,7 +46,7 @@ export default function Index3() {
               
 
                 <div className="col-lg-12 d-flex align-items-center">
-                <ul className="nav nav-tabs design_tab"  onClick={() => setToggle(key)} role="tablist">
+                <ul className="nav nav-tabs design_tab"  onClick={() => setToggle(key)} role="tablist" style={{ margin: '0 auto'}}>
                     <li className="nav-item wow fadeInUp"  data-wow-delay="0.2s" style={{visibility: 'visible' , animationDelay: '0.2s', animationName: 'fadeInUp'}}>
                           <a className="nav-link normal_color" id="saasland-tab-2771" data-toggle="tab" role="tab" href="#saasland-tab-content-2771" aria-controls="saasland-tab-content-2771" aria-selected="false">
                               <h5 className="title_color">{title}</h5>
@@ -76,7 +76,7 @@ export default function Index3() {
     <div className="col-lg-8">
         <div className="tab-content">
             <div className="tab-pane fade active show" aria-labelledby="saasland-tab-2771" role="tabpanel" id="saasland-tab-content-2771">
-                <div className="tab_img">
+            
         
                 {toggle === key ? (
                     <>
@@ -85,7 +85,7 @@ export default function Index3() {
                 key={key}/> 
                     </>
                 ) : null}
-               </div>
+               
             </div>
         </div>
 </div>      

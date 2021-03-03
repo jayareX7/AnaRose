@@ -2,9 +2,9 @@
 
 
 import React from "react";
-import ScheduledBuy from "../buy-Button/scheduled-buy";
-import OneTimeBuy from "../buy-Button/one-time-buy";
-import MoveBuy from "../buy-Button/move-buy";
+import ScheduledBuy from "./scheduled-buy";
+import OneTimeBuy from "./one-time-buy";
+import MoveBuy from "./move-buy";
 
 
 

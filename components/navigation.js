@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 import Sticky from 'react-stickynode';
 import Container  from './container';
-import NavigationMenu from '../navigation/navigationmenu'
+import NavigationMenu from './navigationmenu'
 
 
 
@@ -14,8 +14,7 @@ import NavigationMenu from '../navigation/navigationmenu'
       
       <>
     
-<div className="row">
-  <div className="col-lg-12">
+
 
 <div style={{backgroundColor: '#84AC7E', height: 2.5 + 'rem'}}> 
 <Container>
@@ -38,8 +37,7 @@ import NavigationMenu from '../navigation/navigationmenu'
    </Container>
    
     </div>
-  </div>
-</div>
+  
 
 
 
@@ -51,7 +49,7 @@ import NavigationMenu from '../navigation/navigationmenu'
                 <nav className='navbar navbar-expand-lg menu_one'>
     <div className="d-flex header align-items-center justify-content-between position-relative " style={{width: 100 + '%'}}>
    
-          <div className="d-none margin-auto d-sm-flex">
+          <div className="margin-auto d-sm-flex" style={{display:'none'}}>
             <Link href="/">
               <a href="/" className="nav-bar-option tpnav nav-li-hover mr-4">Home</a>
             </Link>

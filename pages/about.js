@@ -1,14 +1,14 @@
 
 import React from 'react';
-import Footer from '.././body/footer'
+import Footer from '../components/footer'
+import Container from '../components/container'
 
 
 const About = () => (
   <>
 
-  <
   
-  <div className="container mx-auto">
+<Container>
     <div className="about-container">
       {/* Row */}
       <div className="row mt-5 pt-5 about-hero">
@@ -126,7 +126,7 @@ const About = () => (
       </div>
 
     </div>
- </div>
+ </Container>
  
  <Footer />
 
