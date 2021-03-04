@@ -7,6 +7,7 @@ import "../styles/assets/themify-icon/themify-icons.css";
 import "../styles/assets/simple-line-icon/simple-line-icons.css";
 import "../styles/assets/font-awesome/css/all.css";
 import "../styles/assets/elagent/style.css";
+import Portfilio3grid from '../components/portfolios/Portfolio3grid.js' 
 import app from 'next/app';
 import Layout from '../components/layout.js';
 import Navigation from '../components/navigation.js';
