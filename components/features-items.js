@@ -18,7 +18,7 @@ class Featuresitems extends Component{
                         <div className="dot"><span className="dot1"></span><span className="dot2"></span></div>
                         <img className="number" src={("assets/home4/" + iImg)} alt=""/>
                         <h3>{ftitle}</h3>
-                        <p>{descriptions}</p>
+                        <p style={{color: '#3f4451'}}>{descriptions}</p>
                         <a href=".#" className="icon mt_30"><i className="ti-arrow-right"></i></a>
                     </Reveal>
                     </div>

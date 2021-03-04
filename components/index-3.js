@@ -7,21 +7,21 @@ const data = [
     key: "1",
     title: "Collaboration" ,
     text: "Design to development",
-    img: "https://saasland2.droitthemes.com/wp-content/uploads/2019/09/tab.png" 
+    img: "assets/home-banner.png"
   },
   {
     id: "2",
     key: "2",
     title: "UI/UX design",
     text: "Design to development",
-    img: "https://saasland2.droitthemes.com/wp-content/uploads/2019/09/tab_2.png" 
+    img: "assets/home-banner.png"
   },
   {
     id: "3",
     key: "3",
     title: "Easy To Maintain",
     text: "Design to development",
-    img: "https://saasland2.droitthemes.com/wp-content/uploads/2019/09/tab_3.png"
+    img: "assets/home-banner.png"
   }
 ];
 
@@ -73,7 +73,7 @@ export default function Index3() {
       {data.map(({ key, img }) => {
         return (
           <>
-    <div className="col-lg-8">
+ 
         <div className="tab-content">
             <div className="tab-pane fade active show" aria-labelledby="saasland-tab-2771" role="tabpanel" id="saasland-tab-content-2771">
             
@@ -88,7 +88,7 @@ export default function Index3() {
                
             </div>
         </div>
-</div>      
+     
 
 </>
 ) } ) } 

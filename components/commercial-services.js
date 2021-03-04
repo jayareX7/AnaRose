@@ -379,7 +379,7 @@ export default function OwnerTestimonial() {
           
           
             
-            <div className="col-lg-4" >
+            <div className="col-lg-4 my-5" >
                 
                  
                     <Button
