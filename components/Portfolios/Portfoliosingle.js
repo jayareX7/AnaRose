@@ -43,10 +43,10 @@ const Portfoliosingle =()=>{
                     </div>
                     <div className="col-lg-7">
                         <div className="portfolio_details_gallery">
-                            <img className="img-fluid mb_20" src={require('../../img/portfolio-details/pr_details1.jpg')} alt=""/>
-                            <img className="img-fluid mb_20" src={require('../../img/portfolio-details/pr_details2.jpg')} alt=""/>
-                            <img className="img-fluid mb_20" src={require('../../img/portfolio-details/pr_details3.jpg')} alt=""/>
-                            <img className="img-fluid mb_20" src={require('../../img/portfolio-details/pr_details4.jpg')} alt=""/>
+                            <img className="img-fluid mb_20" src={('assets/portfolio-details/pr_details1.jpg')} alt=""/>
+                            <img className="img-fluid mb_20" src={('assets/portfolio-details/pr_details2.jpg')} alt=""/>
+                            <img className="img-fluid mb_20" src={('assets/portfolio-details/pr_details3.jpg')} alt=""/>
+                            <img className="img-fluid mb_20" src={('assets/portfolio-details/pr_details4.jpg')} alt=""/>
                         </div>
                     </div>
                 </div>

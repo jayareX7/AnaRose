@@ -80,14 +80,17 @@ const Testimonials =()=>{
               </Row> 
 
               <Row>    
-                <Col md="6">
-                <div className="mt-6 client_image-2">
+                <Col md="6" >
+                <div className="mt-12 client_image-2">
                 <img src='assets/commercial-review.jpg'  />
                 </div>
-                </Col>          
+                </Col>        
                 <Col md="6">
-                  <UncontrolledCarousel items={commercialItems} />
+                <div className="mt-12">    
+                <UncontrolledCarousel items={commercialItems} />
+                </div>
                 </Col>
+              
               </Row>  
      </div>
             </section>

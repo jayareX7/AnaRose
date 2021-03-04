@@ -35,10 +35,12 @@ function FAQ() {
                               : "collapseOne"
                           )
                         }
-                        className=" w-100 text-primary text-left"
+                        className=" w-100 text-primary text-left icon-plus"
                         color="link"
+                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
+                        
                       >
-                        How do I order?{" "}
+                        how do i order?{" "}
                       </Button>
                     </h5>
                   </CardHeader>
@@ -77,10 +79,11 @@ function FAQ() {
                               : "collapseTwo"
                           )
                         }
-                        className=" w-100 text-primary text-left collapsed"
-                        color="link"
+                        className=" w-100 text-primary text-left icon-plus collapsed"
+                                                color="link"
+                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
                       >
-                        How can i make the payment?{" "}
+                        how can i make the payment?{" "}
                       </Button>
                     </h5>
                   </CardHeader>
@@ -119,10 +122,11 @@ function FAQ() {
                               : "collapseThree"
                           )
                         }
-                        className=" w-100 text-primary text-left collapsed"
-                        color="link"
+                        className=" w-100 text-primary text-left icon-plus collapsed"
+                                                color="link"
+                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
                       >
-                        How much time does it take to receive the order?{" "}
+                        how much time does it take to receive the order?{" "}
                       </Button>
                     </h5>
                   </CardHeader>
@@ -161,10 +165,11 @@ function FAQ() {
                               : "collapseFour"
                           )
                         }
-                        className=" w-100 text-primary text-left"
-                        color="link"
+                        className=" w-100 text-primary text-left icon-plus"
+                                                color="link"
+                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
                       >
-                        Can I resell the products?{" "}
+                        can i resell the products?{" "}
                       </Button>
                     </h5>
                   </CardHeader>
@@ -203,10 +208,11 @@ function FAQ() {
                               : "collapseFifth"
                           )
                         }
-                        className=" w-100 text-primary text-left"
-                        color="link"
+                        className=" w-100 text-primary text-left icon-plus"
+                                                color="link"
+                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
                       >
-                        Where do I find the shipping details?{" "}
+                        where do i find the shipping details?{" "}
                       </Button>
                     </h5>
                   </CardHeader>

@@ -226,7 +226,7 @@ are being done.
      
 
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal" tabIndex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -234,7 +234,7 @@ are being done.
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-          <iframe src="https://testenviroment.simplybook.me/v2/" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>  
+          <iframe src="https://testenviroment.simplybook.me/v2/" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>  
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

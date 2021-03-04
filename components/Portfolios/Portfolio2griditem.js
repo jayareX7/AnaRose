@@ -7,7 +7,7 @@ class Portfolio2griditem extends Component{
         return(
             <div className={`portfolio_item mb-30 ${colClass} `}>
                 <div className="portfolio_img">
-                    <img src={("../../img/portfolio/" + pImg)} alt=""/>
+                    <img src={("assets/portfolio/" + pImg)} alt=""/>
                     <div className="hover_content">
                         <a href=".#" className="img_popup leaf"><i className="ti-plus"></i></a>
                         <div className="portfolio-description leaf">
