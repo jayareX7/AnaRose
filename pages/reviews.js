@@ -4,7 +4,7 @@ import SectionCarousel from '../components/testimonials';
 import FreeEstimate from '../components/free-estimate';
 import ReviewCTA from '../components/review-cta';
 import Footer2 from '../components/footer-2';
-import Eventgallery from '../components/portfolios/Eventgallery';
+import Eventgallery from '../components/Eventgallery';
 import ReviewStats from '../components/review-stats';
 
 

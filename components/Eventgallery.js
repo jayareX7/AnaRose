@@ -1,5 +1,5 @@
 import React from 'react';
-import Eventgalleryitem from './Eventgalleryitem';
+import Eventgalleryitem from './portfolios/Eventgalleryitem';
 
 const Eventgallery =()=>{
     return(

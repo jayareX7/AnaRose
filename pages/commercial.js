@@ -2,7 +2,6 @@
 import Subscribe from '../components/Subscribe';
 import CommercialServices from '../components/commercial-services'
 import Reveal from 'react-reveal'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
 import Footer from '../components/footer'
 
