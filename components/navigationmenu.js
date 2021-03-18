@@ -25,6 +25,7 @@ const sidebar = {
   }
 };
 
+
 const NavigationMenu =()=>{
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
