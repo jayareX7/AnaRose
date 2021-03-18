@@ -1,3 +1,5 @@
+import Reveal from 'react-reveal';
+
 const Footer2 = () => {
 
 return (
@@ -5,22 +7,22 @@ return (
     <>
 
 
-
-<section class="footer-section sec_pad footer-top-section footer-element footer-element-data footer-section-boxed footer-section-height-default footer-section-height-default" data-id="136c5c1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<Reveal effect="fadeIn" duration={1400}> 
+<section className="footer-section sec_pad">
     
                         
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 ">  
-                                    <img width="156" height="40" src="assets/main-logo.png" style={{ width: 10 + '%', margin: '0 auto'}} class="mt-4 attachment-full size-full"  alt="" loading="lazy" />
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 ">  
+                                    <img width="156" height="40" src="assets/secondary-logo.png" style={{ width: 12 + 'rem', margin: '0 auto'}} className="mt-4 attachment-full size-full"  alt="" loading="lazy" />
                                 </div>
                             </div>
                         </div>
 
                       
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12 text-center"> 
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12 text-center"> 
                                 <p className="my-5" style={{color: '#3f4451'}}>Praesent sollicitudin felis a ornare volutpat. Nullam malesuada sem sit
                                 <br/> am semper tristique. Donec nec neque lectus.</p>
                             </div>
@@ -28,18 +30,18 @@ return (
                     </div>
 
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 margin-auto text-center">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-8 margin-auto text-center">
 
-                                <form action="#" class="digital_agency_newsletter" method="post" novalidate="true">
-                                    <div class="newsletter_form input-group">
-                                        <label for="colFormLabelSm" class="col-form-label col-form-label-sm">
-                                            <i class="fas fa-envelope mr-1"></i> </label> 
-                                            <input type="text" id="colFormLabelSm" name="EMAIL" class="form-control memail" placeholder="Type your email..." /> 
-                                                <button type="submit" class="email_submit_btn">Subscribe</button>
-                                        <p class="mchimp-errmessage" style={{display: 'none'}}></p> 
-                                        <p class="mchimp-sucmessage" style={{display: 'none'}}></p>
+                                <form action="#" className="digital_agency_newsletter" method="post" novalidate="true">
+                                    <div className="newsletter_form input-group">
+                                        <label for="colFormLabelSm" className="col-form-label col-form-label-sm">
+                                            <i className="fas fa-envelope mr-1"></i> </label> 
+                                            <input type="text" id="colFormLabelSm" name="EMAIL" className="form-control memail" placeholder="Type your email..." /> 
+                                                <button type="submit" className="email_submit_btn">Subscribe</button>
+                                        <p className="mchimp-errmessage" style={{display: 'none'}}></p> 
+                                        <p className="mchimp-sucmessage" style={{display: 'none'}}></p>
                                     </div>
                                 </form>
                             </div>
@@ -50,33 +52,33 @@ return (
                                        
 
     
-                <div class="footer-element mt-5 footer-element-data footer-shape-circle footer-grid-0 footer-widget footer-widget-social-icons" data-id="abd299a" data-element_type="widget" data-widget_type="social-icons.default">
-                    <div class="footer-widget-container">
-                        <div class="footer-social-icons-wrapper footer-grid">
+                <div className="footer-element mt-5 footer-element-data footer-shape-circle footer-grid-0 footer-widget footer-widget-social-icons" data-id="abd299a" data-element_type="widget" data-widget_type="social-icons.default">
+                    <div className="footer-widget-container">
+                        <div className="footer-social-icons-wrapper footer-grid">
 
-
-                                    <div class="footer-grid-item"> 
-                                    <a class="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
-                                   
-                                    <i class="fab fa-facebook-f"></i> </a>
+    
+                                    <div className="footer-grid-item"> 
+                                    <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data wow fadeIn" target="_blank"> 
+                                    <i className="fab fa-facebook-f"></i> </a> 
+                                    
                                     </div>
 
-                                    <div class="footer-grid-item"> 
-                                    <a class="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
+                                    <div className="footer-grid-item"> 
+                                    <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
                                    
-                                    <i class="fab fab fa-twitter"></i> </a>
+                                    <i className="fab fab fa-twitter"></i> </a>
                                     </div>
 
-                                    <div class="footer-grid-item"> 
-                                    <a class="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
+                                    <div className="footer-grid-item"> 
+                                    <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
                                   
-                                    <i class="fab fa-youtube"></i> </a>
+                                    <i className="fab fa-youtube"></i> </a>
                                     </div>
 
-                                    <div class="footer-grid-item"> 
-                                    <a class="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
+                                    <div className="footer-grid-item"> 
+                                    <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
                                 
-                                    <i class="fab fa-linkedin-in"></i> </a>
+                                    <i className="fab fa-linkedin-in"></i> </a>
                                     </div>
                                             
                                 
@@ -84,16 +86,16 @@ return (
                             </div>
                     </div>
 
-                    <div class="container">
-                                            <div class="row">
-                                               <div class="col-lg-12 text-center">
+                    <div className="container">
+                                            <div className="row">
+                                               <div className="col-lg-12 text-center">
                                                     <p className="mt-4" style={{color: '#3f4451'}}>Ana Rose Cleaning – Copyright 2021 <br/> Design by <a href="http://www.avxstudio.com/" style={{color: '#3f4451'}}>AVX Studio</a></p>
                                                 </div>
                                             </div>
                                         </div>
          
 </section>
-
+</Reveal>
 </>
 )}
 

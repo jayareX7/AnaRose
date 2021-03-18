@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { Reveal } from 'react-reveal';
+import LightSpeed from 'react-reveal/LightSpeed';
 
 class Subscribe extends Component {
     render(){
@@ -10,13 +12,21 @@ class Subscribe extends Component {
 
                
 
-                <section className=" sec_pad"  style={{backgroundImage: "url(../assets/review-bg.jpg", backgroundSize: "cover"}}  >
+                <section className=" sec_pad wow fadeUpIn"  style={{backgroundImage: "url(../assets/review-bg.jpg", backgroundSize: "cover"}}  >
                     <div className="container">
                     <div className="seo_call_action_text" >
-                        <div className="col-lg-12">
+                        <div className="col-lg-12"> 
+                    <LightSpeed left duration={1500} >  
                         <h2>Ready to get started?<br/></h2>
-                        <h4>lt's fast, free and very easy!</h4>
-                        <a href="/" className="about_btn mt_30">Get A Free Estimate</a>
+                    </LightSpeed>
+
+                    <LightSpeed left duration={1500}>
+                        <h4 style={{fontSize: 5.5 + "rem", fontFamily: 'Bison-Light'}}>lt's fast, free and very easy!</h4>
+                    </LightSpeed>
+
+                    <Reveal effect='fadeIn' duration={3000}>
+                         <a href="/" className="about_btn mt_30">Get A Free Estimate</a>
+                       </Reveal> 
                         </div>
                     </div>
                     </div>

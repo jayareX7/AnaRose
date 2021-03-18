@@ -19,29 +19,16 @@ import NavigationMenu from './navigationmenu'
 <div style={{backgroundColor: '#84AC7E', height: 2.5 + 'rem'}}> 
 <Container>
 
-  <div className='col-lg-2 mt_0 flex' style={{float: 'right'}}>
+  <div className='mt_0 flex' style={{float: 'right'}}>
 
-  <div className='col-lg-3'>
-    <a  href="htttp://facebook.com">< img src="assets/facebook.png" style={{ margin: "0 0.4rem 0 0.4rem", width: 100 + '%'}} /> </a>  
-    </div>
-
-    <div className='col-lg-3'>
-     <a href="htttp://instagram.com"><img src="assets/instagram.png" style={{ margin: "0 0.4rem 0 0.4rem",   width: 95 + '%'}} /> </a>
-    </div>
-    
-    <div className='col-lg-3'>
-    <a href="htttp://twitter.com" ><img src="assets/twitter.png"  style={{ margin: "0 0.4rem 0 0.4rem",  width: 98 + '%'}} /> </a>
-   </div>
-   
+        <div className="text-center account-tab"><a href="">Sign-Up</a> </div> <div className="account-tab-span">|</div>  <div className="text-center account-tab"> <a href="">My Account</a> </div>
    </div>
    </Container>
    
     </div>
   
 
-
-
-<img src="assets/main-logo.png" style={{paddingBottom: 0.4 + 'rem', width: 10 + '%', margin: '0 auto'}} />
+<Container><img src="assets/main-logo.png" style={{ width: 25 + '%', margin: '50px auto 0'}} /></Container>
 
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
 
@@ -51,25 +38,25 @@ import NavigationMenu from './navigationmenu'
    
           <div className="margin-auto d-sm-flex" style={{display:'none'}}>
             <Link href="/">
-              <a href="/" className="nav-bar-option tpnav nav-li-hover mr-4">Home</a>
+              <a href="/" className="nav-bar-option bison-bold tpnav nav-li-hover mr-4">Home</a>
             </Link>
             <Link href="/commercial">
-              <a href="/commercial" className="nav-bar-option tpnav nav-li-hover mr-4">
+              <a href="/commercial" className="nav-bar-option bison-bold tpnav nav-li-hover mr-4">
                 Commercial
               </a>
             </Link>
             <Link href="/residential">
-              <a href="/residential" className="nav-bar-option tpnav nav-li-hover mr-4">
+              <a href="/residential" className="nav-bar-option bison-bold  tpnav nav-li-hover mr-4">
                 Residential
               </a>
             </Link>
             <Link href="/reviews">
-              <a href="/reviews" className="nav-bar-option tpnav nav-li-hover mr-4">
+              <a href="/reviews" className="nav-bar-option bison-bold  tpnav nav-li-hover mr-4">
                 Reviews
               </a>
             </Link>
             <Link href="/get-a-quote">
-              <a href="/get-a-quote" className="nav-bar-option nav-li-hover tpnav mr-4">
+              <a href="/get-a-quote" className="nav-bar-option bison-bold nav-li-hover tpnav mr-4">
                 Get A Quote
               </a>
             </Link>

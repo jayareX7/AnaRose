@@ -2,11 +2,19 @@
 import Subscribe from '../components/Subscribe';
 import CommercialServices from '../components/commercial-services'
 import Reveal from 'react-reveal'
-import React from 'react'
 import Footer from '../components/footer'
+import Fade from 'react-reveal/Fade';
+import { CircularProgressbar, CircularProgress } from "react-circular-progressbar";
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from '../components/AnimatedProgressProvider'
+import { Col, Row } from 'reactstrap';
 
 
 
+
+
+
+ 
 
 // Little helpers ...
 const url = (name, wrap = false) => `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -37,8 +45,8 @@ class Services extends React.Component {
  <div className="mt-5 col-lg-6" >
   <Reveal effect="fadeInUp" duration={1300}> 
   <div className="col-lg-11">
-      <div className="sec_title text-center mb_70">
-      <h2 style={{color: '#3f4451'}}>A Truly Clean Business </h2>
+      <div className="sec_title text-center mb-3">
+      <h2 className="display-2 sacramento body-color">A Truly <br />Clean Business </h2>
       </div> 
       </div>
   </Reveal>
@@ -47,7 +55,7 @@ class Services extends React.Component {
 
   <Reveal effect="fadeInUp" duration={1600}> 
   <div className="col-lg-11">
-      <div className=" text-justify mb_70"> 
+      <div className=" text-justify mb-3"> 
       <p style={{color: '#3f4451'}}> Our focus on using all-green, natural and Eco-friendly products is not only a 
   healthier option for you and our team but a way of life. 
   The air you breathe every day at your workplace or home can be filled 
@@ -61,27 +69,27 @@ class Services extends React.Component {
   </Reveal>
 
   <div className="col-lg-11">
-    <div className="mb_70">
+    <div className="mb-3">
       <Reveal effect="fadeInUp" duration={1600} > 
-        <h2 style={{color: '#3f4451'}}>Our commitment to you:</h2>
+      <h2 className="body-title">Our commitment to you</h2>
       </Reveal>
       <Reveal effect="fadeInUp" duration={1600} > 
-        <h4 style={{color: '#3f4451'}}>Quality Backed by:</h4>
+        <h4 className="body-secondary-title">Quality Backed by:</h4>
       </Reveal>
-      <Reveal effect="slideInRight" duration={1600} > 
-        <li style={{color: '#3f4451'}}>a 100% Satisfaction Guarantee</li>
+      <Reveal effect="slideInRight" duration={1600} style={{margin: 3 + "rem"}} > 
+      <li className="commercial-list"><span><i class="far fa-check-circle" style={{marginRight: 1 + "rem"}}></i>A 100% Satisfaction Guarantee</span></li>
       </Reveal>    
       <Reveal effect="slideInRight" duration={1200} > 
-        <li style={{color: '#3f4451'}}>Healthy & Environmentally Safe Cleaning</li>
+           <li className="commercial-list"><span><i class="far fa-check-circle" style={{marginRight: 1 + "rem"}}></i>Healthy & Environmentally Safe Cleaning</span></li>
       </Reveal>
       <Reveal effect="slideInRight" duration={1300} > 
-        <li style={{color: '#3f4451'}}>Hassle-free Booking</li>
+           <li className="commercial-list"><span><i class="far fa-check-circle" style={{marginRight: 1 + "rem"}}></i>Hassle-free Booking</span></li>
       </Reveal>
       <Reveal effect="slideInRight" duration={1400} > 
-        <li style={{color: '#3f4451'}}>Flexible Scheduling</li>
+           <li className="commercial-list"><span><i class="far fa-check-circle" style={{marginRight: 1 + "rem"}}></i>Flexible Scheduling</span></li>
       </Reveal>
       <Reveal effect="slideInRight" duration={1500} > 
-        <li style={{color: '#3f4451'}}>Certified Cleaning Professionals</li>
+        <li className="commercial-list"><span><i class="far fa-check-circle" style={{marginRight: 1 + "rem"}}></i>Certified Cleaning Professionals</span></li>
       </Reveal>
      </div>
 
@@ -95,27 +103,143 @@ class Services extends React.Component {
 <section className=" sec_pad">
   <div className="hosting_title security_title text-center">
 
- 
-    <h2 className="my-3"><span>Over 1200+</span> jobs completed &amp; Still counting.</h2></div>
+  
+
+
+
+<Col lg='12'>
+  <Row>
+    <h2 className="my-3">
+    <Fade duration={1400} >    
+<AnimatedProgressProvider
+  valueStart={0}
+  valueEnd={1200}
+  duration={1.4}
+  easingFunction={easeQuadInOut}
+>
+  {value => {
+    const roundedValue = Math.round(value);
+    return (
+      <CircularProgress
+        value={value}
+        text={`${roundedValue}`}
+      />
+    );
+  }}
+</AnimatedProgressProvider>
+</Fade> 
+<div className='mt-5'>
+<span>+</span> jobs completed & Still counting.
+</div></h2>
+</Row>
+</Col>
+</div>
 
     <div className="seo_fact_info"><div className="seo_fact_item wow fadeIn">
-      <div className="text"><div className="counter one">693</div>
+      <div className="text"><div className="counter one">
+
+      <Fade bottom duration={1400}>    
+<AnimatedProgressProvider
+  valueStart={0}
+  valueEnd={693}
+  duration={1.4}
+  easingFunction={easeQuadInOut}
+>
+  {value => {
+    const roundedValue = Math.round(value);
+    return (
+      <CircularProgressbar
+        value={value}
+        text={`${roundedValue}`}
+      />
+    );
+  }}
+</AnimatedProgressProvider>
+</Fade>
+
+      </div>
       <p>Happy Clients</p>
       </div></div>
       
     <div className="seo_fact_item wow fadeIn" data-wow-delay="0.3s">
       <div className="text">
-        <div className="counter two">276</div> <p>Projects</p>
+      <div className="counter two">
+      <Fade bottom duration={1400}>    
+<AnimatedProgressProvider
+  valueStart={0}
+  valueEnd={970}
+  duration={1.4}
+  easingFunction={easeQuadInOut}
+>
+  {value => {
+    const roundedValue = Math.round(value);
+    return (
+      <CircularProgressbar
+        value={value}
+        text={`${roundedValue}`}
+         
+      />
+    );
+  }}
+</AnimatedProgressProvider>
+</Fade>
+       
+      </div> <p>Projects</p>
         </div></div>
       
     <div className="seo_fact_item wow fadeIn" data-wow-delay="0.6s">
       <div className="text">
-        <div className="counter three">102</div> <p>SEO Winners</p>
+        <div className="counter three">
+        <Fade bottom duration={1400}>    
+<AnimatedProgressProvider
+  valueStart={0}
+  valueEnd={293}
+  duration={1.4}
+  easingFunction={easeQuadInOut}
+>
+  {value => {
+    const roundedValue = Math.round(value);
+    return (
+      <CircularProgressbar
+        value={value}
+        text={`${roundedValue}`}
+         
+      />
+    );
+  }}
+</AnimatedProgressProvider>
+</Fade>
+          
+          
+          </div> <p>SEO Winners</p>
         </div></div>
       
       <div className="seo_fact_item last wow fadeIn" data-wow-delay="0.9s">
         <div className="text">
-          <div className="counter four">93</div> <p>Experience</p>
+          <div className="counter four">
+            
+          <Fade bottom duration={1400}>    
+<AnimatedProgressProvider
+  valueStart={0}
+  valueEnd={104}
+  duration={1.4}
+  easingFunction={easeQuadInOut}
+>
+  {value => {
+    const roundedValue = Math.round(value);
+    return (
+      <CircularProgressbar
+        value={value}
+        text={`${roundedValue}`}
+         
+      />
+    );
+  }}
+</AnimatedProgressProvider>
+</Fade>
+            
+            
+            </div> <p>Experience</p>
           </div></div>
           
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { UncontrolledCarousel, Row, Col } from "reactstrap";
+import Fade from 'react-reveal/Fade'
 
 
 const residentialItems = [
@@ -66,6 +67,7 @@ const Testimonials =()=>{
      
             <section className="">
             <div className="container mx-auto px-5 ">
+            <Fade bottom duration={1400}>    
               <Row>                    
                 <Col md="6">
                   
@@ -78,7 +80,9 @@ const Testimonials =()=>{
                   </div>
                 </Col>
               </Row> 
+        </Fade>
 
+        <Fade bottom duration={1600}>    
               <Row>    
                 <Col md="6" >
                 <div className="mt-12 client_image-2">
@@ -90,8 +94,8 @@ const Testimonials =()=>{
                 <UncontrolledCarousel items={commercialItems} />
                 </div>
                 </Col>
-              
-              </Row>  
+              </Row> 
+            </Fade>
      </div>
             </section>
        

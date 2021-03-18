@@ -4,8 +4,8 @@ import ResidentialSteps from '../components/residential-steps'
 import ResidentialAbout from '../components/residential-about';
 import Footer from '../components/footer';
 import Container from '../components/container'
-import { Row } from "reactstrap";
-
+import Fade from "react-reveal/Fade";
+import { Row } from 'reactstrap'
 
 const Posts = ({ slugs }) => (
  <>
@@ -19,23 +19,38 @@ const Posts = ({ slugs }) => (
 
 </div>
 
-<ReturnPricing aClass="h_action_area" aimage="action_img.png" colClass="col-lg-6" colClassTwo="col-lg-6" Atitle="Managed wordpress Hosting on all plans" Atext="Spiffing pukka show off show off pick your nose and blow off easy peasy buggered hotpot Harry, pardon me blatant.!" />
+<ReturnPricing aClass="h_action_area" aimage="action_img.png" colClass="col-lg-6" colClassTwo="col-lg-6" />
 
 <Container>
   <Row>
 
   <div className="col-lg-6 text-center" style={{marginTop: 5 + 'em'}}>
     <div className="text-center">
-  <h1 className="wow fadeInUp" data-wow-delay="0.2s">Best Home Cleaning Services in Dallas </h1>
-    </div>  
-  <h5  style={{color: '#3f4451', marginTop: 2 + 'em'}}>Ana Rose Cleaning offers the best in home cleaning. <br />
+
+    <Fade top duration={1600}>
+  <h1 className="sacramento">Best Home Cleaning Services in Dallas </h1>
+  </Fade>
+    </div> 
+
+       <Fade top duration={1900}>
+  <p> <span className='display-65 body-color truncate mt-4 bison-bold'>Ana Rose Cleaning offers the best in home cleaning.</span> <br /> </p>
+      </Fade>
 
   <br />
-  We provide a top to bottom approach, with a detailed plan to guarantee your home is clean as possible. 
-  All of our products are eco-friendly and ensure your home isn’t just clean, but healthy.</h5>
-    </div>
+
+<Fade top duration={2200}>
+<div className='display-65 bison'>We provide a top to bottom approach, 
+ with a detailed plan to guarantee your home is clean as possible. 
+<br />All of our products are eco-friendly and ensure your home isn’t just clean, but healthy.
+</div>
+</Fade>
+  
+   </div>
+
     <div className="col-lg-6" style={{marginTop: 4 + 'em'}}>
+    <Fade right duration={1600}>
       <img src='assets/price-list.jpg' />
+    </Fade>
   </div>
  
   </Row>

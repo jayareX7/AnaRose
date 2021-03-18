@@ -36,6 +36,74 @@
 @import "components/footer-follow";
 @import "components/pricing-table";
 @import "components/snipcart";
+@import "components/progress-bar";
+
+
+
+
+
+@font-face {
+  font-family: 'Bison';
+  src: local('Bison'), url(../assets/bison/Bison-Regular.ttf) format('ttf');  /* Safari, Android, iOS */
+}
+
+@font-face {
+
+  font-family: 'Bison-Italic';
+  src: local('Bison-Italic'), url(../assets/bison/Bison-RegularItalic.ttf) format('ttf');  /* Safari, Android, iOS */
+
+}
+
+@font-face {
+
+  font-family: 'Bison-Light';
+  src: local('Bison-Light'), url(../assets/bison/Bison-Light.ttf) format('ttf');  /* Safari, Android, iOS */
+
+}
+
+@font-face {
+ 
+  font-family: 'Bison-Light-Italic';
+  src: local('Bison-Light-Italic'), url(../assets/bison/Bison-LightItalic.ttf) format('ttf');  /* Safari, Android, iOS */
+
+}
+
+@font-face {
+
+  font-family: 'Bison-Bold';
+  src: local('Bison-Bold'), url(../assets/bison/Bison-Bold.ttf) format('ttf');  /* Safari, Android, iOS */
+
+}
+
+@font-face {
+
+  font-family: 'Bison-Bold-Italic';
+  src: local('Bison-Bold-Italic'), url(../assets/bison/Bison-BoldItallic.ttf) format('ttf');  /* Safari, Android, iOS */
+
+}
+
+@font-face {
+  
+  font-family: 'Bison-ThickOutline';
+  src: local('Bison-ThickOutline'), url(../assets/bison/Bison-ThickOutline.ttf) format('ttf');  /* Safari, Android, iOS */
+}
+
+
+@font-face {
+   
+  font-family: 'Bison-ThickOutlineItalic';
+  src: local('Bison-ThickOutlineItalic'), url(../assets/bison/Bison-ThickOutlineItallic.ttf) format('ttf');  /* Safari, Android, iOS */
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

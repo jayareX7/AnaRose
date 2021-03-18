@@ -17,6 +17,7 @@ import Container from '../components/container.js'
 
 
 
+
 export default class MyApp extends app {
   static getInitialProps({ Component, router, ctx }) {
     let pageProps = app.getInitialProps({ Component, router, ctx });

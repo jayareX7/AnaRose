@@ -3,10 +3,11 @@ import Container  from './container';
 import {
     Col,
   } from "reactstrap";
+import Fade from 'react-reveal/Fade'
 
 export default function FooterCopyright() {
     return (
-
+      <Fade bottom duration={1400} >  
 <footer className="copyright_footer_area border-top border-accent-2">
     <Container>
         <div className="text-center pt-3 margin-auto justify-center align-center">
@@ -47,5 +48,5 @@ export default function FooterCopyright() {
     </Container>
 
     </footer>
-
+</Fade>
     )}

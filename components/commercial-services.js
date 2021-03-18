@@ -8,6 +8,9 @@ import {
   Col,
 } from "reactstrap";
 import Container  from './container';
+import Reveal from 'react-reveal'
+import Zoom from "react-reveal/Zoom";
+
 
 
 
@@ -53,23 +56,29 @@ export default function OwnerTestimonial() {
           <div className="support_integration_area pb_120 " >
           
             <div className="chat_get_started_content mb_90 text-center">
-                        <h2 className="wow fadeInUp" data-wow-delay="0.2s">Get started with us</h2>
-                        <p style ={{color: '#3f4451'}}>A better experience for your customers, fewer headaches for your team. You'll be set up in minutes.</p>
+            <Zoom top duration={1600} >    
+              <h2>Get started with us</h2> </Zoom>
+            <Reveal effect="slideInRight" duration={1500} >           
+               <p style ={{color: '#3f4451'}}>A better experience for your customers, fewer headaches for your team. You'll be set up in minutes.</p> </Reveal>
                     </div>
+                    
+                    <Container>
                   <div className="row mt-2 ">
                     
                       <div className="col-lg-8 mt-5 text-center">      
           
          
-          <Container>
-          <Col lg="12">
+         
+          <Col lg="12"> 
+          
             <Row>  
                       
-          <div className="col-lg-4 my-5">
+          
                  
           
-                       
-                    <Button
+          <Reveal effect="flipInX" duration={1600} >      
+                   <div className="col-lg-4 my-5">
+                      <Button
                       block
                       className=" mb-3 price_content price_content_two"
                       color="none"
@@ -174,11 +183,10 @@ export default function OwnerTestimonial() {
                       </div>
                     </Modal>
                     </div>    
-           
+           </Reveal>
           
           
-          
-          
+           <Reveal effect="flipInX" duration={1800} >  
                     <div className="col-lg-4 my-5">
                     <Button
                       block
@@ -247,15 +255,14 @@ export default function OwnerTestimonial() {
                     </Modal>
                 
            </div>
+          </Reveal>
           
           
           
           
-          
-          
+          <Reveal effect="flipInX" duration={2000} >          
            <div className="col-lg-4 my-5">
-          
-                    
+         
                     <Button
                       block
                       className=" mb-3 price_content price_content_two"
@@ -371,17 +378,13 @@ export default function OwnerTestimonial() {
                           Close
                         </Button>
                       </div>
-                    </Modal>
-                 
-                   
-                    
+                    </Modal>                   
               </div>
+   </Reveal>       
           
-          
-            
-            <div className="col-lg-4 my-5" >
-                
-                 
+
+     <Reveal effect="flipInX" duration={2200} >          
+            <div className="col-lg-4 my-5" >       
                     <Button
                       block
                       className=" mb-3 price_content price_content_two"
@@ -446,7 +449,9 @@ export default function OwnerTestimonial() {
                       </div>
                     </Modal>
                 </div>
-          
+                </Reveal>
+
+                <Reveal effect="flipInX" duration={2400} >  
                 <div className="col-lg-4 my-5">
                     <Button
                       block
@@ -510,13 +515,12 @@ export default function OwnerTestimonial() {
                           Close
                         </Button>
                       </div>
-                    </Modal>
-                
+                    </Modal>     
           </div>
+          </Reveal>
           
           
-          
-                    
+ <Reveal effect="flipInX" duration={2600} >                     
           <div className="col-lg-4 my-5">
                    
                     <Button
@@ -582,18 +586,15 @@ export default function OwnerTestimonial() {
                         </Button>
                       </div>
                     </Modal>
-                 
-          
                   </div>
-       
+       </Reveal>
 
 </Row>
+
+
+
+
 </Col>
-
-
-
-</Container>
-
 
 
 
@@ -611,12 +612,14 @@ export default function OwnerTestimonial() {
 
 
                        </div> 
-                  
-                  <div className="col-lg-4  text-center">
-                          <img src="assets/commercial-services.jpg" style={{width: 72 + "%", margin: '0 auto' , marginBottom: 10 + 'rem'}}/>
-                    
+                  <Reveal effect='fadeInRight' duration={1600}>
+                    <div className="col-lg-4  text-center">
+                          <img src="assets/commercial-services.jpg" style={{width: 85 + "%", margin: '7rem auto'}}/>             
+                    </div>
+                  </Reveal>
+
               </div>
-              </div>
+              </Container>
       </div>
     
 

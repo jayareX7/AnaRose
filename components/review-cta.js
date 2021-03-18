@@ -1,4 +1,5 @@
 import Container from '../components/container'
+import Fade from 'react-reveal/Fade'
 
 
    
@@ -14,6 +15,7 @@ const ReviewCTA =()=>{
     <div className='row'>
                        
                             <div className="col-lg-7 col-md-6">
+                                <Fade duration={1600}>
                                   <div className="fun_fact_content mx-10">
                                     <h1 className="secondary_text_color f_p f_700 mb_20">Trusted </h1>
                                         <p className="f_300 secondary_text_color f_size_15 l_height28 mb_40">Why I say old chap that is spiffing barney, 
@@ -34,11 +36,13 @@ const ReviewCTA =()=>{
                                     </div>
 
                                 </div>
+                                </Fade>
                             </div>
                        
             
 
                         <div className="col-lg-5 col-md-6">
+                            <Fade right>
                           <div className="fun_fact_area bg_color">
                             <div className="fact_author_img text-right">
                                 <div className="square_box box_three"></div>
@@ -47,7 +51,7 @@ const ReviewCTA =()=>{
                         
                             </div>
                         </div>
-              
+              </Fade>
             </div>
 
         </div>

@@ -1053,15 +1053,18 @@
   }
   
   .s_integration_item h5 {
-    font-size: 18px;
+    font-size: 1.5rem;
     color: #051441;
     margin-top: 15px;
+    font-weight: inherit;
+    font-family: Bison-bold;
+    letter-spacing: 0.12rem;
   }
   
   .s_integration_item:hover {
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
-    transform: scale(1.03);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
   
 
@@ -1071,8 +1074,9 @@
   }
 
   .seo_call_action_text h2 {
-  font-size: 40px;
-  line-height: 54px;
-  color: #000;
-  font-weight: 600;
+    font-size: 8rem;
+    color: #000;
+    font-weight: 600;
+    font-family: Bison-Bold;
+    letter-spacing: 0.4rem;
 }

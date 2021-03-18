@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Buy_Button from './buy-button'
+import Fade from 'react-reveal/Fade'
 
 class AlaCarte extends Component {
     constructor(){
@@ -104,10 +105,12 @@ class AlaCarte extends Component {
 <>
 
    
-
-                <div className="hosting_title security_title text-center">
-                    <h2 className="wow fadeInUp" data-wow-delay="0.2s"><span>Looking for something else?</span> Check out our individual services!</h2>
-                </div>
+<Fade bottom>
+          <div className=" text-center">
+              <h2 className="wow fadeInUp mt-6 body-color mb-6 display-4 bison-bold" data-wow-delay="0.2s">
+              <span className="sacramento">Looking for something else?</span> <br /> Check out our individual services!</h2>                
+            </div>
+    </Fade>
              
                 <div className="container mx-auto">
                     <div className="row">
@@ -118,16 +121,17 @@ return(
 
 <div className="col-lg-3">
 <div className=" mb-3 margin-auto price_content price_content_two">
+    <Fade bottom>
        <div className="pr_list " key={list.id}>
                          <div className="price_item">
-                         <div className="pr_title"> <h6 data-toggle="tooltip" data-placement="top" title="" data-original-title="Save time by using keyboard shortcuts all across SaasLand">{list.adTitle}</h6>        
-                         </div>
-                                        <div className="price f_700 f_size_40 t_color2">{list.price}<sub className="f_size_16 f_400"><br />/{list.per}</sub></div>
+                         <div className="pr_title">{list.adTitle}</div>
+                                        <div className="price f_700 f_size_40 t_color2">{list.price}<sub className="f_size_16 f_400"><br />{list.per}</sub></div>
                                         <div className="mt-3 margin-auto"><Buy_Button/> </div>
                                         </div>
                                         
                  </div>
-           
+                 </Fade>
+ 
           </div>
 
 

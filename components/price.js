@@ -5,16 +5,8 @@ import React from "react";
 import ScheduledBuy from "./scheduled-buy";
 import OneTimeBuy from "./one-time-buy";
 import MoveBuy from "./move-buy";
-
-
-
-// reactstrap components
-import {
-  Button,
-  Modal,
-  Row,
-  Col,
-} from "reactstrap";
+import { Button,  Modal, Row, Col } from "reactstrap";
+import Fade from 'react-reveal/Fade'
 
 function Example() {
   const [scheduleDefaultOpen, setScheduleDefaultOpen] = React.useState(false);
@@ -27,13 +19,6 @@ function Example() {
 <div className="container p0">
     
       <Row>
-   
-        
-
-
-
-
-
         <Col md="4">
           <div
             block
@@ -42,9 +27,10 @@ function Example() {
             onClick={() => setScheduleDefaultOpen(true)}
             type="button"
           >
+            <Fade bottom duration={1600}>
             <div className="price_item">
                 <img src="assets/scheduled.png" alt=""/>
-                <h5 className="f_p f_size_20 f_600 t_color2 mt_30">Scheduled Cleanings</h5>
+                <h5 className="bison-bold mt-4 display-6">Scheduled Cleanings</h5>
                 <p>Create your first online course</p>
                 <div className="price f_700 f_size_40 t_color2">$25.00<sub className="f_size_16 f_400">/ wk</sub></div>
                 <ul className="list-unstyled p_list">
@@ -56,6 +42,9 @@ function Example() {
                 </ul>
                 <ScheduledBuy />
             </div>
+            </Fade>
+
+
           </div>
           
         </Col>
@@ -71,10 +60,12 @@ function Example() {
             onClick={() => setOneNotificationOpen(true)}
             type="button"
           >
+
+          <Fade bottom duration={2400}>
              <div className="price_item">
                 <div className="tag"><span>Popular</span></div>
                 <img src="assets/one-time.png" alt=""/>
-                <h5 className="f_p f_size_20 f_600 t_color2 mt_30">One Time Cleanings</h5>
+                <h5 className="bison-bold mt-4 display-6">One Time Cleanings</h5>
                 <p>Our most popular plan</p>
                 <div className="price f_700 f_size_40 t_color2">$99.00<sub className="f_size_16 f_400">/ fee</sub></div>
                 <ul className="list-unstyled p_list">
@@ -86,6 +77,8 @@ function Example() {
                 </ul>
                 <OneTimeBuy />
             </div>
+        </Fade>
+
 
           </div>
           
@@ -103,9 +96,11 @@ function Example() {
             onClick={() => setMoveScheduledOpen(true)}
             type="button"
           >
+
+            <Fade bottom duration={3200}>
                 <div className="price_item">
                 <img src="assets/move-in.png" alt=""/>
-                <h5 className="f_p f_size_20 f_600 t_color2 mt_30">Move In/Out Cleanings</h5>
+                <h5 className="bison-bold mt-4 display-6">Move In/Out Cleanings</h5>
                 <p>Experience thebest of lorem</p>
                 <div className="price f_700 f_size_40 t_color2">$175.00<sub className="f_size_16 f_400">/  fee</sub></div>
                 <ul className="list-unstyled p_list">
@@ -117,6 +112,7 @@ function Example() {
                 </ul>
                <MoveBuy />
             </div>
+          </Fade>
           </div>
          
         </Col>

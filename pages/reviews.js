@@ -16,20 +16,16 @@ const Reviews =()=>{
 
 
 
-               <EventDetails />
-                   
-              
-   
-
+<EventDetails />
 <ReviewCTA />
-    <ReviewStats />
+<ReviewStats />
  
 
 
 
      
-  <SectionCarousel />
-  <div className="sec_pad"><FreeEstimate /> </div>
+<div className="sec_pad"> <SectionCarousel /> </div>
+  <div className="mt-12 mb-12"><FreeEstimate /> </div>
 
 
 

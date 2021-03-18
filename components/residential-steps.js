@@ -1,20 +1,25 @@
 import React from "react";
+import Fade from 'react-reveal/Fade'
 
 const ResidentialSteps = () => {
   return (
     <section className="chat_core_features_area sec_pad" style={{marginBottom: 4 + 'em'}}>
       <div className="container">
         <div className="hosting_title chat_title text-center">
-          <h2 className="wow fadeInUp" data-wow-delay="0.2s">
+          <Fade bottom duration={1600}>
+          <h2 style={{lineHeight: 9 + "rem", fontSize: 8 + "rem", letterSpacing: 0.2 + "rem", fontFamily: "Bison"}}>
             Our Process
-            <br /> That makes us <span>top notch</span>
+            <br /> <div className={{lineHeight: 12 + "rem", fontSize: 5 + "rem", letterSpacing: 0.2 + "rem", fontFamily: "Bison"}}>That makes us 
+            <span style={{fontSize: 8 + "rem", letterSpacing: 0.2 + "rem", fontFamily: "Bison-Bold"}}> top notch</span></div>
           </h2>
+          </Fade>
         </div>
         <div className="row">
          
-               
+
+         <Fade left duration={1400}>      
           <div className="col-lg-4 col-md-6">
-            <div className="chat_features_item wow fadeInUp" data-wow-delay="0.2s">
+            <div className="chat_features_item">
               <div className="round">
                 <div className="round_circle two"></div>
                 <img
@@ -32,8 +37,9 @@ const ResidentialSteps = () => {
               </p>
             </div>
           </div>
+          </Fade>
 
-
+          <Fade left duration={1800}>  
           <div className="col-lg-4 col-md-6">
             <div className="chat_features_item wow fadeInUp">
               <div className="round">
@@ -53,11 +59,11 @@ const ResidentialSteps = () => {
               </p>
             </div>
           </div>
+          </Fade>
 
 
 
-
-
+          <Fade left duration={2200}>  
           <div className="col-lg-4 col-md-6">
             <div className="chat_features_item wow fadeInUp" data-wow-delay="0.4s">
               <div className="round">
@@ -76,9 +82,13 @@ const ResidentialSteps = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-          </div>
+          </div> 
+        </Fade>
+
         </div>
       </div>
+     
+
     </section>
   );
 };

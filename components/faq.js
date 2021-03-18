@@ -1,16 +1,7 @@
 import React from "react";
 
 // reactstrap components
-import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  Collapse,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
+import {Button, Card, CardHeader, CardBody, Collapse, Container, Row, Col,} from "reactstrap";
 
 function FAQ() {
   const [openedCollapse, setOpenedCollapse] = React.useState("collapseOne");
@@ -35,12 +26,9 @@ function FAQ() {
                               : "collapseOne"
                           )
                         }
-                        className=" w-100 text-primary text-left icon-plus"
-                        color="link"
-                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
-                        
-                      >
-                        how do i order?{" "}
+                        className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
+                        color="link">
+                        how do i order?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -79,11 +67,11 @@ function FAQ() {
                               : "collapseTwo"
                           )
                         }
-                        className=" w-100 text-primary text-left icon-plus collapsed"
+                        className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
-                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
+                        
                       >
-                        how can i make the payment?{" "}
+                        how can i make the payment?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -122,11 +110,11 @@ function FAQ() {
                               : "collapseThree"
                           )
                         }
-                        className=" w-100 text-primary text-left icon-plus collapsed"
+                        className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
-                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
+                        
                       >
-                        how much time does it take to receive the order?{" "}
+                        how much time does it take to receive the order?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -165,11 +153,11 @@ function FAQ() {
                               : "collapseFour"
                           )
                         }
-                        className=" w-100 text-primary text-left icon-plus"
+                        className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
-                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
+                        
                       >
-                        can i resell the products?{" "}
+                        can i resell the products?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -208,11 +196,11 @@ function FAQ() {
                               : "collapseFifth"
                           )
                         }
-                        className=" w-100 text-primary text-left icon-plus"
+                        className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
-                        style={{fontSize: 1.6 + 'rem', fontVariant: 'petite-caps'}}
+                        
                       >
-                        where do i find the shipping details?{" "}
+                        where do i find the shipping details?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>

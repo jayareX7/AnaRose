@@ -1316,6 +1316,7 @@ Table of Content:
   line-height: 80px;
   color: #263b5e;
   font-weight: 600;
+  font: 550  6rem/10rem "Sacramento", sans-serif;
 }
 
 .seo_banner_content p {
@@ -6856,113 +6857,7 @@ Table of Content:
 }
 
 /*============ seo_fact_area css ===========*/
-.seo_fact_area {
-  background: #f9f7fd;
-  position: relative;
-}
 
-.seo_fact_info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
-}
-
-.seo_fact_info:before {
-  content: "";
-  background: url("/src/img/seo/shap.png") no-repeat scroll center center;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  top: 0;
-}
-
-.seo_fact_info .seo_fact_item {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: #fff;
-  -webkit-box-shadow: 0px 20px 40px 0px rgba(38, 59, 94, 0.1);
-  box-shadow: 0px 20px 40px 0px rgba(38, 59, 94, 0.1);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.seo_fact_info .seo_fact_item .counter {
-  font-size: 50px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-.seo_fact_info .seo_fact_item .counter.one {
-  color: #15b2ec;
-}
-
-.seo_fact_info .seo_fact_item .counter.two {
-  color: #f5a416;
-}
-
-.seo_fact_info .seo_fact_item .counter.three {
-  color: #00c99c;
-}
-
-.seo_fact_info .seo_fact_item .counter.four {
-  color: #f12699;
-}
-
-.seo_fact_info .seo_fact_item p {
-  margin-bottom: 0;
-  color: #6a7695;
-  font-size: 16px;
-}
-
-.seo_fact_info .seo_fact_item:nth-child(even) {
-  margin-top: 135px;
-}
-
-.seo_fact_info .seo_fact_item:first-child {
-  margin-top: 25px;
-}
-
-.seo_fact_info .seo_fact_item.last {
-  margin-top: 120px;
-}
-
-.seo_call_to_action_area {
-  background: #84AC7E;
-}
-
-.seo_call_action_text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-
-
-.seo_call_action_text .about_btn {
-  border: 1px solid #fff;
-}
 
 /*====================================================*/
 /*====================================================*/
@@ -17457,15 +17352,6 @@ a .h_head:hover {
 /*====================================================*/
 
 /*===== new css =====*/
-.CircularProgressbar{
-  width: 200px;
-  height: 200px;
-  margin-bottom: 30px;
-}
-.CircularProgressbar .CircularProgressbar-text{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
 
 .sec_title p{
   max-width: 570px;
@@ -17555,15 +17441,7 @@ a .h_head:hover {
   vertical-align: sub;
 }
 
-.security_title h2 {
-  font-size: 34px;
-  line-height: 44px;
-}
 
-.security_title h2 span {
-  display: block;
-  font-weight: 300;
-}
 
 /*================== h_security_area css ===========*/
 /*================== h_security_area css ===========*/
@@ -18573,20 +18451,19 @@ a .h_head:hover {
   padding: 150px 0px 50px;
 }
 
-.event_about_content {
-  padding-right: 120px;
-}
+
 
 .event_about_content .event_about_item {
   padding-top: 40px;
 }
 
 .event_about_content h2 {
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 600;
+  font-size: 3.5rem;
   color: #2c2c51;
   margin-bottom: 25px;
+  font-family: Sacramento;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 .event_about_content p {
@@ -19481,13 +19358,19 @@ a .h_head:hover {
 .chat_get_started_content h2 {
   font-weight: 700;
   color: #222;
-  font-size: 36px;
+  font-size: 8rem;
+  font-family: Bison-Bold;
+  letter-spacing: 0.4rem;
 }
+
 .chat_get_started_content p {
-  font-size: 18px;
-  line-height: 30px;
-  max-width: 550px;
+  font-size: 3rem;
+  line-height: 45px;
+  max-width: 50rem;
   margin: 0 auto 40px;
+  font-family: "Bison";
+  letter-spacing: 0.05rem;
+  font-weight: 400;
 }
 
 .h_footer_track {

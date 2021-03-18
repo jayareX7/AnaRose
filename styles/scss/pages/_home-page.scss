@@ -98,13 +98,13 @@ $color: rgba(0, 0, 0, 0);
 
 
 .design_tab .nav-item .nav-link h5 {
-  font-size: 17px;
+  font-size: 25px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #222d39;
-  -webkit-transition: color 0.5s ease 0s;
-  -o-transition: color 0.5s ease 0s;
   transition: color 0.5s ease 0s;
+  font-family: "Bison";
+  letter-spacing: 0.2rem;
 }
 
 .design_tab .nav-item .nav-link p {

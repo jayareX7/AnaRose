@@ -1,8 +1,8 @@
 const SocialLinks =()=>{
     return(
 
-<div className="col-lg-2 text-center">
-       <h4>Follow Us!</h4>
+<div className="mt-8 tracking-tighter margin-auto leading-tight justify-left items-center lg:text-left  lg:mb-0 lg:pr-4 lg:w-1/2">
+      <h4 className='display-5 spacing-1 text-center sacramento'>Follow Us!</h4>
 
 
 

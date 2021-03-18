@@ -1,4 +1,8 @@
-
+import Fade from 'react-reveal/Fade';
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from './AnimatedProgressProvider'
 
 
 
@@ -8,84 +12,126 @@ return(
     <>
 
     <div className="container">
-        <div className="sec_title mb_70 wow fadeInUp" data-wow-delay="0.4s">
-            <h2 className="f_p f_size_30 l_height40 f_600 t_color text-center">Measure and increase <br/> your reach</h2>
+        <div className="sec_title mb_70">
+            <Fade duration={1600}>
+            <h2 className="sacramento display-1 l_height4 body-color text-center">Measure and increase <br />your reach</h2>
+        </Fade>
         </div>
-        
-        <div className="react-reveal row" style={{opacity: '1'}}>
-            <div className="col-lg-3 col-md-4 progress_item" 
-            style={{animationFillMode: 'both', animationDuration: '1000ms', animationDelay: '0ms', animationIterationCount: '1', opacity: '1', animationName: 'react-reveal-217474325357905-2'}}>
-                <svg className="CircularProgressbar " viewBox="0 0 100 100" data-test-id="CircularProgressbar" style={{margin: '30 auto'}}>
-                    <path className="CircularProgressbar-trail" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(0turn)', transformOrigin: 'center center', strokeDashArray: '298.451px, 298.451px', strokeDashOffset: '0px'}}>
-                    </path>
-                    <path className="CircularProgressbar-path" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(45turn)', transformOrigin: 'center center', transitionDuration: '1s', strokeDashArray: '298.451px, 298.451px' , strokeDashOffset: '119.381px'}}>
-                    </path>
-                <text className="CircularProgressbar-text" x="32.5" y="50" style={{fill: 'rgb(5, 20, 65)', fontSize: 20 + 'px'}}>45%</text></svg>
-                    <h4 style={{textAlign: 'center'}}>Innovations</h4><p>Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+
+        <div className="row" style={{opacity: '1'}}>
+
+  
+    <div className="col-lg-3 col-md-4 progress_item" >
+    <Fade bottom duration={1400}>    
+      <AnimatedProgressProvider
+        valueStart={0}
+        valueEnd={66}
+        duration={1.4}
+        easingFunction={easeQuadInOut}
+      >
+        {value => {
+          const roundedValue = Math.round(value);
+          return (
+            <CircularProgressbar
+              value={value}
+              text={`${roundedValue}%`}
+              styles={buildStyles({ pathTransition: "none" })}
+            />
+          );
+        }}
+      </AnimatedProgressProvider>
+  </Fade>
+              
+                 <Fade bottom duration={1400}>
+                <h4 className="bison-bold text-center spacing-0 display-6">Innovations</h4><p className="body-color text-center">Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+                </Fade>
         </div>
+      
+                      
+            <div className="col-lg-3 col-md-4 progress_item" >
+                 
+            <Fade bottom duration={1400}>    
+                 <AnimatedProgressProvider
+                   valueStart={0}
+                   valueEnd={15}
+                   duration={1.4}
+                   easingFunction={easeQuadInOut}
+                 >
+                   {value => {
+                     const roundedValue = Math.round(value);
+                     return (
+                       <CircularProgressbar
+                         value={value}
+                         text={`${roundedValue}%`}
+                         styles={buildStyles({ pathTransition: "none" })}
+                       />
+                     );
+                   }}
+                 </AnimatedProgressProvider>
+             </Fade>
+                         
+                            <Fade bottom duration={1400}>
+                           <h4 className="bison-bold text-center spacing-0 display-6">Innovations</h4><p className="body-color text-center">Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+                           </Fade>
+                   </div>
+
+
                             
-        <div className="col-lg-3 col-md-4 progress_item" 
-            style={{animationFillMode: 'both', animationDuration: '1000ms', animationDelay: '0ms', animationIterationCount: '1', opacity: '1', animationName: 'react-reveal-217474325357905-2'}}>
-                <svg className="CircularProgressbar " viewBox="0 0 100 100" data-test-id="CircularProgressbar" style={{margin: '30 auto'}}>
-                    <path className="CircularProgressbar-trail" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(0turn)', transformOrigin: 'center center', strokeDashArray: '298.451px, 298.451px', strokeDashOffset: '0px'}}>
-                    </path>
-                    <path className="CircularProgressbar-path" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(50turn)', transformOrigin: 'center center', transitionDuration: '1s', strokeDashArray: '298.451px, 298.451px' , strokeDashOffset: '119.381px'}}>
-                    </path>
-                <text className="CircularProgressbar-text" x="32.5" y="50" style={{fill: 'rgb(5, 20, 65)', fontSize: 20 + 'px'}}>50%</text></svg>
-                    <h4 style={{textAlign: 'center'}}>Innovations</h4><p>Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+            <div className="col-lg-3 col-md-4 progress_item" >
+                 
+            <Fade bottom duration={1400}>    
+      <AnimatedProgressProvider
+        valueStart={0}
+        valueEnd={50}
+        duration={1.4}
+        easingFunction={easeQuadInOut}
+      >
+        {value => {
+          const roundedValue = Math.round(value);
+          return (
+            <CircularProgressbar
+              value={value}
+              text={`${roundedValue}%`}
+              styles={buildStyles({ pathTransition: "none" })}
+            />
+          );
+        }}
+      </AnimatedProgressProvider>
+  </Fade>
+              
+                 <Fade bottom duration={1400}>
+                <h4 className="bison-bold text-center spacing-0 display-6">Innovations</h4><p className="body-color text-center">Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+                </Fade>
         </div>
-                    
 
-
-        <div className="col-lg-3 col-md-4 progress_item" 
-            style={{animationFillMode: 'both', animationDuration: '1000ms', animationDelay: '0ms', animationIterationCount: '1', opacity: '1', animationName: 'react-reveal-217474325357905-2'}}>
-                <svg className="CircularProgressbar " viewBox="0 0 100 100" data-test-id="CircularProgressbar" style={{margin: '30 auto'}}>
-                    <path className="CircularProgressbar-trail" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(0turn)', transformOrigin: 'center center', strokeDashArray: '298.451px, 298.451px', strokeDashOffset: '0px'}}>
-                    </path>
-                    <path className="CircularProgressbar-path" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e' , transform: 'rotate(15turn)', transformOrigin: 'center center', transitionDuration: '1s', strokeDashArray: '298.451px, 298.451px' , strokeDashOffset: '119.381px'}}>
-                    </path>
-                <text className="CircularProgressbar-text" x="32.5" y="50" style={{fill: 'rgb(5, 20, 65)', fontSize: 20 + 'px'}}>15%</text></svg>
-                    <h4 style={{textAlign: 'center'}}>Innovations</h4><p>Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+                 
+            <div className="col-lg-3 col-md-4 progress_item" >
+                 
+            <Fade bottom duration={1400}>    
+      <AnimatedProgressProvider
+        valueStart={0}
+        valueEnd={45}
+        duration={1.4}
+        easingFunction={easeQuadInOut}
+      >
+        {value => {
+          const roundedValue = Math.round(value);
+          return (
+            <CircularProgressbar
+              value={value}
+              text={`${roundedValue}%`}
+              styles={buildStyles({ pathTransition: "none" })}
+            />
+          );
+        }}
+      </AnimatedProgressProvider>
+  </Fade>
+              
+                 <Fade bottom duration={1400}>
+                <h4 className="bison-bold text-center spacing-0 display-6">Innovations</h4><p className="body-color text-center">Charles Jeffrey up the kyver loo in my flat blimey.!</p>
+                </Fade>
         </div>
-                    
-
-
-        <div className="col-lg-3 col-md-4 progress_item" 
-            style={{animationFillMode: 'both', animationDuration: '1000ms', animationDelay: '0ms', animationIterationCount: '1', opacity: '1', animationName: 'react-reveal-217474325357905-2'}}>
-                <svg className="CircularProgressbar " viewBox="0 0 100 100" data-test-id="CircularProgressbar" style={{margin: '30 auto'}}>
-                    <path className="CircularProgressbar-trail" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(0turn)', transformOrigin: 'center center', strokeDashArray: '298.451px, 298.451px', strokeDashOffset: '0px'}}>
-                    </path>
-                    <path className="CircularProgressbar-path" d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" 
-                        stroke-width="5" 
-                        fill-opacity="0" 
-                        style={{stroke: '#84ac7e', transform: 'rotate(60turn)', transformOrigin: 'center center', transitionDuration: '1s', strokeDashArray: '298.451px, 298.451px' , strokeDashOffset: '119.381px'}}>
-                    </path>
-                <text className="CircularProgressbar-text" x="32.5" y="50" style={{fill: 'rgb(5, 20, 65)', fontSize: 20 + 'px'}}>60%</text></svg>
-                    <h4 style={{textAlign: 'center'}}>Innovations</h4><p>Charles Jeffrey up the kyver loo in my flat blimey.!</p>
-        </div>
-                    
-
+       
         </div>
         </div>
       

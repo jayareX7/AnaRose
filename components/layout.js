@@ -1,5 +1,6 @@
 import FooterCopyright from './footer-copyright'
 import Meta from './meta'
+import ScrollApp from './scollToTop'
 
 export default function Layout({ preview, children }) {
   return (
@@ -9,7 +10,7 @@ export default function Layout({ preview, children }) {
       
         <main>{children}</main>
       </div>
-     
+     <ScrollApp />
       <FooterCopyright />
     </>
   )

@@ -1,3 +1,5 @@
+import Reveal from 'react-reveal'
+
 const Index4 =()=>{
   
     return (
@@ -11,77 +13,83 @@ const Index4 =()=>{
             
 
              <div className="col-lg-4 text-center">
+             <Reveal effect="flipInX" duration={1600} >  
                     <figure className="elementor-image-box-img">
                         <img width="104" height="107" src="/assets/bubbles.png" className="attachment-full size-full" alt="" style={{margin: '0 auto'}}/>
                     </figure>
 
-                    <div className="elementor-image-box-content">
-                        <h3 className="elementor-image-box-title">General Clean</h3>
+                   
+                        <h3 className="service-title">General Clean</h3>
                         <p className="elementor-image-box-description" style={{color: '#3f4451'}}>Twit cras excuse my French<br/> matie boy grub it’s all gone to</p>
-                    </div>
+             </Reveal>
             </div>
 
              <div className="col-lg-4 text-center">
+             <Reveal effect="flipInX" duration={1900} >  
                     <figure className="elementor-image-box-img">
                         <img width="104" height="107" src="/assets/cleaning-tools.png"className="attachment-full size-full" alt="" style={{margin: '0 auto'}}/>
                     </figure>
 
-                    <div className="elementor-image-box-content">
-                        <h3 className="elementor-image-box-title">Sanitizing</h3>
+                   
+                        <h3 className="service-title">Sanitizing</h3>
                         <p className="elementor-image-box-description" style={{color: '#3f4451'}}>Twit cras excuse my French<br/> matie boy grub it’s all gone to</p>
-                    </div>
+                </Reveal>
             </div>
 
              <div className="col-lg-4 text-center">
+             <Reveal effect="flipInX" duration={2100} >  
                     <figure className="elementor-image-box-img">
                         <img width="104" height="107" src="/assets/bucket.png" className="attachment-full size-full" alt="" style={{margin: '0 auto'}}/>
                     </figure>
 
-                    <div className="elementor-image-box-content">
-                        <h3 className="elementor-image-box-title">Deep Clean</h3>
+                   
+                        <h3 className="service-title">Deep Clean</h3>
                         <p className="elementor-image-box-description" style={{color: '#3f4451'}}>Twit cras excuse my French<br/> matie boy grub it’s all gone to</p>
-                    </div>
+                </Reveal>
             </div>
      </div>
 
             <div className="row mt-9">
 
              <div className="col-lg-4 text-center">
+             <Reveal effect="flipInX" duration={1600} >  
                     <figure className="elementor-image-box-img">
                         <img width="104" height="107" src="/assets/wipe.png" className="attachment-full size-full" alt="" style={{margin: '0 auto'}}/>
                     </figure>
 
-                    <div className="elementor-image-box-content">
-                        <h3 className="elementor-image-box-title">Window Cleaning</h3>
+                   
+                        <h3 className="service-title">Window Cleaning</h3>
                         <p className="elementor-image-box-description" style={{color: '#3f4451'}}>Twit cras excuse my French<br/> matie boy grub it’s all gone to</p>
-                    </div>
+                </Reveal>
             </div>
 
 
 
              <div className="col-lg-4 text-center">
+             <Reveal effect="flipInX" duration={1900} >  
                     <figure className="elementor-image-box-img">
                         <img width="104" height="107" src="/assets/cleaning-service.png" className="attachment-full size-full" alt="" style={{margin: '0 auto'}}/>
                     </figure>
 
-                    <div className="elementor-image-box-content">
-                        <h3 className="elementor-image-box-title">Carpet/Floors</h3>
+                   
+                        <h3 className="service-title">Carpet/Floors</h3>
                         <p className="elementor-image-box-description" style={{color: '#3f4451'}}>Twit cras excuse my French<br/> matie boy grub it’s all gone to</p>
-                    </div>
+                </Reveal>
             </div>
 
 
 
 
              <div className="col-lg-4 text-center">
+             <Reveal effect="flipInX" duration={2100} >  
                     <figure className="elementor-image-box-img">
                         <img width="104" height="107" src="/assets/cleaning-cart.png" className="attachment-full size-full" alt="" style={{margin: '0 auto'}}/>
                     </figure>
 
-                    <div className="elementor-image-box-content">
-                        <h3 className="elementor-image-box-title">Post-Construction</h3>
+                   
+                        <h3 className="service-title">Post-Construction</h3>
                         <p className="elementor-image-box-description" style={{color: '#3f4451'}}>Twit cras excuse my French<br/> matie boy grub it’s all gone to</p>
-                    </div>
+                </Reveal>  
             </div>
 
         </div>

@@ -3,6 +3,8 @@ import FAQ from './faq';
 import Container  from './container';
 // reactstrap components
 import { Button, Card, Collapse, Row, Col, Modal} from "reactstrap";
+import Fade from 'react-reveal/Fade'
+import Reveal from 'react-reveal'
 
 
 function Example() {
@@ -18,26 +20,31 @@ function Example() {
 
 
 
-<section className="pricing_area_four mt_120 text-center">
+<section className="sec_pad pricing_area_four mt_120 text-center">
 
     <Container>
 
     <div className="row">
    <div className="col-lg-4"> 
-      <img src="assets/quote.jpg" />
+   <Fade left>
+      <img className="mt-7" src="assets/quote.jpg" /></Fade>
    </div>
    <div className="col-lg-8"> 
-   <div className="hosting_title security_title text-center">
-                  <h2 className="wow fadeInUp" data-wow-delay="0.2s">
-                  <span>Looking for something else?</span> Check out our individual services!</h2>
-                  <p style={{marginTop: 2 + 'rem'}}> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+   <div className=" text-center">
+     <Fade bottom duration={1600}>
+                  <h2 className="wow fadeInUp mt-5 display-4 bison-bold" data-wow-delay="0.2s">
+                  <span className="sacramento">Looking for something else?</span> <br /> Check out our individual services!</h2>
+                  <p className="mt-4 body-color mb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                   incididunt ut labore et dolore magna aliqua.
                   Fermentum iaculis eu non diam phasellus vestibulum lorem sed risus.
                   </p>
+                  </Fade>
             </div>
-            <FAQ />
+            <Fade bottom duration={2000}><FAQ /> </Fade>
             </div>
 </div>
+
+<Reveal effect='flipInX' duration={1600}>
               <Row> 
               <Col md="12"> 
    
@@ -55,12 +62,13 @@ function Example() {
           }}
           role="button"
           id="collapseExample"
+          className='collapsed'
           
         >
          
          <div className="t_integration_item">
-                    <img src="assets/bubbles.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
-                     <h5>General</h5> 
+                    <img src="assets/bubbles.png" style={{margin: '0 auto', width: '60%'}} alt=""/>
+                      <h5 className="bison-bold display-7 fw_bold spacing-0 mt-2">General</h5> 
                   </div>  
         </Button>
 
@@ -77,8 +85,8 @@ function Example() {
         >
           
           <div className="t_integration_item">
-                    <img src="assets/wipe.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
-                     <h5>Windows</h5> 
+                    <img src="assets/wipe.png" style={{margin: '0 auto', width: '60%'}} alt=""/>
+                      <h5 className="bison-bold display-7 fw_bold spacing-0 mt-2">Windows</h5> 
                   </div>   
         </Button>
 
@@ -95,8 +103,8 @@ function Example() {
           
         >
             <div className="t_integration_item">
-                     <img src="assets/bucket.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
-                        <h5>Deep</h5> 
+                     <img src="assets/bucket.png" style={{margin: '0 auto', width: '60%'}} alt=""/>
+                         <h5 className="bison-bold display-7 fw_bold spacing-0 mt-2">Deep</h5> 
                   </div>       
         </Button>
 
@@ -114,8 +122,8 @@ function Example() {
           
         >
             <div className="t_integration_item">
-                     <img src="assets/cleaning-service.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
-                        <h5>Floors</h5> 
+                     <img src="assets/cleaning-service.png" style={{margin: '0 auto', width: '60%'}} alt=""/>
+                         <h5 className="bison-bold display-7 fw_bold spacing-0 mt-2">Floors</h5> 
                   </div> 
         </Button>
 
@@ -133,8 +141,8 @@ function Example() {
           
         >
               <div className="t_integration_item">
-                     <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
-                        <h5>Sanitizing</h5> 
+                     <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '60%'}} alt=""/>
+                         <h5 className="bison-bold display-7 fw_bold spacing-0 mt-2">Sanitizing</h5> 
                   </div>    
         </Button>
 
@@ -153,8 +161,8 @@ function Example() {
           
         >
            <div className="t_integration_item">
-                      <img src="assets/cleaning-cart.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
-                        <h5>Construction</h5> 
+                      <img src="assets/cleaning-cart.png" style={{margin: '0 auto', width: '60%'}} alt=""/>
+                         <h5 className="bison-bold display-7 fw_bold spacing-0 mt-2">Construction</h5> 
                   </div>    
         </Button>
       </p>
@@ -247,7 +255,7 @@ are being done.
 <section className="sec_pad_80">
 
 <Col lg='12'>
-    <div className="col-lg-4 margin-auto">
+    <div className="col-lg-3 margin-auto">
 
           <Button
             block
@@ -293,6 +301,7 @@ are being done.
 
 </Col>
 </Row>
+</Reveal>
 </Container>
 
 </section>

@@ -790,9 +790,8 @@ a.nav-bar-option.nav-li-hover.mr-4{
     color: white;
     z-index: 0;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.4rem;
-    font-variant: all-small-caps;
+    font-size: 1.9rem;
+    letter-spacing: 0.07;
 }
 
 a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
@@ -800,8 +799,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   top: 50%;
   left: -100%;
   z-index: 0;
-  background-color: #b0caad;
-  color: #5d8757;
+  color: $secondary-color;
   }
   
 
@@ -812,7 +810,17 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
 }
 
 
+.account-tab {
+  padding: 0.50rem;
+}
 
+.account-tab-span {
+  padding: 0.50rem 0;
+}
+
+.account-tab:hover a {
+  color: $secondary-color;
+}
 
 
 .tpnav:hover {
