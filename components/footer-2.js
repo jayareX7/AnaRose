@@ -8,9 +8,8 @@ return (
 
 
 <Reveal effect="fadeIn" duration={1400}> 
-<section className="footer-section sec_pad">
-    
-                        
+<section className="footer-section sec_pad">  
+                      
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 ">  
