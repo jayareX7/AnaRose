@@ -42,6 +42,10 @@ sections:
   match: "*"
   templates:
   - contact
+- type: document
+  path: residential/*
+  label: Residential
+  match: "**/*"
 - type: heading
   label: Dynamic Pages
 - type: directory
