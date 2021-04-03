@@ -30,10 +30,11 @@ const ResidentialSteps = () => {
                 <img src='assets/search.png' alt="" />
               </div>
               <a href=".#">
-                <h4>Quick Responce</h4>
+                <h4 className="sacramento">Search And Find </h4>
               </a>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             <span> Select A Service</span><br/><br/>
+                 Its as easy as 1,2,3 
               </p>
             </div>
           </div>
@@ -52,10 +53,11 @@ const ResidentialSteps = () => {
                   <img src='assets/mobile.png' alt="" />
                 </div>
               <a href=".#">
-                <h4>Simplify communications</h4>
+                <h4>Choose A Service</h4>
               </a>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <span>Book Clean</span><br/><br/>
+              Select an available date and time that works for you!
               </p>
             </div>
           </div>
@@ -76,10 +78,11 @@ const ResidentialSteps = () => {
                 <img src='assets/book.png' alt="" />
               </div>
               <a href=".#">
-                <h4>Easy Report</h4>
+                <h4>Confirm Booking</h4>
               </a>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <span> Confirm Your Selected Service</span> <br/><br/>
+                 Everything look good? checkout and pay, youre all set!
               </p>
             </div>
           </div> 

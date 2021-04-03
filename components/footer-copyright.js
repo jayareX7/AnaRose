@@ -1,42 +1,37 @@
 
 import Container  from './container';
-import {
-    Col,
-  } from "reactstrap";
-import Fade from 'react-reveal/Fade'
+import { Col } from "reactstrap";
+
 
 export default function FooterCopyright() {
     return (
-      <Fade bottom duration={1400} >  
+   
 <footer className="copyright_footer_area border-top border-accent-2">
     <Container>
-        <div className="text-center pt-3 margin-auto justify-center align-center">
+        <div className="text-center margin-auto justify-center align-center">
         <Col lg='12'>
         <div className=" flex">
 <Col lg='4'>
-  <div className="text-center align-center margin-auto">
+  <div className="text-center  mt-2 align-center margin-auto">
 <a
               href={`https://github.com/vercel/next.js/tree/canary/examples/`}
-              className="font-bold hover:underline"
+              className="fw_700"
             >
               Terms & Conditions
             </a>
             </div>
             </Col>
             <Col lg='4'>
-  <div className="text-center align-center margin-auto">
-  <p>All Right Reserved.</p>
+  <div className="text-center mt-2 align-center margin-auto" style={{color: 'white'}}>
+  All Right Reserved.
       </div>
       </Col>
 
 
 
             <Col lg='4'>
-  <div className="text-center align-center margin-auto">
-            <a
-              href={`https://github.com/vercel/next.js/tree/canary/examples/`}
-              className="font-bold hover:underline"
-            >
+  <div className="text-center mt-2 align-center margin-auto">
+            <a href={`https://github.com/vercel/next.js/tree/canary/examples/`} className="fw_700 ">
               Privacy Policy
             </a>
             </div>
@@ -48,5 +43,5 @@ export default function FooterCopyright() {
     </Container>
 
     </footer>
-</Fade>
+
     )}

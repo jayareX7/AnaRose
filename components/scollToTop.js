@@ -32,7 +32,7 @@ class ColoredContainer extends React.Component {
     render () {
         return <button title='Back to top' className='scroll' 
                  onClick={ () => { this.scrollToTop(); }}>
-                  <span style={{color: 'white'}} className='ti-angle-up'></span>
+                  <span style={{color: 'body-color'}} className='ti-angle-up'></span>
                 </button>;
      }
   } 

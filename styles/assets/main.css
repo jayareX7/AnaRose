@@ -1314,7 +1314,7 @@ Table of Content:
 .seo_banner_content h2 {
   font-size: 60px;
   line-height: 80px;
-  color: #263b5e;
+  color: #3f4451;
   font-weight: 600;
   font: 550  6rem/10rem "Sacramento", sans-serif;
 }
@@ -1322,7 +1322,7 @@ Table of Content:
 .seo_banner_content p {
   font-size: 18px;
   line-height: 30px;
-  color: #6a7695;
+  color: #3f4451;
   margin-bottom: 53px;
 }
 
@@ -2087,6 +2087,51 @@ Table of Content:
   bottom: 0;
   top: auto;
 }
+
+
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 161, 39, 0.161);
+  display: block;
+  position: absolute;
+  left: -9px;
+  top: 15px;
+  z-index: 1;
+}
+
+.dot .dot3 {
+  position: absolute;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -8px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #feb85d;
+}
+
+.dot .dot4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(254, 184, 93, 0.8);
+  -webkit-animation: pulsate 3s infinite;
+  animation: pulsate 3s infinite;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  will-change: transform;
+}
+
 
 
 
@@ -3178,21 +3223,21 @@ Table of Content:
 .seo_features_content h2 {
   font-size: 30px;
   line-height: 40px;
-  color: #263b5e;
+  color: #3f4451;
   font-weight: 600;
   margin-bottom: 25px;
 }
 
 .seo_features_content p {
   font-size: 16px;
-  color: #6a7695;
+  color: #3f4451;
   font-weight: 300;
 }
 
 .seo_features_content h6 {
   font-size: 18px;
   font-weight: 400;
-  color: #263b5e;
+  color: #3f4451;
   line-height: 30px;
   margin-bottom: 35px;
 }
@@ -3222,7 +3267,7 @@ Table of Content:
 
 .seo_features_content .seo_features_item h3 {
   font-size: 20px;
-  color: #263b5e;
+  color: #3f4451;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -3230,7 +3275,7 @@ Table of Content:
 .seo_features_content .seo_features_item p {
   font-size: 16px;
   line-height: 28px;
-  color: #6a7695;
+  color: #3f4451;
   margin-bottom: 0;
 }
 
@@ -4493,7 +4538,7 @@ Table of Content:
 .seo_service_item h4 {
   font-size: 20px;
   line-height: 28px;
-  color: #263b5e;
+  color: #3f4451;
   font-weight: 500;
   margin-top: 35px;
   margin-bottom: 16px;
@@ -4510,7 +4555,7 @@ Table of Content:
   margin-bottom: 0;
   font-size: 16px;
   line-height: 30px;
-  color: #6a7695;
+  color: #3f4451;
   margin-bottom: 40px;
 }
 
@@ -4571,7 +4616,7 @@ Table of Content:
 
 .studies_item .text h4 {
   font-size: 20px;
-  color: #263b5e;
+  color: #3f4451;
   font-weight: 500;
   margin-bottom: 3px;
 }
@@ -4585,7 +4630,7 @@ Table of Content:
 
 .studies_item .text p a {
   font-size: 16px;
-  color: #6a7695;
+  color: #3f4451;
 }
 
 /*====================================================*/
@@ -18271,7 +18316,7 @@ a .h_head:hover {
 .tracking_getting_area h2 {
   font-weight: 700;
   font-size: 36px;
-  color: #222;
+  color: #3f4451;
 }
 
 .tracking_getting_area .software_banner_btn {
@@ -18459,7 +18504,7 @@ a .h_head:hover {
 
 .event_about_content h2 {
   font-size: 3.5rem;
-  color: #2c2c51;
+  color: #3f4451;
   margin-bottom: 25px;
   font-family: Sacramento;
   letter-spacing: 0.2rem;
@@ -18469,11 +18514,11 @@ a .h_head:hover {
 .event_about_content p {
   font-size: 16px;
   line-height: 28px;
-  color: #7b7b93;
+  color: #3f4451;
 }
 
 .event_about_content h6 {
-  color: #2c2c51;
+  color: #3f4451;
   font-size: 18px;
   font-weight: 500;
   padding-top: 25px;
@@ -19243,7 +19288,7 @@ a .h_head:hover {
 .chat_features_content h2 {
   font-size: 36px;
   font-weight: 400;
-  color: #222;
+  color: #3f4451;
   margin-bottom: 16px;
 }
 .chat_features_content h2 span {
@@ -19357,20 +19402,23 @@ a .h_head:hover {
 
 .chat_get_started_content h2 {
   font-weight: 700;
-  color: #222;
+  color: #FFF;
   font-size: 8rem;
   font-family: Bison-Bold;
   letter-spacing: 0.4rem;
+  text-shadow: 5px 2px #3f4451;
 }
 
 .chat_get_started_content p {
   font-size: 3rem;
   line-height: 45px;
-  max-width: 50rem;
+  max-width: 55rem;
   margin: 0 auto 40px;
   font-family: "Bison";
   letter-spacing: 0.05rem;
   font-weight: 400;
+  color: #e9c261;
+  text-shadow: 1px 1px #e3b134;
 }
 
 .h_footer_track {
@@ -19389,3 +19437,12 @@ a .h_head:hover {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+

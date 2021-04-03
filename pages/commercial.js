@@ -4,15 +4,12 @@ import CommercialServices from '../components/commercial-services'
 import Reveal from 'react-reveal'
 import Footer from '../components/footer'
 import Fade from 'react-reveal/Fade';
-import { CircularProgressbar, CircularProgress } from "react-circular-progressbar";
+import { CircularProgressbar } from "react-circular-progressbar";
 import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from '../components/AnimatedProgressProvider'
 import { Col, Row } from 'reactstrap';
-
-
-
-
-
+import Navigation from '../components/navigation.js';
+import NavigationTop from '../components/navigationTop'
 
  
 
@@ -30,12 +27,17 @@ class Services extends React.Component {
     return (
 <>
 
+
+<NavigationTop /> 
+<img src="assets/main-logo.png" className="main-logo" />
+<Navigation />
+
 <div className="container mx-auto">
 
 
  <div className = "row" >
    <div className="col-lg-5">
-   <img src="assets/commercial_cta.jpg" style={{marginTop: 8 + "rem"}}/>
+   <img src="assets/commercial_cta.jpg" style={{marginTop: 14.5 + "rem"}}/>
    </div>
 
    <div className="col-lg-1">
@@ -104,35 +106,31 @@ class Services extends React.Component {
   <div className="hosting_title security_title text-center">
 
   
+  <div className='col-lg-11 margin-auto'>
+<Row>
 
-
-
-<Col lg='12'>
-  <Row>
-    <h2 className="my-3">
+<Col lg='5'>
     <Fade duration={1400} >    
-<AnimatedProgressProvider
-  valueStart={0}
-  valueEnd={1200}
-  duration={1.4}
-  easingFunction={easeQuadInOut}
->
-  {value => {
-    const roundedValue = Math.round(value);
-    return (
-      <CircularProgress
-        value={value}
-        text={`${roundedValue}`}
-      />
-    );
-  }}
-</AnimatedProgressProvider>
-</Fade> 
-<div className='mt-5'>
-<span>+</span> jobs completed & Still counting.
-</div></h2>
-</Row>
+    <p className='bison-bold text-decoration-uppercase body-color'>Over 1200 <br/> Jobs Completed </p>
+    </Fade>  
 </Col>
+
+<Col lg='2'>
+<Fade duration={1400} >
+<p className='bison-bold text-decoration-uppercase body-color'>
+<span style={{padding: '10rem 0rem'}}>+</span> </p>
+</Fade>
+</Col>
+
+<Col lg='5'>
+<Fade duration={1400} >
+<p className='bison-bold text-decoration-uppercase body-color'>& Still <br/> counting. </p>
+</Fade> 
+</Col>
+
+</Row>
+</div>
+
 </div>
 
     <div className="seo_fact_info"><div className="seo_fact_item wow fadeIn">

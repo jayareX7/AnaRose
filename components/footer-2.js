@@ -33,11 +33,11 @@ return (
                         <div className="row">
                             <div className="col-lg-8 margin-auto text-center">
 
-                                <form action="#" className="digital_agency_newsletter" method="post" novalidate="true">
+                                <form action="#" className="digital_agency_newsletter" method="post" noValidate="true">
                                     <div className="newsletter_form input-group">
                                         <label for="colFormLabelSm" className="col-form-label col-form-label-sm">
-                                            <i className="fas fa-envelope mr-1"></i> </label> 
-                                            <input type="text" id="colFormLabelSm" name="EMAIL" className="form-control memail" placeholder="Type your email..." /> 
+                                            <i className="fas fa-envelope secondary-color mr-1"></i> </label> 
+                                            <input type="text" id="colFormLabelSm" name="EMAIL" className="form-control memail" placeHolder="Type your email..." /> 
                                                 <button type="submit" className="email_submit_btn">Subscribe</button>
                                         <p className="mchimp-errmessage" style={{display: 'none'}}></p> 
                                         <p className="mchimp-sucmessage" style={{display: 'none'}}></p>
@@ -58,26 +58,26 @@ return (
     
                                     <div className="footer-grid-item"> 
                                     <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data wow fadeIn" target="_blank"> 
-                                    <i className="fab fa-facebook-f"></i> </a> 
+                                    <i className="fab secondary-color fa-facebook-f"></i> </a> 
                                     
                                     </div>
 
                                     <div className="footer-grid-item"> 
                                     <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
                                    
-                                    <i className="fab fab fa-twitter"></i> </a>
+                                    <i className="fab fab secondary-color fa-twitter"></i> </a>
                                     </div>
 
                                     <div className="footer-grid-item"> 
                                     <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
                                   
-                                    <i className="fab fa-youtube"></i> </a>
+                                    <i className="fab secondary-color fa-youtube"></i> </a>
                                     </div>
 
                                     <div className="footer-grid-item"> 
                                     <a className="footer-icon footer-social-icon footer-social-icon-facebook-f footer-repeater-item-data" target="_blank">
                                 
-                                    <i className="fab fa-linkedin-in"></i> </a>
+                                    <i className="fab secondary-color fa-linkedin-in"></i> </a>
                                     </div>
                                             
                                 

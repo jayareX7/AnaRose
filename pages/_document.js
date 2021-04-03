@@ -8,18 +8,21 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
           <script async src="https://cdn.snipcart.com/themes/v3.0.23/default/snipcart.js"></script>
           <div hidden id="snipcart" data-api-key="YzY4MmJmZGMtNTRhNi00ZGIzLTkwMDgtMmY5NDgwYzE4MjQ3NjM3Mzc1NTE4NTE1ODEzMDQw"></div>
        <>
-<script src="//widget.simplybook.me/v2/widget/widget.js"></script>
+
+       <script src="//widget.simplybook.me/v2/widget/widget.js"></script>
 
     <script
             dangerouslySetInnerHTML={{
               __html: `
-                      var widget = new SimplybookWidget({
+  var widget = new SimplybookWidget({
     "widget_type": "button",
-    "url": "https:\/\/testenviroment.simplybook.me",
-    "theme": "hugo",
+    "url": "https:\/\/anarose.simplybook.me",
+    "theme": "dainty",
     "theme_settings": {
       "timeline_hide_unavailable": "0",
       "timeline_show_end_time": "0",
@@ -45,8 +48,8 @@ export default class MyDocument extends Document {
       "predefined": []
     },
     "button_title": "Book Now",
-    "button_background_color": "#00b5b8",
-    "button_text_color": "#ffffff",
+    "button_background_color": "#e9c261",
+    "button_text_color": "#3f4451",
     "button_position": "right",
     "button_position_offset": "55%"
   });
@@ -55,10 +58,14 @@ export default class MyDocument extends Document {
                   `,
             }}
           ></script>
-  
-  </>
+
+</>
+
         </body>
       </Html>
     )
   }
 }
+
+
+

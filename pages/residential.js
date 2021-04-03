@@ -6,9 +6,15 @@ import Footer from '../components/footer';
 import Container from '../components/container'
 import Fade from "react-reveal/Fade";
 import { Row } from 'reactstrap'
+import Navigation from '../components/navigation.js';
+import NavigationTop from '../components/navigationTop'
 
 const Posts = ({ slugs }) => (
  <>
+
+<NavigationTop /> 
+<img src="assets/main-logo.png" className="main-logo" />
+<Navigation />
  <div className="container mx-auto">
 
 <ResidentialAbout />
@@ -28,22 +34,24 @@ const Posts = ({ slugs }) => (
     <div className="text-center">
 
     <Fade top duration={1600}>
-  <h1 className="sacramento">Best Home Cleaning Services in Dallas </h1>
+  <h1 className="display-3 body-color sacramento">Best Home Cleaning Services in Dallas </h1>
   </Fade>
     </div> 
 
        <Fade top duration={1900}>
-  <p> <span className='display-65 body-color truncate mt-4 bison-bold'>Ana Rose Cleaning offers the best in home cleaning.</span> <br /> </p>
+  <p> <span className='display-1 secondary-color mt-4 bison-bold'>
+    Ana Rose Cleaning </span> <br/> <span className='display-4 body-color bison-bold'>the best in home cleaning<br/>available in town.</span> <br /> </p>
       </Fade>
 
   <br />
 
 <Fade top duration={2200}>
-<div className='display-65 bison'>We provide a top to bottom approach, 
+<p className="body-color mt-4 display-65 text-justify"><span className="display-3 body-color fw_700 text-transform-uppercase"> We </span> provide a top to bottom approach, 
  with a detailed plan to guarantee your home is clean as possible. 
-<br />All of our products are eco-friendly and ensure your home isn’t just clean, but healthy.
-</div>
+All of our products are eco-friendly and ensure your home isn’t just clean, but healthy.
+</p>
 </Fade>
+
   
    </div>
 

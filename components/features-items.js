@@ -8,7 +8,7 @@ class Featuresitems extends Component{
                 <div className="col-lg-6">
                    <Reveal effect="fadeInLeft">
                         <div className="agency_featured_img text-right">
-                            <img src={ ("assets/home4/" + fimage)} alt=""/>
+                            <img src={ ("assets/" + fimage)} alt=""/>
                         </div>
                    </Reveal>
                 </div>
@@ -16,10 +16,10 @@ class Featuresitems extends Component{
                     <div className={`agency_featured_content wow fadeInLeft ${aClass}`} data-wow-delay="0.6s">
                     <Reveal effect="fadeInRight">
                         <div className="dot"><span className="dot1"></span><span className="dot2"></span></div>
-                        <img className="number" src={("assets/home4/" + iImg)} alt=""/>
+                        <img className="number" src={("assets/" + iImg)} alt=""/>
                         <h3>{ftitle}</h3>
                         <p style={{color: '#3f4451'}}>{descriptions}</p>
-                        <a href=".#" className="icon mt_30"><i className="ti-arrow-right"></i></a>
+                       
                     </Reveal>
                     </div>
                 </div>
@@ -28,4 +28,9 @@ class Featuresitems extends Component{
     }
 }
 
-export default Featuresitems;
+export default Featuresitems
+
+
+
+
+                          

@@ -59,7 +59,7 @@ export default function OwnerTestimonial() {
             <Zoom top duration={1600} >    
               <h2>Get started with us</h2> </Zoom>
             <Reveal effect="slideInRight" duration={1500} >           
-               <p style ={{color: '#3f4451'}}>A better experience for your customers, fewer headaches for your team. You'll be set up in minutes.</p> </Reveal>
+               <p>A better experience for your customers, fewer headaches for your team. You'll be set up in minutes.</p> </Reveal>
                     </div>
                     
                     <Container>
@@ -79,7 +79,7 @@ export default function OwnerTestimonial() {
           <Reveal effect="flipInX" duration={1600} >      
                    <div className="col-lg-4 my-5">
                       <Button
-                      block
+                      block="true"
                       className=" mb-3 price_content price_content_two"
                       color="none"
                       onClick={() => setGeneralNotificationOpen(true)}
@@ -99,9 +99,7 @@ export default function OwnerTestimonial() {
                       onClick={() => setGeneralNotificationOpen(false)}
                     >
                       <div className=" modal-header">
-                        <h6 className=" modal-title" id="modal-title-notification">
-                          Your attention is required
-                        </h6>
+                      
                         <button
                           aria-label="Close"
                           className=" close"
@@ -189,7 +187,7 @@ export default function OwnerTestimonial() {
            <Reveal effect="flipInX" duration={1800} >  
                     <div className="col-lg-4 my-5">
                     <Button
-                      block
+                      block="true"
                       className=" mb-3 price_content price_content_two"
                       color="none"
                       onClick={() => setWindowNotificationOpen(true)}
@@ -209,9 +207,7 @@ export default function OwnerTestimonial() {
                       onClick={() => setWindowNotificationOpen(false)}
                     >
                       <div className=" modal-header">
-                        <h6 className=" modal-title" id="modal-title-notification">
-                          Your attention is required
-                        </h6>
+                      
                         <button
                           aria-label="Close"
                           className=" close"
@@ -232,9 +228,11 @@ export default function OwnerTestimonial() {
                           </h4>
                           <br />
                          <p style={{color: '#000'}}>
-                       <h5>
-          
-                       </h5>
+                         <h3>Check List for a Window Cleaning: </h3><br />
+          <br />
+1. Clean and wipe window until all dirt and grime is off<br/>
+2. Clean/wipe tracks<br/>
+                      
                          </p>
                         </div>
                       </div>
@@ -264,7 +262,7 @@ export default function OwnerTestimonial() {
            <div className="col-lg-4 my-5">
          
                     <Button
-                      block
+                      block="true"
                       className=" mb-3 price_content price_content_two"
                       color="none"
                       onClick={() => setDeepNotificationOpen(true)}
@@ -284,9 +282,7 @@ export default function OwnerTestimonial() {
                       onClick={() => setDeepNotificationOpen(false)}
                     >
                       <div className=" modal-header">
-                        <h6 className=" modal-title" id="modal-title-notification">
-                          Your attention is required
-                        </h6>
+                      
                         <button
                           aria-label="Close"
                           className=" close"
@@ -386,7 +382,7 @@ export default function OwnerTestimonial() {
      <Reveal effect="flipInX" duration={2200} >          
             <div className="col-lg-4 my-5" >       
                     <Button
-                      block
+                      block="true"
                       className=" mb-3 price_content price_content_two"
                       color="none"
                       onClick={() => setCarpetNotificationOpen(true)}
@@ -406,9 +402,7 @@ export default function OwnerTestimonial() {
                       onClick={() => setCarpetNotificationOpen(false)}
                     >
                       <div className=" modal-header">
-                        <h6 className=" modal-title" id="modal-title-notification">
-                          Your attention is required
-                        </h6>
+                      
                         <button
                           aria-label="Close"
                           className=" close"
@@ -426,9 +420,12 @@ export default function OwnerTestimonial() {
                           <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                           </h4>
                          <p style={{color: '#000'}}>
-                           <h5>
-                           Some Other Text Here
-                           </h5>
+                         <h3>Check List for a Carpet Cleaning: </h3><br />
+          <br />
+-Vacuum Carpet <br />
+-Use Cleaner to clean and sanitize <br />
+-Clean with water machine<br />
+                           
                      
                          </p>
                         </div>
@@ -454,7 +451,7 @@ export default function OwnerTestimonial() {
                 <Reveal effect="flipInX" duration={2400} >  
                 <div className="col-lg-4 my-5">
                     <Button
-                      block
+                      block="true"
                       className=" mb-3 price_content price_content_two"
                       color="none"
                       onClick={() => setSanitizeNotificationOpen(true)}
@@ -474,9 +471,7 @@ export default function OwnerTestimonial() {
                       onClick={() => setSanitizeNotificationOpen(false)}
                     >
                       <div className=" modal-header">
-                        <h6 className=" modal-title" id="modal-title-notification">
-                          Your attention is required
-                        </h6>
+                      
                         <button
                           aria-label="Close"
                           className=" close"
@@ -494,10 +489,11 @@ export default function OwnerTestimonial() {
                             <img src="assets/cleaning-tools.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                             </h4>
                          <p style={{color: '#000'}}>
-                           <h5>
-                           Some Other Text Here
-                           </h5>
-                     
+                         <h3>Check List for a Sanitation: </h3><br />
+          <br />
+-Clean thoroughly clean surface with cleaner <br/>
+-Wipe surface with hot water<br/>
+-Clean with sanitizing product<br/>                     
                          </p>
                         </div>
                       </div>
@@ -524,7 +520,7 @@ export default function OwnerTestimonial() {
           <div className="col-lg-4 my-5">
                    
                     <Button
-                      block
+                      block="true"
                       className=" mb-3 price_content price_content_two"
                       color="none"
                       onClick={() => setPostNotificationOpen(true)}
@@ -544,9 +540,7 @@ export default function OwnerTestimonial() {
                       onClick={() => setPostNotificationOpen(false)}
                     >
                       <div className=" modal-header">
-                        <h6 className=" modal-title" id="modal-title-notification">
-                          Your attention is required
-                        </h6>
+                       
                         <button
                           aria-label="Close"
                           className=" close"
@@ -564,10 +558,59 @@ export default function OwnerTestimonial() {
                           <img src="assets/cleaning-cart.png" style={{margin: '0 auto', width: '35%'}} alt=""/>
                           </h4>
                          <p style={{color: '#000'}}>
-                           <h5>
-                           Some Other Text Here
+                         <h3>Check List for a Post-Construction: </h3><br />
+          <br />
+<h5>Whole House:</h5> <br />
+- Dust/wipe ceiling fans<br />
+- Dust/wipe chandeliers<br />
+- Dust/wipe light fixtures<br />
+- Dust/wipe light switch covers<br />
+- Vacuum/wipe vents<br />
+- Dust ceilings and walls<br />
+- Dust/wipe all woodwork (trim, crown molding, doors, door frames)<br />
+- Clean door knobs<br />
+- Dust/wipe blinds and shutters<br />
+- Vacuum/wipe window sills<br />
+- Staircase/rails<br />
+- Dust window panes<br />
+- Dust/wipe baseboards<br />
+- Vacuum/wipe all shelving, drawers and cabinets (inside and out)<br />
+- Clean all mirrors<br />
+- Vacuum/dust/clean all furniture and surfaces<br />
+- Vacuum/sweep/mop all flooring<br />
+<br />
+<h5>Living Area:</h5><br />
+- Dust/clean top to bottom<br />
+- Vacuum/sweep/mop all flooring<br />
+<br />
+<h5>Dining Area:</h5><br />
+- Dust/clean top to bottom<br />
+- Vacuum/sweep/mop all flooring<br />
+<br />
+<h5>Bedrooms:</h5><br />
+- Dust/clean top to bottom<br />
+- Vacuum/sweep/mop all flooring<br />
+<br />
+<h5>Kitchen:</h5><br />
+- Dust/clean top to bottom<br />
+- Clean all appliances<br />
+- Clean/sanitize all counters and surfaces<br />
+- Vacuum/sweep/mop all flooring<br />
+<br />
+<h5>Bathrooms:</h5><br />
+- Dust/clean top to bottom<br />
+- Clean/sanitize toilet<br />
+- Clean tub/shower<br />
+- Clean sink/vanity<br />
+- Dust/wipe all fixtures<br />
+- Vacuum/sweep/mop all flooring<br />
+<br />
+<h5>Closets, Hallways and Laundry Room:</h5><br />
+- Dust/clean top to bottom<br />
+- Vacuum/sweep/mop all flooring<br />
+
                            
-                           </h5>
+                         
                            </p>
                         </div>
                       </div>

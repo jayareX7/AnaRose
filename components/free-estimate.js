@@ -17,6 +17,7 @@ export default function FreeEstimate() {
                             <a href="/" className="about_btn">Get A Free Estimate</a>
                             </div>  
                             </div>
+                            
                             </Reveal>
  </> 
     )}

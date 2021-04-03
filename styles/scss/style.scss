@@ -31,12 +31,13 @@
 @import "components/button";
 @import "components/cart-modal";
 @import "components/carousel";
-@import "components/explore-banner";
 @import "components/collection-banner";
+@import "components/explore-banner";
 @import "components/footer-follow";
 @import "components/pricing-table";
-@import "components/snipcart";
 @import "components/progress-bar";
+@import "components/snipcart";
+@import "components/social-feed";
 
 
 
@@ -723,6 +724,7 @@
   background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
 }
 
+
 .font-color-black {
   color: #000 !important;
 }
@@ -732,7 +734,7 @@
 }
 
 .font-color-dark {
-  color: #000000 !important;
+  color: #000 !important;
 }
 
 .font-color-medium {
@@ -941,7 +943,7 @@
 }
 
 .border-color-black {
-  border-color: #000 !important;
+  border-color: $body-color !important;
 }
 
 .border-color-white {
@@ -949,7 +951,7 @@
 }
 
 .border-color-black900 {
-  border-color: #000000 !important;
+  border-color: $body-color !important;
 }
 
 .border-color-black800 {
@@ -1710,7 +1712,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000;
+  background-color: $body-color;
   opacity: 0.56;
   cursor: pointer;
 }
@@ -1908,7 +1910,7 @@
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: $body-color;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -2086,7 +2088,7 @@
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: $body-color;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -2095,7 +2097,7 @@
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #16181b;
+  color: $body-color;
   background-color: #f8f9fa;
 }
 
@@ -2106,7 +2108,7 @@
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
-  color: #6c757d;
+  color: $body-color;
   pointer-events: none;
   background-color: transparent;
 }
@@ -2120,19 +2122,19 @@
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: #6c757d;
+  color: $body-color;
   white-space: nowrap;
 }
 
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1rem;
-  color: #212529;
+  color: $body-color;
 }
 
 .dropdown-menu-dark {
   color: #dee2e6;
-  background-color: #343a40;
+  background-color: $body-color;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -2482,12 +2484,12 @@
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #6c757d;
+  color: $body-color;
   content: "/";
 }
 
 .breadcrumb-item.active {
-  color: #6c757d;
+  color: $body-color;
 }
 
 .pagination {
@@ -2538,7 +2540,7 @@
 }
 
 .page-item.disabled .page-link {
-  color: #6c757d;
+  color: $body-color;
   pointer-events: none;
   background-color: #fff;
   border-color: #dee2e6;
@@ -2648,7 +2650,7 @@
 }
 
 .alert-secondary {
-  color: #383d41;
+  color: $body-color;
   background-color: #e2e3e5;
   border-color: #d6d8db;
 }
@@ -2779,13 +2781,13 @@
 
 .list-group-item-action {
   width: 100%;
-  color: #495057;
+  color: $body-color;
   text-align: inherit;
 }
 
 .list-group-item-action:focus, .list-group-item-action:hover {
   z-index: 1;
-  color: #495057;
+  color: $body-color;
   text-decoration: none;
   background-color: #f8f9fa;
 }
@@ -2815,7 +2817,7 @@
 }
 
 .list-group-item.disabled, .list-group-item:disabled {
-  color: #6c757d;
+  color: $body-color;
   pointer-events: none;
   background-color: #fff;
 }
@@ -3038,12 +3040,12 @@
 }
 
 .list-group-item-secondary {
-  color: #383d41;
+  color:  $body-color;
   background-color: #d6d8db;
 }
 
 .list-group-item-secondary.list-group-item-action:focus, .list-group-item-secondary.list-group-item-action:hover {
-  color: #383d41;
+  color: $body-color;
   background-color: #c8cbcf;
 }
 
@@ -3154,7 +3156,7 @@
   width: 1em;
   height: 1em;
   padding: 0.25em 0.25em;
-  color: #000;
+  color: $body-color;
   background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 16 16'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") no-repeat center center/1em auto;
   background-clip: content-box;
   border: 0;
@@ -3163,7 +3165,7 @@
 }
 
 .btn-close:hover {
-  color: #000;
+  color: $body-color;
   text-decoration: none;
   opacity: 0.75;
 }
@@ -3334,7 +3336,7 @@
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: $body-color;
 }
 
 .modal-backdrop.fade {
@@ -3632,7 +3634,7 @@
 .bs-tooltip-auto[x-placement^=top] .tooltip-arrow::before, .bs-tooltip-top .tooltip-arrow::before {
   top: 0;
   border-width: 0.4rem 0.4rem 0;
-  border-top-color: #000;
+  border-top-color: $body-color;
 }
 
 .bs-tooltip-auto[x-placement^=right], .bs-tooltip-right {
@@ -3648,7 +3650,7 @@
 .bs-tooltip-auto[x-placement^=right] .tooltip-arrow::before, .bs-tooltip-right .tooltip-arrow::before {
   right: 0;
   border-width: 0.4rem 0.4rem 0.4rem 0;
-  border-right-color: #000;
+  border-right-color: $body-color;
 }
 
 .bs-tooltip-auto[x-placement^=bottom], .bs-tooltip-bottom {
@@ -3662,7 +3664,7 @@
 .bs-tooltip-auto[x-placement^=bottom] .tooltip-arrow::before, .bs-tooltip-bottom .tooltip-arrow::before {
   bottom: 0;
   border-width: 0 0.4rem 0.4rem;
-  border-bottom-color: #000;
+  border-bottom-color: $body-color;
 }
 
 .bs-tooltip-auto[x-placement^=left], .bs-tooltip-left {
@@ -3678,7 +3680,7 @@
 .bs-tooltip-auto[x-placement^=left] .tooltip-arrow::before, .bs-tooltip-left .tooltip-arrow::before {
   left: 0;
   border-width: 0.4rem 0 0.4rem 0.4rem;
-  border-left-color: #000;
+  border-left-color: $body-color;
 }
 
 .tooltip-inner {
@@ -3686,7 +3688,7 @@
   padding: 0.25rem 0.5rem;
   color: #fff;
   text-align: center;
-  background-color: #000;
+  background-color: $body-color;
   border-radius: 0.25rem;
 }
 

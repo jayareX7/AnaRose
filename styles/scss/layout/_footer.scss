@@ -144,7 +144,7 @@ a:not([href]):not([tabindex]) {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
-  color: #818a91;
+  color:  $body-color; 
   font-size: 50px;
   text-align: center;
 }

@@ -9,8 +9,6 @@ import "../styles/assets/font-awesome/css/all.css";
 import "../styles/assets/elagent/style.css";
 import app from 'next/app';
 import Layout from '../components/layout.js';
-import Navigation from '../components/navigation.js';
-import Container from '../components/container.js'
 
 
 
@@ -33,9 +31,9 @@ export default class MyApp extends app {
         
         
         <Layout>
-          <Navigation />
-          
-          <Container/>
+
+
+        
           
           <Component {...pageProps} /> 
          

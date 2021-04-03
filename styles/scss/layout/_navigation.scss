@@ -1,4 +1,9 @@
-header {
+.main-logo{
+  margin: 4rem auto;
+  width: 25%;
+
+}
+  header {
   z-index: 10;
 }
 
@@ -299,7 +304,7 @@ header {
 }
 
 .header_contact_info li a {
-  color: #c3c1da;
+  color: $body-color;
   font-weight: 300;
   padding-left: 5px;
 }
@@ -332,15 +337,14 @@ header {
 }
 
 .header_area_six .header_top .header_contact_info li {
-  color: #282835;
+  color: $body-color;
 }
-
 .header_area_six .header_top .header_contact_info li a {
-  color: #677294;
+  color: $body-color;
 }
 
 .header_area_six .header_top .header_social_icon li a {
-  color: #282835;
+  color: $body-color;
 }
 
 .header_area_six + section {
@@ -528,7 +532,7 @@ header {
 
 .header_footer p {
   font-size: 16px;
-  color: #858faf;
+  color: $body-color;
   margin-bottom: 100px;
 }
 
@@ -536,7 +540,7 @@ header {
   position: absolute;
   right: 60px;
   top: 40px;
-  color: #7b84a2;
+  color: $body-color;
   font-size: 30px;
   cursor: pointer;
   -webkit-transition: all 0.3s linear;
@@ -569,7 +573,7 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #051441;
+  color: $body-color;
   margin-left: 25px;
 }
 
@@ -671,7 +675,7 @@ header {
 .side_menu_wrapper .side_menu .m_content p {
   font-size: 1.9vh;
   line-height: 2.9vh;
-  color: #7e86a1;
+  color: $body-color;
   font-weight: 300;
   margin-top: 4vh;
   margin-bottom: 8.2vh;
@@ -712,7 +716,7 @@ header {
 
 .side_menu_wrapper .side_menu .m_footer li a {
   font-size: 20px;
-  color: #959ebb;
+  color: $body-color;
   font-size: 16px;
   width: 50px;
   height: 50px;
@@ -787,11 +791,13 @@ a.nav-bar-option.nav-li-hover.mr-4{
     position: inherit;
     top: 50%;
     left: -100%;
-    color: white;
+    color: $body-color;
     z-index: 0;
     text-decoration: none;
     font-size: 1.9rem;
     letter-spacing: 0.07;
+    text-shadow: 2px 1px 3px white;
+
 }
 
 a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
@@ -800,6 +806,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   left: -100%;
   z-index: 0;
   color: $secondary-color;
+  text-shadow: none;
   }
   
 
@@ -809,13 +816,16 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
     
 }
 
+.account-tab-price {
+  padding: 0.7rem 0.2rem;
+}
 
 .account-tab {
   padding: 0.50rem;
 }
 
 .account-tab-span {
-  padding: 0.50rem 0;
+  padding: 0.70rem 0;
 }
 
 .account-tab:hover a {
@@ -1173,7 +1183,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   
   .menu > .nav-item > .nav-link {
     font: 500 15px "Poppins", sans-serif;
-    color: #051441;
+    color:$body-color;
     padding: 0px;
     -webkit-transition: color 0.3s ease 0s;
     -o-transition: color 0.3s ease 0s;
@@ -1239,7 +1249,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
     padding: 0px;
     white-space: nowrap;
     font: 400 14px/34px "Poppins", sans-serif;
-    color: #051441;
+    color: $body-color;
     -webkit-transition: color 0.2s linear;
     -o-transition: color 0.2s linear;
     transition: color 0.2s linear;
@@ -1337,7 +1347,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   
   .menu > .nav-item.submenu .dropdown-menu.mega_menu_three > .nav-item > .dropdown-menu .nav-item .nav-link .navdropdown_link .navdropdown_content h5 {
     font: 500 16px "Poppins", sans-serif;
-    color: #13112d;
+    color:$body-color;
     margin-bottom: 0px;
   }
   
@@ -1346,7 +1356,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
     padding-top: 5px;
     font-size: 15px;
     line-height: 20px;
-    color: #677294;
+    color: $body-color;
   }
   
   .menu > .nav-item.submenu .dropdown-menu.mega_menu_three > .nav-item > .dropdown-menu .nav-item.nav_download_btn {
@@ -1440,7 +1450,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   
   .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item > .nav-link {
     font: 500 18px "Poppins", sans-serif;
-    color: #13112d;
+    color: $body-color;
   }
   
   .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item .dropdown-menu {
@@ -1589,7 +1599,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   
   .menu > .nav-item.submenu.mega_menu.mega_menu_two .mega_menu_inner .dropdown-menu .nav-item .item .text {
     font: 500 16px/22px "Poppins", sans-serif;
-    color: #13112d;
+    color: $body-color;
     display: block;
     margin-top: 20px;
   }
@@ -1675,7 +1685,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   .navbar .search_cart .search a, .navbar .search_cart .shpping-cart a {
     font-size: 16px;
     line-height: 18px;
-    color: #282835;
+    color: $body-color;
     margin-left: 16px;
   }
   
@@ -1761,7 +1771,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   }
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item a {
-    color: #333;
+    color: $body-color;
     margin-left: 0;
   }
   
@@ -1796,13 +1806,13 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
     font-size: 14px;
     line-height: 22px;
     font-family: "Poppins", sans-serif;
-    color: #333;
+    color: $body-color;
     font-weight: 300;
     margin-bottom: 0px;
   }
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item .cart-content p del {
-    color: #919191;
+    color: $body-color;
   }
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item .cart-remove {
@@ -1815,7 +1825,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item .cart-remove a {
     font-size: 14px;
-    color: #333;
+    color: $body-color;
   }
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item .cart-remove a:hover {
@@ -1837,7 +1847,7 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart_f .total {
     font-size: 14px;
-    color: #676b75;
+    color: $body-color;
   }
   
   .navbar .search_cart .shpping-cart .dropdown-menu .cart_f .total .p-total {
@@ -2194,8 +2204,8 @@ a.nav-bar-option.mr-4:hover.nav-li-hover.mr-4{
     width: 100%;
     z-index: 20;
     top: 0;
-    -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
-    box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+    -webkit-box-shadow: 4px 4px 9px black;
+    box-shadow: 4px 4px 9px black;
     background-color: #84ac7e;
     font-size: 0.8rem;
   }

@@ -6,21 +6,28 @@ const data = [
   {
     id: "1",
     key: "1",
-    title: "Collaboration" ,
+    title: "Lorem Ipsum" ,
     text: "Design to development",
-    img: "assets/home-banner.png"
+    img: "assets/quote-cta.jpg"
   },
   {
     id: "2",
     key: "2",
-    title: "UI/UX design",
+    title: "Lorem Ipsum",
     text: "Design to development",
-    img: "assets/home-banner.png"
+    img: "assets/commercial-cta.jpg"
   },
   {
     id: "3",
     key: "3",
-    title: "Easy To Maintain",
+    title: "Lorem Ipsum",
+    text: "Design to development",
+    img: "assets/home-banner.png"
+  },
+  {
+    id: "4",
+    key: "4",
+    title: "Lorem Ipsum",
     text: "Design to development",
     img: "assets/home-banner.png"
   }
@@ -30,7 +37,7 @@ const data = [
 
 export default function Index3() {
 
-  const [toggle, setToggle] = useState("1");
+  const [toggle, setToggle] = useState("2");
 
   return (
 <>

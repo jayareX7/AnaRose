@@ -50,8 +50,11 @@ function Example() {
    
               
 
-      <p style={{marginTop: 5 + 'rem'}}>
-        
+      <p className="mt-9">
+
+      <h2 className="wow fadeInUp display-4 bison-bold" data-wow-delay="0.2s">
+        <span className="sacramento">Have Additional Questions?</span><br/>
+        Find The Answers To Them Below: </h2>
         
         <Button
           color="red"
@@ -242,7 +245,7 @@ are being done.
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-          <iframe src="https://testenviroment.simplybook.me/v2/" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>  
+          <iframe src="https://anarose.simplybook.me/v2/" width="300" height="380" frameBorder="0" allowTransparency="true"></iframe>  
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -256,18 +259,21 @@ are being done.
 
 <Col lg='12'>
     <div className="col-lg-3 margin-auto">
-
+  <button class="mb-3 btn_three">Get A Free Estimate</button>
+  <div className="col-lg-12 mb-2 text-center"> OR </div>
           <Button
-            block
-            className="mb-3"
+            block="true"
+            className="mb-3 margin-auto"
             color="none"
             onClick={() => setFrameDefaultOpen(true)}
             type="button"
             data-toggle="modal"
             data-target="#myModal"
           >
-            <button class="btn_three" data-toggle="modal" data-target="#myModal">Schedule An Appointment</button>
+            <button class="btn_three" data-toggle="modal" data-target="#myModal" style={{margin: '0 auto'}}>Schedule An Appointment</button>
           </Button>
+
+        
           </div>
           </Col>
           <Modal
@@ -280,7 +286,7 @@ are being done.
             <div className=" modal-body">
               <div className=" py-3 text-center">
                 <i className=" ni ni-bell-55 ni-3x"></i>
-                <iframe src="https://testenviroment2.simplybook.me/v2/" width="800" height="880" frameborder="0" allowtransparency="true"></iframe>  
+                <iframe src="https://anarose.simplybook.me/v2/" width="800" height="880" frameBorder="0" allowTransparency="true"></iframe>  
               </div>
             </div>
             <div className=" modal-footer">

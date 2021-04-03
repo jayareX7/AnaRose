@@ -6,7 +6,8 @@ import ReviewCTA from '../components/review-cta';
 import Footer2 from '../components/footer-2';
 import Eventgallery from '../components/Eventgallery';
 import ReviewStats from '../components/review-stats';
-
+import Navigation from '../components/navigation.js';
+import NavigationTop from '../components/navigationTop'
 
 
 
@@ -15,6 +16,10 @@ const Reviews =()=>{
 <>
 
 
+
+<NavigationTop /> 
+<img src="assets/main-logo.png" className="main-logo" />
+<Navigation />
 
 <EventDetails />
 <ReviewCTA />

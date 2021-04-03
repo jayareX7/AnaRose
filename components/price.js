@@ -21,7 +21,7 @@ function Example() {
       <Row>
         <Col md="4">
           <div
-            block
+            block="true"
             className=" mb-3 price_content price_content_two"
             color="none"
             onClick={() => setScheduleDefaultOpen(true)}
@@ -54,7 +54,7 @@ function Example() {
 
 <Col md="4">
           <div
-            block
+            bblock="true"
             className=" mb-3 price_content price_content_two"
             color="none"
             onClick={() => setOneNotificationOpen(true)}
@@ -90,7 +90,7 @@ function Example() {
 
         <Col md="4">
           <div
-            block
+            block="true"
             className=" mb-3 price_content price_content_two"
             color="none"
             onClick={() => setMoveScheduledOpen(true)}

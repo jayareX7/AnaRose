@@ -31,7 +31,7 @@
   }
   
   .CircularProgressbar .CircularProgressbar-text {
-    fill: #e9c261;
+    fill: $body-color;
     font-size: 20px;
     dominant-baseline: middle;
     text-anchor: middle;
@@ -132,8 +132,9 @@
   
   .seo_fact_info .seo_fact_item p {
     margin-bottom: 0;
-    color: #6a7695;
-    font-size: 16px;
+    color: $body-color;
+    font-size: 2.0rem;
+    font-family: Bison-Bold;
   }
   
   .seo_fact_info .seo_fact_item:nth-child(even) {
@@ -167,5 +168,10 @@
   
   
   .seo_call_action_text .about_btn {
-    border: 1px solid #fff;
+    border: 1px solid $secondary-color;
+  
+
+  &:hover {
+    border: 1px solid $secondary-color-shadow;
   }
+}

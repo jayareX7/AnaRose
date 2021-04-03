@@ -1054,7 +1054,7 @@
   
   .s_integration_item h5 {
     font-size: 1.5rem;
-    color: #051441;
+    color: $body-color;
     margin-top: 15px;
     font-weight: inherit;
     font-family: Bison-bold;
@@ -1065,6 +1065,8 @@
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    border-width: 0.2rem;
+    border-color: $secondary-color-shadow
   }
   
 
@@ -1075,8 +1077,9 @@
 
   .seo_call_action_text h2 {
     font-size: 8rem;
-    color: #000;
+    color: $body-color;
     font-weight: 600;
     font-family: Bison-Bold;
     letter-spacing: 0.4rem;
+    text-shadow: 4px 2px 3px #e9c261;
 }

@@ -158,7 +158,7 @@
   .price_content .price_item p {
     font-size: 1.8rem;
     line-height: 22px;
-    color: #3f4451;
+    color: $secondary-color;
     margin-top: 2rem;
     margin-bottom: 0px;
     font-family: sacramento;
@@ -176,7 +176,6 @@
     color: $body-color;
     font-size: 1.5rem;
     letter-spacing: 0.15rem;
-    bottom: -0.45rem;
   }
   
   .price_content .price_item .p_list {
@@ -185,7 +184,7 @@
   
   .price_content .price_item .p_list li {
     font: 300 16px/40px "Poppins", sans-serif;
-    color: #3f4451;
+    color: $body-color;
   }
   
   .price_content .price_item .p_list li i {
@@ -274,7 +273,7 @@
     margin-bottom: 75px;
   }
   .chat_title h2 {
-    color: #222;
+    color: $body-color;
     font-weight: 400;
     font-size: 36px;
     line-height: 48px;
@@ -285,7 +284,7 @@
   .chat_title p {
     max-width: 730px;
     margin: 0px auto;
-    color: #677294;
+    color: $body-color;
   }
   
   .chat_features_item {
@@ -328,18 +327,25 @@
     background-image: linear-gradient(-140deg, #e9c261 0%, #efd38e 100%);
   }
   .chat_features_item h4 {
-    font-size: 1.5rem;
+    font-size:2.0rem;
     font-weight: 900;
-    color: #222;
-    margin-bottom: 18px;
+    color: $body-color;
+    margin-bottom: 35px;
     position: relative;
     z-index: 1;
     font-family: Bison-Bold;
     letter-spacing: 0.4rem;
   }
   .chat_features_item p {
-    color: #666666;
+    color: $body-color;
     line-height: 24px;
+    font-size: 1.3rem;
+  }
+  .chat_features_item p span {
+    color: $secondary-color;
+    line-height: 24px;
+    font-family: Sacramento;
+    font-size: 1.9rem;
   }
   .chat_features_item:hover .round .top_img {
     transform: rotate(90deg);

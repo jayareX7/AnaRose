@@ -28,7 +28,7 @@ function FAQ() {
                         }
                         className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                         color="link">
-                        how do i order?{" "}<span className="icon-plus"></span>
+                        can i schedule a one time clean?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -39,17 +39,7 @@ function FAQ() {
                     id="collapseOne"
                   >
                     <CardBody className=" opacity-8">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor, sunt aliqua put a bird on it squid single-origin
-                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                      helvetica, craft beer labore wes anderson cred nesciunt
-                      sapiente ea proident. Ad vegan excepteur butcher vice
-                      lomo. Leggings occaecat craft beer farm-to-table, raw
-                      denim aesthetic synth nesciunt you probably haven't heard
-                      of them accusamus labore sustainable VHS.
+                    You are able to schedule any type of cleaning you would like. One time or otherwise.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -69,9 +59,8 @@ function FAQ() {
                         }
                         className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
-                        
-                      >
-                        how can i make the payment?{" "}<span className="icon-plus"></span>
+                                                
+                      > how should i prepare for my clean?{" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -82,17 +71,10 @@ function FAQ() {
                     id="collapseTwo"
                   >
                     <CardBody className=" opacity-8">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor, sunt aliqua put a bird on it squid single-origin
-                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                      helvetica, craft beer labore wes anderson cred nesciunt
-                      sapiente ea proident. Ad vegan excepteur butcher vice
-                      lomo. Leggings occaecat craft beer farm-to-table, raw
-                      denim aesthetic synth nesciunt you probably haven't heard
-                      of them accusamus labore sustainable VHS.
+                    We ask that you pick up any items/clothes on the floor, 
+                    beds or anywhere that you would like cleaned. Lamps, fixtures, trinkets, etc. 
+                    do not need to be removed. Only items that normally are not there. 
+                    This helps our cleaning crew to clean effectively and efficiently. 
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -113,8 +95,8 @@ function FAQ() {
                         className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
                         
-                      >
-                        how much time does it take to receive the order?{" "}<span className="icon-plus"></span>
+                      >can i get to schedule a specific time and day that works best for me?
+                       {" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -125,17 +107,7 @@ function FAQ() {
                     id="collapseThree"
                   >
                     <CardBody className=" opacity-8">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor, sunt aliqua put a bird on it squid single-origin
-                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                      helvetica, craft beer labore wes anderson cred nesciunt
-                      sapiente ea proident. Ad vegan excepteur butcher vice
-                      lomo. Leggings occaecat craft beer farm-to-table, raw
-                      denim aesthetic synth nesciunt you probably haven't heard
-                      of them accusamus labore sustainable VHS.
+                    Absolutely! Set a day and time that works for you, and we will be there.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -156,8 +128,8 @@ function FAQ() {
                         className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
                         
-                      >
-                        can i resell the products?{" "}<span className="icon-plus"></span>
+                      >are ana rose cleaning products available for shipping?
+                         {" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -168,17 +140,7 @@ function FAQ() {
                     id="collapseFour"
                   >
                     <CardBody className=" opacity-8">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor, sunt aliqua put a bird on it squid single-origin
-                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                      helvetica, craft beer labore wes anderson cred nesciunt
-                      sapiente ea proident. Ad vegan excepteur butcher vice
-                      lomo. Leggings occaecat craft beer farm-to-table, raw
-                      denim aesthetic synth nesciunt you probably haven't heard
-                      of them accusamus labore sustainable VHS.
+                    As of now, we are able to ship anywhere in the US. 
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -199,8 +161,8 @@ function FAQ() {
                         className="w-100 bison display-7 fw_400 spacing-0 text-left collapsed"
                                                 color="link"
                         
-                      >
-                        where do i find the shipping details?{" "}<span className="icon-plus"></span>
+                      >are the products you use and offer safe for pets and children?
+                        {" "}<span className="icon-plus"></span>
                       </Button>
                     </h5>
                   </CardHeader>
@@ -211,17 +173,7 @@ function FAQ() {
                     id="collapseFifth"
                   >
                     <CardBody className=" opacity-8">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-                      tempor, sunt aliqua put a bird on it squid single-origin
-                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-                      helvetica, craft beer labore wes anderson cred nesciunt
-                      sapiente ea proident. Ad vegan excepteur butcher vice
-                      lomo. Leggings occaecat craft beer farm-to-table, raw
-                      denim aesthetic synth nesciunt you probably haven't heard
-                      of them accusamus labore sustainable VHS.
+                    Yes. All of our products are 100% homemade, organic products. Safe for the whole family!
                     </CardBody>
                   </Collapse>
                 </Card>
