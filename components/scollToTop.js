@@ -1,3 +1,4 @@
+import React from 'react'
 
 class ColoredContainer extends React.Component {
     render () {

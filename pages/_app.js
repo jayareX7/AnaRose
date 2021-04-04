@@ -9,8 +9,9 @@ import "../styles/assets/font-awesome/css/all.css";
 import "../styles/assets/elagent/style.css";
 import app from 'next/app';
 import Layout from '../components/layout.js';
-
-
+import ToastContainer from '../components/ToastContainer';
+import { ToastProvider } from '../context/ToastContext';
+import React from 'react'
 
 
 
@@ -32,11 +33,11 @@ export default class MyApp extends app {
         
         <Layout>
 
+      <ToastProvider>
+        <Component {...pageProps} />
+        <ToastContainer />
+    </ToastProvider>
 
-        
-          
-          <Component {...pageProps} /> 
-         
         </Layout>
        
       </section>

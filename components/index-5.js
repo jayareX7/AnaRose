@@ -1,4 +1,7 @@
 import Fade from 'react-reveal/Fade';
+import MoveBuy from './products/move-buy';
+import OneTimeBuy from './products/one-time-buy';
+import ScheduledBuy from './products/scheduled-buy';
 
 const Index5 =() =>{
     return(
@@ -22,7 +25,7 @@ const Index5 =() =>{
                             <h2> Free </h2> 
                             <h6> For personal use </h6> 
                             <p>My lady bits and bobs cup of tea bubble and squeak brolly.</p> 
-                            <a href="#" className="payment_price_btn"> Try this <i className="ti-arrow-right"></i> </a>
+                             <OneTimeBuy />
                         </div>
                         </Fade>
 
@@ -30,7 +33,7 @@ const Index5 =() =>{
                         <div className="payment_price_item center"> <h2> $29.00 </h2> 
                             <h6> For personal use </h6>
                             <p>My lady bits and bobs cup of tea bubble and squeak brolly.</p> 
-                            <a href="#" className="payment_price_btn"> Try this <i className="ti-arrow-right"></i> </a>
+                            <ScheduledBuy />
                         </div>
                         </Fade>
 
@@ -38,7 +41,7 @@ const Index5 =() =>{
                         <div className="payment_price_item mt-4"> <h2> $59.00 </h2> 
                             <h6> For personal use </h6>
                             <p>My lady bits and bobs cup of tea bubble and squeak brolly.</p> 
-                            <a href="#" className="payment_price_btn"> Try this <i className="ti-arrow-right"></i> </a>
+                            <MoveBuy />
                         </div>
                         </Fade>
 

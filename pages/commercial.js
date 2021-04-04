@@ -4,12 +4,12 @@ import CommercialServices from '../components/commercial-services'
 import Reveal from 'react-reveal'
 import Footer from '../components/footer'
 import Fade from 'react-reveal/Fade';
-import { CircularProgressbar } from "react-circular-progressbar";
-import { easeQuadInOut } from "d3-ease";
-import AnimatedProgressProvider from '../components/AnimatedProgressProvider'
 import { Col, Row } from 'reactstrap';
 import Navigation from '../components/navigation.js';
 import NavigationTop from '../components/navigationTop'
+import VisibilitySensor from "react-visibility-sensor";
+import React from 'react'
+import { CircularProgressbar, buildStyles  } from "react-circular-progressbar/";
 
  
 
@@ -103,145 +103,154 @@ class Services extends React.Component {
 
 
 <section className=" sec_pad">
-  <div className="hosting_title security_title text-center">
+      <div className="hosting_title security_title text-center">
+        <div className='col-lg-11 margin-auto'>
+          <Row>
 
-  
-  <div className='col-lg-11 margin-auto'>
-<Row>
+            <Col lg='5'>
+              <Fade duration={1400} >    
+                  <p className='bison-bold text-decoration-uppercase body-color'>Over 1200 <br/> Jobs Completed </p>
+              </Fade>  
+            </Col>
 
-<Col lg='5'>
-    <Fade duration={1400} >    
-    <p className='bison-bold text-decoration-uppercase body-color'>Over 1200 <br/> Jobs Completed </p>
-    </Fade>  
-</Col>
+            <Col lg='2'>
+              <Fade duration={1400} >
+                  <p className='bison-bold text-decoration-uppercase body-color'>
+                      <span style={{padding: '10rem 0rem'}}>+</span> </p>
+              </Fade>
+            </Col>
 
-<Col lg='2'>
-<Fade duration={1400} >
-<p className='bison-bold text-decoration-uppercase body-color'>
-<span style={{padding: '10rem 0rem'}}>+</span> </p>
-</Fade>
-</Col>
-
-<Col lg='5'>
-<Fade duration={1400} >
-<p className='bison-bold text-decoration-uppercase body-color'>& Still <br/> counting. </p>
-</Fade> 
-</Col>
-
-</Row>
-</div>
-
-</div>
-
-    <div className="seo_fact_info"><div className="seo_fact_item wow fadeIn">
-      <div className="text"><div className="counter one">
-
-      <Fade bottom duration={1400}>    
-<AnimatedProgressProvider
-  valueStart={0}
-  valueEnd={693}
-  duration={1.4}
-  easingFunction={easeQuadInOut}
->
-  {value => {
-    const roundedValue = Math.round(value);
-    return (
-      <CircularProgressbar
-        value={value}
-        text={`${roundedValue}`}
-      />
-    );
-  }}
-</AnimatedProgressProvider>
-</Fade>
-
-      </div>
-      <p>Happy Clients</p>
-      </div></div>
-      
-    <div className="seo_fact_item wow fadeIn" data-wow-delay="0.3s">
-      <div className="text">
-      <div className="counter two">
-      <Fade bottom duration={1400}>    
-<AnimatedProgressProvider
-  valueStart={0}
-  valueEnd={970}
-  duration={1.4}
-  easingFunction={easeQuadInOut}
->
-  {value => {
-    const roundedValue = Math.round(value);
-    return (
-      <CircularProgressbar
-        value={value}
-        text={`${roundedValue}`}
-         
-      />
-    );
-  }}
-</AnimatedProgressProvider>
-</Fade>
-       
-      </div> <p>Projects</p>
-        </div></div>
-      
-    <div className="seo_fact_item wow fadeIn" data-wow-delay="0.6s">
-      <div className="text">
-        <div className="counter three">
-        <Fade bottom duration={1400}>    
-<AnimatedProgressProvider
-  valueStart={0}
-  valueEnd={293}
-  duration={1.4}
-  easingFunction={easeQuadInOut}
->
-  {value => {
-    const roundedValue = Math.round(value);
-    return (
-      <CircularProgressbar
-        value={value}
-        text={`${roundedValue}`}
-         
-      />
-    );
-  }}
-</AnimatedProgressProvider>
-</Fade>
-          
-          
-          </div> <p>SEO Winners</p>
-        </div></div>
-      
-      <div className="seo_fact_item last wow fadeIn" data-wow-delay="0.9s">
-        <div className="text">
-          <div className="counter four">
-            
-          <Fade bottom duration={1400}>    
-<AnimatedProgressProvider
-  valueStart={0}
-  valueEnd={104}
-  duration={1.4}
-  easingFunction={easeQuadInOut}
->
-  {value => {
-    const roundedValue = Math.round(value);
-    return (
-      <CircularProgressbar
-        value={value}
-        text={`${roundedValue}`}
-         
-      />
-    );
-  }}
-</AnimatedProgressProvider>
-</Fade>
-            
-            
-            </div> <p>Experience</p>
-          </div></div>
-          
+            <Col lg='5'>
+              <Fade duration={1400} >
+                  <p className='bison-bold text-decoration-uppercase body-color'>& Still <br/> counting. </p>
+              </Fade> 
+            </Col>
+          </Row>
         </div>
-    </section>
+      </div>
+
+<div className="seo_fact_info">
+    <div className="seo_fact_item wow fadeIn">
+        <div className="text">
+            <div className="counter one">
+              <Fade bottom duration={1400}>
+                <VisibilitySensor>
+                      {({ isVisible }) => {
+                          const percentage = isVisible ? 69 : 0;
+                    return (
+                      <CircularProgressbar
+                        value={percentage}
+                        text={692}
+                        styles={buildStyles({    
+                          rotation: 0,
+                          textSize: '20px',
+                          pathTransitionDuration: 2,
+                          pathColor: '#e9c261',
+                          textColor: '#3f4451',
+                          trailColor: '#efd38e', })}
+                      />
+                    );
+                  }}
+                </VisibilitySensor>
+              </Fade>  
+            </div>
+                      <p>Happy Clients</p>
+          </div>
+    </div>
+
+      
+
+    <div className="seo_fact_item wow fadeIn">
+        <div className="text">
+            <div className="counter one">
+              <Fade bottom duration={1400}>
+                <VisibilitySensor>
+                      {({ isVisible }) => {
+                          const percentage = isVisible ? 97 : 0;
+                    return (
+                      <CircularProgressbar
+                        value={percentage}
+                        text={970}
+                        styles={buildStyles({
+                          rotation: 0,
+                          textSize: '20px',
+                          pathTransitionDuration: 2,
+                          pathColor: '#e9c261',
+                          textColor: '#3f4451',
+                          trailColor: '#efd38e',
+                         })}
+                      />
+                    );
+                  }}
+                </VisibilitySensor>
+              </Fade>  
+            </div>
+                      <p>Projects</p>
+          </div>
+    </div>
+      
+  
+    <div className="seo_fact_item wow fadeIn">
+        <div className="text">
+            <div className="counter one">
+              <Fade bottom duration={1400}>
+                <VisibilitySensor>
+                      {({ isVisible }) => {
+                          const percentage = isVisible ? 50 : 0;
+                    return (
+                      <CircularProgressbar
+                        value={percentage}
+                        text={500}
+                        styles={buildStyles({
+                          rotation: 0,
+                          textSize: '20px',
+                          pathTransitionDuration: 2,
+                          pathColor: '#e9c261',
+                          textColor: '#3f4451',
+                          trailColor: '#efd38e',
+                         })}
+                      />
+                    );
+                  }}
+                </VisibilitySensor>
+              </Fade>  
+            </div>
+                      <p>Winners</p>
+          </div>
+    </div>
+      
+  
+    <div className="seo_fact_item wow fadeIn">
+        <div className="text">
+            <div className="counter one">
+              <Fade bottom duration={1400}>
+                <VisibilitySensor>
+                      {({ isVisible }) => {
+                          const percentage = isVisible ? 94 : 0;
+                    return (
+                      <CircularProgressbar
+                        value={percentage}
+                        text={940}
+                        styles={buildStyles({
+                          rotation: 0,
+                          textSize: '20px',
+                          pathTransitionDuration: 2,
+                          pathColor: '#e9c261',
+                          textColor: '#3f4451',
+                          trailColor: '#efd38e',
+                         })}
+                      />
+                    );
+                  }}
+                </VisibilitySensor>
+              </Fade>  
+            </div>
+                      <p>Experience</p>
+          </div>
+    </div>
+
+  </div>
+</section>
 
 
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Reveal } from "react-reveal";
 
 
+
 const data = [
   {
     id: "1",
@@ -37,12 +38,15 @@ const data = [
 
 export default function Index3() {
 
-  const [toggle, setToggle] = useState("2");
+
+
+  
+  const [toggle, setToggle] = useState("1");
 
   return (
 <>
 
-<section className="sec_pad" data-id="1c70dea4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classNameic&quot;}">
+<section className="sec_pad" data-id="1c70dea4" data-element_type="section" >
 <div className="container">
   <div className="row">
               <div className="col-lg-4">   
@@ -56,7 +60,9 @@ export default function Index3() {
                 <div className="col-lg-12 d-flex align-items-center">
                 <ul className="nav nav-tabs design_tab"  onClick={() => setToggle(key)} role="tablist" style={{ margin: '0 auto'}}>
                     <li className="nav-item wow fadeInUp"  data-wow-delay="0.2s" style={{visibility: 'visible' , animationDelay: '0.2s', animationName: 'fadeInUp'}}>
-                          <a className="nav-link normal_color" id="saasland-tab-2771" data-toggle="tab" role="tab" href="#saasland-tab-content-2771" aria-controls="saasland-tab-content-2771" aria-selected="false">
+     
+                          <a className="nav-link" id="tab" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">
+                              
                               <h5 className="title_color">{title}</h5>
                                 <p>{text}</p>
                             </a>
@@ -76,6 +82,8 @@ export default function Index3() {
  
 
 
+                   
+
            
  
               <div className="col-lg-8">   
@@ -84,9 +92,8 @@ export default function Index3() {
           <>
   <Reveal effect="fadeIn" duration={1600}> 
         <div className="tab-content">
-            <div className="tab-pane fade active show" aria-labelledby="saasland-tab-2771" role="tabpanel" id="saasland-tab-content-2771">
-            
-        
+          
+             <div className="tab-pane fade active show" id="two" role="tabpanel" aria-labelledby="two-tab">
                 {toggle === key ? (
                     <>
                <img 
@@ -94,7 +101,6 @@ export default function Index3() {
                 key={key}/> 
                     </>
                 ) : null}
-               
            </div>
         </div>
      </Reveal> 

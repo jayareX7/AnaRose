@@ -33,9 +33,9 @@ return (
                         <div className="row">
                             <div className="col-lg-8 margin-auto text-center">
 
-                                <form action="#" className="digital_agency_newsletter" method="post" noValidate="true">
+                                <form action="#" className="digital_agency_newsletter" method="post" noValidate={true}>
                                     <div className="newsletter_form input-group">
-                                        <label for="colFormLabelSm" className="col-form-label col-form-label-sm">
+                                        <label htmlFor="colFormLabelSm" className="col-form-label col-form-label-sm">
                                             <i className="fas fa-envelope secondary-color mr-1"></i> </label> 
                                             <input type="text" id="colFormLabelSm" name="EMAIL" className="form-control memail" placeHolder="Type your email..." /> 
                                                 <button type="submit" className="email_submit_btn">Subscribe</button>

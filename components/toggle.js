@@ -259,7 +259,7 @@ are being done.
 
 <Col lg='12'>
     <div className="col-lg-3 margin-auto">
-  <button class="mb-3 btn_three">Get A Free Estimate</button>
+  <a href="/contact" ><button class="mb-3 btn_three">Get A Free Estimate</button></a>
   <div className="col-lg-12 mb-2 text-center"> OR </div>
           <Button
             block="true"

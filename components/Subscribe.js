@@ -25,7 +25,7 @@ class Subscribe extends Component {
                     </LightSpeed>
 
                     <Reveal effect='fadeIn' duration={3000}>
-                         <a href="/" className="about_btn body-color mt-5">Get A Free Estimate</a>
+                         <a href="/contact" className="about_btn body-color mt-5">Get A Free Estimate</a>
                        </Reveal> 
                         </div>
                     </div>

@@ -14,7 +14,7 @@ export default function FreeEstimate() {
                             <div className="mt-3"><h4> lt's fast, free and very easy!</h4></div>
                         </div>
                             <div className='text-center'>
-                            <a href="/" className="about_btn">Get A Free Estimate</a>
+                            <a href="/contact" className="about_btn">Get A Free Estimate</a>
                             </div>  
                             </div>
                             

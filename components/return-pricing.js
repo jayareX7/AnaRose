@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Fade from 'react-reveal/Fade'
+import BookAppointment from './book-appointment';
+import { Button, Card, Collapse, Row, Col, Modal} from "reactstrap";
 
 class ReturnPricing extends Component {
     render(){
@@ -22,8 +24,14 @@ class ReturnPricing extends Component {
                             <div className="h_action_content text-center">
                                 <h2>Manage Your Account<br/>Online Today!</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="/#" className="hosting_btn btn_hover">Manage Account</a>
-                            </div>
+                               </div>
+                               <div className="col-lg-12 flex margin-auto">
+                               <div className="col-lg-6">
+                               <button className="snipcart-customer-signin btn_three">Manage Account</button>
+                               </div>
+                               <div className="col-lg-6">
+                                <BookAppointment /></div>
+                                </div>
                         </div>
                         </Fade>
 

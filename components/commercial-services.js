@@ -65,7 +65,7 @@ export default function OwnerTestimonial() {
                     <Container>
                   <div className="row mt-2 ">
                     
-                      <div className="col-lg-8 mt-5 text-center">      
+                      <div className="mt-5 text-center">      
           
          
          
@@ -655,11 +655,7 @@ export default function OwnerTestimonial() {
 
 
                        </div> 
-                  <Reveal effect='fadeInRight' duration={1600}>
-                    <div className="col-lg-4  text-center">
-                          <img src="assets/commercial-services.jpg" style={{width: 85 + "%", margin: '7rem auto'}}/>             
-                    </div>
-                  </Reveal>
+                  
 
               </div>
               </Container>

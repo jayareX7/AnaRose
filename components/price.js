@@ -2,9 +2,9 @@
 
 
 import React from "react";
-import ScheduledBuy from "./scheduled-buy";
-import OneTimeBuy from "./one-time-buy";
-import MoveBuy from "./move-buy";
+import ScheduledBuy from "./products/scheduled-buy";
+import OneTimeBuy from "./products/one-time-buy";
+import MoveBuy from "./products/move-buy";
 import { Button,  Modal, Row, Col } from "reactstrap";
 import Fade from 'react-reveal/Fade'
 
