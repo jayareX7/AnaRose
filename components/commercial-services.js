@@ -10,6 +10,7 @@ import {
 import Container  from './container';
 import Reveal from 'react-reveal'
 import Zoom from "react-reveal/Zoom";
+import React from 'react'
 
 
 
