@@ -74,7 +74,7 @@ export default function Footer() {
           {/* Footer #4 */}
           <div className="mt-8 tracking-tighter margin-auto leading-tight justify-center items-center lg:text-center lg:mb-0 lg:pr-4 lg:w-1/2">
           <h4 className='display-5 spacing-1 sacramento'>Social</h4>
-   
+   <SocialFeed />
           </div>
         
          
